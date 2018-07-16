@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { Timeline } from '../timeline/timeline'
 
 @Component({
-    selector: 'page-timeline',
-    templateUrl: 'timeline.html'
+    selector: 'page-paradidaticos',
+    templateUrl: 'paradidaticos.html'
 })
-export class Timeline {
+export class Paradidaticos {
 
 
     constructor(public navCtrl: NavController) {

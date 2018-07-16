@@ -2,11 +2,11 @@
 
   <ion-navbar>
     <ion-buttons left>
-      <button ion-button color="dark" round> Home</button>
+      <button ion-button color="dark" (click)="HomeButton()"> Home</button>
     </ion-buttons>
     <ion-buttons end>
-      <button ion-button color="danger" round [navPush]="TimelineButton"> Linha do Tempo</button>
-      <button ion-button color="danger" round> Paradidaticos</button>
+      <button ion-button color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+      <button ion-button color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
       <button ion-button color="danger" round> Projetos</button>
       <button ion-button color="danger" round> Atividades de Cultura e Escrita</button>
       <button ion-button color="danger" round> Mapa da Leitura?</button>
@@ -31,12 +31,14 @@
               como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do
               patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,
               os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e
-              escrita.</p>
+              escrita.
+            </p>
             <br>
             <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.
               A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas
               de cunho social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro
-              Lobato.</p>
+              Lobato.
+            </p>
             <br>
             <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno
               complexo cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela
