@@ -8,6 +8,10 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Timeline } from '../pages/timeline/timeline';
 import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
+import { Projetos } from '../pages/projetos/projetos';
+import { Atividades } from '../pages/atividades/atividades';
+import { Mapa } from '../pages/mapa/mapa';
+import { Fale } from '../pages/fale/fale';
 
 
 @NgModule({
@@ -15,7 +19,11 @@ import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
     MyApp,
     HomePage,
     Timeline,
-    Paradidaticos
+    Paradidaticos,
+    Projetos,
+    Atividades,
+    Mapa,
+    Fale
   ],
   imports: [
     BrowserModule,
@@ -26,7 +34,11 @@ import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
     MyApp,
     HomePage,
     Timeline,
-    Paradidaticos
+    Paradidaticos,
+    Projetos,
+    Atividades,
+    Mapa,
+    Fale
   ],
   providers: [
     StatusBar,

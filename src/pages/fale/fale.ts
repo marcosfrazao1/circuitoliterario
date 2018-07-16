@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { Timeline } from '../timeline/timeline'
 import { Paradidaticos } from '../paradidaticos/paradidaticos';
 import { Projetos } from '../projetos/projetos';
 import { Atividades } from '../atividades/atividades';
 import { Mapa } from '../mapa/mapa';
-import { Fale } from '../fale/fale';
 
 @Component({
-    selector: 'page-timeline',
-    templateUrl: 'timeline.html'
+    selector: 'page-fale',
+    templateUrl: 'fale.html'
 })
-export class Timeline {
+export class Fale {
 
 
     constructor(public navCtrl: NavController) {
