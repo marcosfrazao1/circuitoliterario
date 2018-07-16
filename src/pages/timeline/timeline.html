@@ -16,9 +16,7 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-grid>
-    <ion-row>
-      <ion-col col-8>
+
         <timeline endIcon="call">
           <timeline-item *ngFor="let item of items">
             <timeline-time [time]="item.time"></timeline-time>
@@ -33,10 +31,5 @@
             </ion-card>
           </timeline-item>
         </timeline>
-      </ion-col>
-      <ion-col col-4>
-        <ion-card>teste</ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+
 </ion-content>
