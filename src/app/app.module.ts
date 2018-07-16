@@ -12,6 +12,7 @@ import { Projetos } from '../pages/projetos/projetos';
 import { Atividades } from '../pages/atividades/atividades';
 import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
+import { TimelineItemComponent, TimelineTimeComponent, TimelineComponent } from '../components/timeline/timeline';
 
 
 @NgModule({
@@ -23,7 +24,10 @@ import { Fale } from '../pages/fale/fale';
     Projetos,
     Atividades,
     Mapa,
-    Fale
+    Fale,
+    TimelineComponent,
+    TimelineItemComponent,
+    TimelineTimeComponent
   ],
   imports: [
     BrowserModule,
