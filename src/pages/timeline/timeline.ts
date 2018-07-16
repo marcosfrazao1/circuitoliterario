@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { Paradidaticos } from '../paradidaticos/paradidaticos';
 
 @Component({
     selector: 'page-timeline',
@@ -21,7 +22,7 @@ export class Timeline {
         this.navCtrl.setRoot(HomePage)
     }
     ParadidaticosButton() {
-        this.navCtrl.setRoot(HomePage)
+        this.navCtrl.setRoot(Paradidaticos)
     }
 
 }

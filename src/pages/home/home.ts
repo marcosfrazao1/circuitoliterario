@@ -16,13 +16,13 @@ export class HomePage {
   }
 
   TimelineButton() {
-    this.navCtrl.setRoot(Timeline)
+      this.navCtrl.setRoot(Timeline)
   }
   HomeButton() {
-    this.navCtrl.setRoot(HomePage)
+      this.navCtrl.setRoot(HomePage)
   }
   ParadidaticosButton() {
-    this.navCtrl.setRoot(HomePage)
+      this.navCtrl.setRoot(Paradidaticos)
   }
 
 }

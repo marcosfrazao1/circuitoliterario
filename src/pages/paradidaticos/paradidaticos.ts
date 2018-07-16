@@ -22,7 +22,7 @@ export class Paradidaticos {
         this.navCtrl.setRoot(HomePage)
     }
     ParadidaticosButton() {
-        this.navCtrl.setRoot(HomePage)
+        this.navCtrl.setRoot(Paradidaticos)
     }
 
 }

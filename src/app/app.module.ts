@@ -7,13 +7,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Timeline } from '../pages/timeline/timeline';
+import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    Timeline
+    Timeline,
+    Paradidaticos
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { Timeline } from '../pages/timeline/timeline';
   entryComponents: [
     MyApp,
     HomePage,
-    Timeline
+    Timeline,
+    Paradidaticos
   ],
   providers: [
     StatusBar,
