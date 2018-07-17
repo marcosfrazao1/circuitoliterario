@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { Paradidaticos } from '../paradidaticos/paradidaticos';
 import { Projetos } from '../projetos/projetos';
@@ -12,32 +12,50 @@ import { Fale } from '../fale/fale';
     templateUrl: 'timeline.html'
 })
 export class Timeline {
+
     items = [
         {
-          title: 'Courgette daikon',
-          content: 'Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo. Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize chicory burdock tatsoi dulse radish wakame beetroot.',
-          icon: 'calendar',
-          time: {subtitle: '4/16/2013', title: '21:30'}
+            title: 'Courgette daikon',
+            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
+                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
+                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
+                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            icon: 'calendar',
+            time: { subtitle: '4/16/2013', title: '21:30' }
         },
         {
-          title: 'Courgette daikon',
-          content: 'Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo. Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize chicory burdock tatsoi dulse radish wakame beetroot.',
-          icon: 'calendar',
-          time: {subtitle: 'January', title: '29'}
+            title: 'Courgette daikon',
+            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
+                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
+                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
+                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            icon: 'calendar',
+            time: { subtitle: 'January', title: '29' }
         },
         {
-          title: 'Courgette daikon',
-          content: 'Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize scallion green bean spinach ',
-          icon: 'calendar',
-          time: {title: 'Short Text'}
+            title: 'Courgette daikon',
+            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
+                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
+                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
+                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            icon: 'calendar',
+            time: { title: 'Short Text' }
         }
-      ]
+    ];
 
-    constructor(public navCtrl: NavController) {
+    constructor(
+        public navCtrl: NavController,
+        public navParams: NavParams
+    ) { }
+
+    
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad TimelinePage');
+  }
 
 
-    }
-  
+
+
     TimelineButton() {
         this.navCtrl.setRoot(Timeline)
     }
@@ -47,17 +65,17 @@ export class Timeline {
     ParadidaticosButton() {
         this.navCtrl.setRoot(Paradidaticos)
     }
-    ProjetosButton(){
+    ProjetosButton() {
         this.navCtrl.setRoot(Projetos)
     }
-    AtividadesButton(){
+    AtividadesButton() {
         this.navCtrl.setRoot(Atividades)
     }
-    MapaButton(){
+    MapaButton() {
         this.navCtrl.setRoot(Mapa)
     }
-    FaleButton(){
+    FaleButton() {
         this.navCtrl.setRoot(Fale)
     }
-  
-  }
+
+}

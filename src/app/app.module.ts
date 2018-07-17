@@ -12,7 +12,7 @@ import { Projetos } from '../pages/projetos/projetos';
 import { Atividades } from '../pages/atividades/atividades';
 import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
-import { TimelineItemComponent, TimelineTimeComponent, TimelineComponent } from '../components/timeline/timeline';
+import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
 
 
 @NgModule({
@@ -47,7 +47,7 @@ import { TimelineItemComponent, TimelineTimeComponent, TimelineComponent } from 
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {}
+export class AppModule { }
