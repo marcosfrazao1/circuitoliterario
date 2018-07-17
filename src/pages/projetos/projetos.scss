@@ -1,16 +1,16 @@
 page-projetos {
     .accordion-list {
         background: color($colors, light);
-        height: 100%;
+        margin-top: auto
     }
     .section {
-        background: #fff;
-        color: #000;
+        background: #a68119;
+        color: rgb(255, 255, 255);
         margin-bottom: 4px;
     }
     .section-active {
-        background: #ffc400;
-        color: #fff;
+        background: #ac2931;
+        color: rgb(255, 255, 255);
     }
  
     .child {

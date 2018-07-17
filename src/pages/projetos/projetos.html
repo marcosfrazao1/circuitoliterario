@@ -31,8 +31,8 @@
           <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
             <!-- Toggle Button -->
             <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>
-              <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>
-              <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>
+              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>
+              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>
               {{ child.name }}
             </button>
    
@@ -40,7 +40,7 @@
             <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
               <h2>{{ child.name }}</h2>
               <p text-lowercase>{{ child.information }}</p>
-              <button ion-button outline item-end (click)="buyItem(child)">{{ child.price }}</button>
+              
             </ion-item>
    
             <ion-list *ngIf="child.children && child.open">
@@ -49,7 +49,7 @@
                 <h2>{{ item.name }}</h2>
                 <p text-lowercase>{{ item.information }}</p>
                 <!-- Direct Add Button -->
-                <button ion-button outline item-end (click)="buyItem(item)">{{ item.price }}</button>
+                
               </ion-item>
             </ion-list>
    
