@@ -17,6 +17,8 @@
 
 body{
 
+    ::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
+
    -webkit-user-select: text;
    user-select: text;
     
