@@ -1,34 +1,47 @@
 <ion-header>
 
-  <ion-navbar>
-    <ion-buttons left>
-      <button ion-button color="dark" (click)="HomeButton()"> Home</button>
-    </ion-buttons>
-    <ion-buttons end>
-      <button ion-button color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
-      <button ion-button color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
-      <button ion-button color="danger" (click)="ProjetosButton()"> Projetos</button>
-      <button ion-button color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
-      <button ion-button color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
-      <button ion-button color="danger" (click)="FaleButton()"> Fale Conosco</button>
-    </ion-buttons>
-  </ion-navbar>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-1>
+        <button ion-button round color="dark" (click)="HomeButton()"> Home</button>
+      </ion-col>
+      <ion-col col-8 offset-3>
+        <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+        <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
+        <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
+        <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
+        <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
+        <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
 </ion-header>
 
-<ion-content padding>
-  <timeline endIcon="call">
-    <timeline-item *ngFor="let item of items">
-      <timeline-time [time]="item.time"></timeline-time>
-      <ion-icon [name]="item.icon"></ion-icon>
-      <ion-card>
-        <ion-card-header>
-          {{item.title}}
-        </ion-card-header>
-        <ion-card-content>
-          {{item.content}}
-        </ion-card-content>
-      </ion-card>
-    </timeline-item>
 
-  </timeline>
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-8>
+        <timeline endIcon="call">
+          <timeline-item *ngFor="let item of items">
+            <timeline-time [time]="item.time"></timeline-time>
+            <ion-icon [name]="item.icon"></ion-icon>
+            <ion-card>
+              <ion-card-header>
+                {{item.title}}
+              </ion-card-header>
+              <ion-card-content>
+                {{item.content}}
+              </ion-card-content>
+            </ion-card>
+          </timeline-item>
+
+        </timeline>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

@@ -1,19 +1,26 @@
 <ion-header>
 
-    <ion-navbar>
-      <ion-buttons left>
-        <button ion-button color="dark" (click)="HomeButton()"> Home</button>
-      </ion-buttons>
-      <ion-buttons end>
-        <button ion-button color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
-        <button ion-button color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
-        <button ion-button color="danger" (click)="ProjetosButton()"> Projetos</button>
-        <button ion-button color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
-        <button ion-button color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
-        <button ion-button color="danger" (click)="FaleButton()"> Fale Conosco</button>
-      </ion-buttons>
-    </ion-navbar>
-  </ion-header>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-1>
+        <button ion-button round color="dark" (click)="HomeButton()"> Home</button>
+      </ion-col>
+      <ion-col col-8 offset-3>
+        <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+        <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
+        <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
+        <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
+        <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
+        <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-header>
+
 
 <ion-content>
 
@@ -22,15 +29,43 @@
       <ion-col col-8>
         <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->
         <ion-card>
-        <ion-slides paginationType="progress" pager="true" slidesPerView="2" effect="slide">
-        <ion-slide>linha1<br>linha2<br>linha3<br>linha4<br>linha5<br>linha6<br></ion-slide>
-        <ion-slide>linha1<br>linha2<br>linha3<br>linha4<br>linha5<br>linha6<br></ion-slide>
-        <ion-slide>linha1<br>linha2<br>linha3<br>linha4<br>linha5<br>linha6<br></ion-slide>
-        <ion-slide>linha1<br>linha2<br>linha3<br>linha4<br>linha5<br>linha6<br></ion-slide>
+          <ion-slides paginationType="progress" pager="true" slidesPerView="2" effect="slide">
+            <ion-slide>linha1
+              <br>linha2
+              <br>linha3
+              <br>linha4
+              <br>linha5
+              <br>linha6
+              <br>
+            </ion-slide>
+            <ion-slide>linha1
+              <br>linha2
+              <br>linha3
+              <br>linha4
+              <br>linha5
+              <br>linha6
+              <br>
+            </ion-slide>
+            <ion-slide>linha1
+              <br>linha2
+              <br>linha3
+              <br>linha4
+              <br>linha5
+              <br>linha6
+              <br>
+            </ion-slide>
+            <ion-slide>linha1
+              <br>linha2
+              <br>linha3
+              <br>linha4
+              <br>linha5
+              <br>linha6
+              <br>
+            </ion-slide>
 
-        
-        </ion-slides>
-      </ion-card>
+
+          </ion-slides>
+        </ion-card>
       </ion-col>
 
       <ion-col col-4>
@@ -47,6 +82,6 @@
         </ion-card>
       </ion-col>
     </ion-row>
-  </ion-grid>  
+  </ion-grid>
 
 </ion-content>

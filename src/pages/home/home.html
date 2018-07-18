@@ -1,20 +1,26 @@
 <ion-header>
 
-  <ion-navbar>
-    <ion-buttons>
-    
-      <button ion-button round color="dark" (click)="HomeButton()"> Home</button>
-    </ion-buttons>
 
-      <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
-      <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
-      <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
-      <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
-      <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
-      <button ion-button round color="danger" (click)="FaleButton()"> Fale Conosco</button>
 
-  </ion-navbar>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-1>
+        <button ion-button round color="dark" (click)="HomeButton()"> Home</button>
+      </ion-col>
+      <ion-col col-8 offset-3>
+        <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+        <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
+        <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
+        <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
+        <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
+        <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
 </ion-header>
+
 
 <ion-content>
 
