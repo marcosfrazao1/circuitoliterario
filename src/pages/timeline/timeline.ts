@@ -280,6 +280,7 @@ export class Timeline {
         },
         {
             title: 'Allain de Lille',
+            content: `../assets/timelineimgs/allain.jpg`,
             icon: 'calendar',
             time: { title: 'sec XIII' }
         },
