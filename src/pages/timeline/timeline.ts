@@ -278,6 +278,12 @@ export class Timeline {
             icon: 'calendar',
             time: { title: 'sec XIII' }
         },
+        {
+            title: 'Allain de Lille',
+            content: `../assets/timelineimgs/saxao.jpg`,
+            icon: 'calendar',
+            time: { title: 'sec XIII' }
+        },
     ];
 
     constructor(
