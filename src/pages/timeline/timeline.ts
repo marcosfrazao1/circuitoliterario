@@ -106,7 +106,7 @@ export class Timeline {
         },
         {
             title: 'Cícero',
-            content: `../assets/timelineimgs/.jpg`,
+            content: `../assets/timelineimgs/cicero.jpg`,
             icon: 'calendar',
             time: { title: '81 aC' }
         },
@@ -177,20 +177,8 @@ export class Timeline {
             time: { title: 'sec IV' }
         },
         {
-            title: 'Quintus Sétimo',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
-            icon: 'calendar',
-            time: { title: 'sec IV' }
-        },
-        {
             title: 'Prudêncio',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            ccontent: `../assets/timelineimgs/prudencio.jpg`,
             icon: 'calendar',
             time: { title: 'séc. IV' }
         },
