@@ -243,6 +243,12 @@ export class Timeline {
             time: { title: '1000' }
         },
         {
+            title: 'Godofredo de Monmouth',
+            content: `../assets/timelineimgs/godofredo.jpg`,
+            icon: 'calendar',
+            time: { title: '1130' }
+        },
+        {
             title: 'Prodromos',
             content: `../assets/timelineimgs/teodoro.jpg`,
             icon: 'calendar',
@@ -251,6 +257,12 @@ export class Timeline {
         {
             title: 'Michel Psellos',
             content: `../assets/timelineimgs/michel.jpg`,
+            icon: 'calendar',
+            time: { title: 'sec XII' }
+        },
+        {
+            title: 'Allain de Lille',
+            content: `../assets/timelineimgs/allain.jpg`,
             icon: 'calendar',
             time: { title: 'sec XII' }
         },
@@ -278,12 +290,8 @@ export class Timeline {
             icon: 'calendar',
             time: { title: 'sec XIII' }
         },
-        {
-            title: 'Allain de Lille',
-            content: `../assets/timelineimgs/allain.jpg`,
-            icon: 'calendar',
-            time: { title: 'sec XIII' }
-        },
+       
+       
     ];
 
     constructor(
