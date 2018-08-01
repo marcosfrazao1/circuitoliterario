@@ -16,10 +16,7 @@ export class Timeline {
     items = [
         {
             title: 'Homero',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/homero.jpg`,
             icon: 'calendar',
             time: { title: 'VIII aC' }
         },

@@ -16,7 +16,7 @@ timeline {
     }
     timeline-item {
       position: relative;
-      display: inline-block;
+      display: list-item;
 
       timeline-time {
         display: block;
@@ -36,7 +36,7 @@ timeline {
       ion-card { /* CONFIGURAÇÕES DOS CARDS  */
         margin-left: 25% !important;
         width: 50% !important;
-        position: static;
+        position: relative;
       }
       ion-icon { /* CONFIGURAÇÕES DOS ICONES  */
         width: 40px;
