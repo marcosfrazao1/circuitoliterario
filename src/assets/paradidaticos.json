@@ -1,82 +1,115 @@
 {
     "items": [
         {
-            "name": "Feira Literária",
+            "name": "1 Ano Ensino Medio",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "Senhora",
+                    "information": "resumo"
                 },
                 {
-                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
-                    "information": "PLACEHOLDER"
+                    "name": "Poesia Brasileira",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Dom Casmurro",
+                    "information": "Resumo"
                 }
             ]
         },
         {
-            "name": "PLACEHOLDER",
+            "name": "2 Ano Ensino Médio",
             "children": [
                 {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
-                },
-                {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
-                },
-                {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
+                    "name": "Saragana",
+                    "information": "Resumo"
                 }
             ]
         },
         {
-            "name": "PLACEHOLDER",
+            "name": "3 Ano Ensino Médio",
             "children": [
                 {
-                    "name": "PLACEHODLER CHILD",
-                    "information": "PLACEHOLDER INFORMATION"
-
+                    "name": "NDA",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "8 Ano Ensino Fundamental",
+            "children": [
+                {
+                    "name": "Mi Buenos Aires Querido",
+                    "information": "Resumo"
                 },
                 {
-                    "name": "PLACEHODLER CHILD",
-                    "information": "PLACEHOLDER INFORMATION"
+                    "name": "Vidas Secas",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Édipo, O Maldito",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Stories from Shakespere",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Irmão Negro",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "A Casa das Palavras",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "O Alienista e Outros Contos",
+                    "information": "Resumo"
+                }
 
+            ]
+        },
+        {
+            "name": "9 Ano Ensino Fundamental",
+            "children": [
+                {
+                    "name": "A Revolução dos Bixos",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "O Gato Preto e outros Contos",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Os que bebem como os cães",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Historias para sala de aula",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Pachamama, La Tierra Madre",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Camões Lirica - Épica",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Auto da Compadecida",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Auto da Barca do Inferno",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "A carta de Pero Vaz De Caminha",
+                    "information": "Resumo"
                 }
             ]
         }
+
     ]
 }
