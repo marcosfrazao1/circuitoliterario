@@ -86,7 +86,12 @@ export class Timeline {
             icon: 'calendar',
             time: { title: '205 aC' }
         },
-        
+        {
+            title: 'Terêncio',
+            content: `../assets/timelineimgs/terencio.jpg`,
+            icon: 'calendar',
+            time: { title: 'II aC' }
+        },
     ];
 
     constructor(
