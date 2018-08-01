@@ -1,20 +1,6 @@
 <ion-split-pane>
 
 
-  <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" >
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>right</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-  <ion-card>
-    <ion-list>
-      <p>some menu content, could be list items</p>
-    </ion-list>
-  </ion-card>
-</ion-content>
-  </ion-menu>
 
 
   <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">
@@ -24,20 +10,28 @@
       </ion-toolbar>
     </ion-header>
     <ion-content>
-  <ion-card>
-    <ion-list>
-      <p>some menu content, could be list items</p>
-    </ion-list>
-  </ion-card>
-</ion-content>
+
+        <ion-list>
+          
+  <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+  <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
+  <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
+  <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
+  <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
+  <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
+
+        </ion-list>
+
+    </ion-content>
+    <ion-nav #mycontent [root]="rootPage"></ion-nav>
   </ion-menu>
 
-  <ion-nav #mycontent [root]="rootPage"></ion-nav>
+   
 
   <ion-header>
     <ion-navbar>
       <button ion-button menuToggle="left" left>Toggle Left Menu</button>
-      <button ion-button menuToggle="right"right>Toggle Right Menu</button>
+
       <ion-title middle>Subheader</ion-title>
 
 
@@ -111,6 +105,6 @@
       </ion-row>
     </ion-grid>
 
-    <ion-footer>here</ion-footer>
+    
   </ion-content>
 </ion-split-pane>
