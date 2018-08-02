@@ -23,3 +23,10 @@ body{
    user-select: text;
     
 }
+
+ion-content {
+    background-image: url('../assets/imgs/logo.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+  }
