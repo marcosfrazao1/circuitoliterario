@@ -1,5 +1,6 @@
 <ion-split-pane>
     <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">
+        <side-menu-content [settings]="sideMenuSettings" [options]="options" (change)="onOptionSelected($event)"></side-menu-content>
         <ion-header>
             <ion-toolbar>
                 <ion-title>Side Menu</ion-title>
@@ -8,7 +9,7 @@
         <ion-content>
 
             <ion-list>
-                <button ion-button round color="danger" (click)="HomeButton()"> Home</button>
+                <button ion-button round color="danger" (click)="HomeButton()"> Home</button> 
                 <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
                 <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
                 <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
