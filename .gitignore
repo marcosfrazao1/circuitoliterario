@@ -11,7 +11,7 @@ log.txt
 *.sublime-workspace
 .vscode/
 npm-debug.log*
-
+www
 .idea/
 .sourcemaps/
 .sass-cache/
@@ -24,12 +24,12 @@ tmp/
 temp/
 hooks/
 platforms/
-
+www/
 plugins/
 plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
-
+www/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
@@ -48,3 +48,4 @@ www/build/main.js.map
 www/build/vendor.js
 www/build/vendor.js.map
 www/index.html
+www/assets/paradidaticos.json
