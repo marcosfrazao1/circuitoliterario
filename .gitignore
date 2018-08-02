@@ -41,3 +41,10 @@ www/build/polyfills.js
 www/build/main.js.map
 www/build/main.js
 
+www/index.html
+www/build/main.css
+www/build/main.js
+www/build/main.js.map
+www/build/vendor.js
+www/build/vendor.js.map
+www/index.html

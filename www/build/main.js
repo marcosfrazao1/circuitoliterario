@@ -53,7 +53,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
@@ -61,12 +61,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__ = __webpack_require__(276);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -146,12 +146,12 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -170,6 +170,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var HomePage = /** @class */ (function () {
+    //  rootPage: any = HomePage;
     function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
@@ -181,7 +182,7 @@ var HomePage = /** @class */ (function () {
         this.navCtrl.setRoot(HomePage_1);
     };
     HomePage.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
     };
     HomePage.prototype.ProjetosButton = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__projetos_projetos__["a" /* Projetos */]);
@@ -197,9 +198,9 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = HomePage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n            PROJETO FEIRA LITERÁRIA -“ LER PARA PENSAR E CONSTRUIR ...”\n\n          </ion-card-header>\n\n          <ion-card-content class="main-text">\n\n            <br>\n\n            <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística\n\n              como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n              patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n              os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e\n\n              escrita.\n\n            </p>\n\n            <br>\n\n            <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.\n\n              A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n              de cunho social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n              Lobato.\n\n            </p>\n\n            <br>\n\n            <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno\n\n              complexo cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela\n\n              se sentir reconhecido. Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas,\n\n              convites, teatro, biografia, memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a\n\n              percepção de quem descobre ali outros lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n            <br>\n\n            <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio, durante\n\n              o mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n              envolvidos todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares\n\n              de turma. As atividades propiciadas são: </p>\n\n            <br>\n\n            <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura, interpretação\n\n              e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis, produções\n\n              coletivas e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n              literários, troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n              visita à biblioteca, café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n            PROJETO FEIRA LITERÁRIA -“ LER PARA PENSAR E CONSTRUIR ...”\n\n          </ion-card-header>\n\n          <ion-card-content class="main-text">\n\n            <br>\n\n            <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística\n\n              como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n              patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n              os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e\n\n              escrita.\n\n            </p>\n\n            <br>\n\n            <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.\n\n              A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n              de cunho social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n              Lobato.\n\n            </p>\n\n            <br>\n\n            <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno\n\n              complexo cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela\n\n              se sentir reconhecido. Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas,\n\n              convites, teatro, biografia, memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a\n\n              percepção de quem descobre ali outros lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n            <br>\n\n            <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio, durante\n\n              o mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n              envolvidos todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares\n\n              de turma. As atividades propiciadas são: </p>\n\n            <br>\n\n            <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura, interpretação\n\n              e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis, produções\n\n              coletivas e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n              literários, troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n              visita à biblioteca, café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
     return HomePage;
     var HomePage_1;
@@ -209,7 +210,123 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 26:
+/***/ 275:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Projects\circuitoionic\src\app\app.html"*/'<ion-split-pane>\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n        <ion-header>\n            <ion-toolbar>\n                <ion-title>Side Menu</ion-title>\n            </ion-toolbar>\n        </ion-header>\n        <ion-content>\n\n            <ion-list>\n                <button ion-button round color="danger" (click)="HomeButton()"> Home</button>\n                <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>\n                <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>\n                <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>\n                <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>\n                <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>\n                <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>\n\n            </ion-list>\n\n        </ion-content>\n\n    </ion-menu>\n\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n</ion-split-pane>'/*ion-inline-end:"C:\Projects\circuitoionic\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimelineComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TimelineItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return TimelineTimeComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TimelineComponent = /** @class */ (function () {
+    function TimelineComponent() {
+        this.endIcon = 'ionic';
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])('endIcon'),
+        __metadata("design:type", Object)
+    ], TimelineComponent.prototype, "endIcon", void 0);
+    TimelineComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'timeline',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\components\timeline\timeline.html"*/'<div class="timeline">\n  <ng-content></ng-content>\n\n  <timeline-item>\n    <ion-icon class="" [name]="endIcon"></ion-icon>\n  </timeline-item>\n\n</div>\n'/*ion-inline-end:"C:\Projects\circuitoionic\src\components\timeline\timeline.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], TimelineComponent);
+    return TimelineComponent;
+}());
+
+var TimelineItemComponent = /** @class */ (function () {
+    function TimelineItemComponent() {
+    }
+    TimelineItemComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'timeline-item',
+            template: '<ng-content></ng-content>'
+        }),
+        __metadata("design:paramtypes", [])
+    ], TimelineItemComponent);
+    return TimelineItemComponent;
+}());
+
+var TimelineTimeComponent = /** @class */ (function () {
+    function TimelineTimeComponent() {
+        this.time = {};
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])('time'),
+        __metadata("design:type", Object)
+    ], TimelineTimeComponent.prototype, "time", void 0);
+    TimelineTimeComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'timeline-time',
+            template: '<span>{{time.subtitle}}</span> <span>{{time.title}}</span>'
+        }),
+        __metadata("design:paramtypes", [])
+    ], TimelineTimeComponent);
+    return TimelineTimeComponent;
+}());
+
+//# sourceMappingURL=timeline.js.map
+
+/***/ }),
+
+/***/ 31:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -220,11 +337,11 @@ var HomePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -284,9 +401,9 @@ var Paradidaticos = /** @class */ (function () {
     };
     Paradidaticos = Paradidaticos_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-paradidaticos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n\n\n\n\n\n\n\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/
+            selector: 'page-paradidaticos',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\paradidaticos\paradidaticos.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n\n\n\n\n\n\n\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\paradidaticos\paradidaticos.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
     ], Paradidaticos);
     return Paradidaticos;
     var Paradidaticos_1;
@@ -296,7 +413,7 @@ var Paradidaticos = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 27:
+/***/ 32:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -304,11 +421,11 @@ var Paradidaticos = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -636,10 +753,10 @@ var Timeline = /** @class */ (function () {
     };
     Timeline = Timeline_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-7 offset-1>\n\n        <timeline endIcon="call">\n\n          <timeline-item *ngFor="let item of items">\n\n            <timeline-time [time]="item.time"></timeline-time>\n\n            <ion-icon [name]="item.icon"></ion-icon>\n\n            <ion-card width="400">\n\n              <ion-card-header>\n\n                {{item.title}}\n\n              </ion-card-header>\n\n\n\n              <img width="200" height="180" src="{{item.content}}">\n\n\n\n            </ion-card>\n\n          </timeline-item>\n\n\n\n        </timeline>\n\n      </ion-col>\n\n      <ion-col col-4>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n\n\n</ion-content>\n\n<ion-footer position="" bottom>here</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/
+            selector: 'page-timeline',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-7 offset-1>\n\n        <timeline endIcon="call">\n\n          <timeline-item *ngFor="let item of items">\n\n            <timeline-time [time]="item.time"></timeline-time>\n\n            <ion-icon [name]="item.icon"></ion-icon>\n\n            <ion-card width="400">\n\n              <ion-card-header>\n\n                {{item.title}}\n\n              </ion-card-header>\n\n\n\n              <img width="200" height="180" src="{{item.content}}">\n\n\n\n            </ion-card>\n\n          </timeline-item>\n\n\n\n        </timeline>\n\n      </ion-col>\n\n      <ion-col col-4>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n\n\n</ion-content>\n\n<ion-footer position="" bottom>here</ion-footer>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\timeline\timeline.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
     ], Timeline);
     return Timeline;
     var Timeline_1;
@@ -649,168 +766,7 @@ var Timeline = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 275:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__ = __webpack_require__(31);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-var MyApp = /** @class */ (function () {
-    function MyApp(platform, statusBar, splashScreen) {
-        this.platform = platform;
-        this.statusBar = statusBar;
-        this.splashScreen = splashScreen;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
-        this.initializeApp();
-        // used for an example of ngFor and navigation
-    }
-    MyApp.prototype.initializeApp = function () {
-        var _this = this;
-        this.platform.ready().then(function () {
-            // Okay, so the platform is ready and our plugins are available.
-            // Here you can do any higher level native things you might need.
-            _this.statusBar.styleDefault();
-            _this.splashScreen.hide();
-        });
-    };
-    MyApp.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__pages_timeline_timeline__["a" /* Timeline */]);
-    };
-    MyApp.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */]);
-    };
-    MyApp.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__pages_paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    MyApp.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__["a" /* Projetos */]);
-    };
-    MyApp.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_atividades_atividades__["a" /* Atividades */]);
-    };
-    MyApp.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_mapa_mapa__["a" /* Mapa */]);
-    };
-    MyApp.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__["a" /* Fale */]);
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
-    ], MyApp.prototype, "navCtrl", void 0);
-    MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n            <ion-toolbar>\n\n                <ion-title>Side Menu</ion-title>\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content>\n\n\n\n            <ion-list>\n\n\n\n                <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>\n\n                <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>\n\n                <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>\n\n                <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>\n\n                <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>\n\n                <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>\n\n\n\n            </ion-list>\n\n\n\n        </ion-content>\n\n\n\n    </ion-menu>\n\n\n\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
-    ], MyApp);
-    return MyApp;
-}());
-
-//# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 276:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimelineComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TimelineItemComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return TimelineTimeComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var TimelineComponent = /** @class */ (function () {
-    function TimelineComponent() {
-        this.endIcon = 'ionic';
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])('endIcon'),
-        __metadata("design:type", Object)
-    ], TimelineComponent.prototype, "endIcon", void 0);
-    TimelineComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\components\timeline\timeline.html"*/'<div class="timeline">\n\n  <ng-content></ng-content>\n\n\n\n  <timeline-item>\n\n    <ion-icon class="" [name]="endIcon"></ion-icon>\n\n  </timeline-item>\n\n\n\n</div>\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\components\timeline\timeline.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], TimelineComponent);
-    return TimelineComponent;
-}());
-
-var TimelineItemComponent = /** @class */ (function () {
-    function TimelineItemComponent() {
-    }
-    TimelineItemComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'timeline-item',
-            template: '<ng-content></ng-content>'
-        }),
-        __metadata("design:paramtypes", [])
-    ], TimelineItemComponent);
-    return TimelineItemComponent;
-}());
-
-var TimelineTimeComponent = /** @class */ (function () {
-    function TimelineTimeComponent() {
-        this.time = {};
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])('time'),
-        __metadata("design:type", Object)
-    ], TimelineTimeComponent.prototype, "time", void 0);
-    TimelineTimeComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'timeline-time',
-            template: '<span>{{time.subtitle}}</span> <span>{{time.title}}</span>'
-        }),
-        __metadata("design:paramtypes", [])
-    ], TimelineTimeComponent);
-    return TimelineTimeComponent;
-}());
-
-//# sourceMappingURL=timeline.js.map
-
-/***/ }),
-
-/***/ 28:
+/***/ 33:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -821,11 +777,11 @@ var TimelineTimeComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -885,9 +841,9 @@ var Projetos = /** @class */ (function () {
     };
     Projetos = Projetos_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n<ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/
+            selector: 'page-projetos',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\projetos\projetos.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n<ion-split-pane>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\projetos\projetos.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
     ], Projetos);
     return Projetos;
     var Projetos_1;
@@ -897,7 +853,7 @@ var Projetos = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 29:
+/***/ 34:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -905,11 +861,11 @@ var Projetos = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -955,9 +911,9 @@ var Atividades = /** @class */ (function () {
     };
     Atividades = Atividades_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-atividades',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  \n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/
+            selector: 'page-atividades',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\atividades\atividades.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  \n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\atividades\atividades.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], Atividades);
     return Atividades;
     var Atividades_1;
@@ -967,7 +923,7 @@ var Atividades = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 30:
+/***/ 35:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -975,11 +931,11 @@ var Atividades = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1025,9 +981,9 @@ var Mapa = /** @class */ (function () {
     };
     Mapa = Mapa_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mapa',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/
+            selector: 'page-mapa',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\mapa\mapa.html"*/'<ion-header>\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\mapa\mapa.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], Mapa);
     return Mapa;
     var Mapa_1;
@@ -1037,7 +993,7 @@ var Mapa = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 31:
+/***/ 36:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1045,11 +1001,11 @@ var Mapa = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mapa_mapa__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mapa_mapa__ = __webpack_require__(35);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1095,9 +1051,9 @@ var Fale = /** @class */ (function () {
     };
     Fale = Fale_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fale',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/'<ion-header >\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/
+            selector: 'page-fale',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\fale\fale.html"*/'<ion-header >\n\n  <ion-navbar color="danger">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-8>\n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n\n\n      <ion-col col-4>\n\n        <!-- TEXTO LATERAL COMO PREVISTO NA VERCAO PASSADA DO SITE -->\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n          <ion-card-content>\n\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n          </ion-card-content>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\fale\fale.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], Fale);
     return Fale;
     var Fale_1;
