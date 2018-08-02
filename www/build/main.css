@@ -25680,6 +25680,7 @@ ion-navbar.toolbar {
 }
 
 body {
+  font-size: calc(12px + 1.5vw);
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
@@ -25783,7 +25784,7 @@ timeline .timeline timeline-item:last-child ion-icon:after {
 
 @media screen and (max-width: 992px) {
   timeline .timeline timeline-item timeline-time {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
 
@@ -25798,7 +25799,7 @@ timeline .timeline timeline-item:last-child ion-icon:after {
     left: 30px;
   }
   timeline .timeline timeline-item timeline-time {
-    font-size: 0.8em;
+    font-size: 1em;
     width: 100%;
     left: 80px;
     position: relative;
@@ -25842,8 +25843,12 @@ timeline .timeline timeline-item:last-child ion-icon:after {
   }
 }
 
-page-home .navbuttons:hover {
-  color: white;
+page-atividades {
+  font-size: calc(12px + 1.5vw);
+}
+
+page-home {
+  font-size: calc(12px + 1.5vw);
 }
 
 page-paradidaticos .accordion-list {

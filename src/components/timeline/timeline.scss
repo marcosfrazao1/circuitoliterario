@@ -78,7 +78,7 @@ timeline {
     @media screen and (max-width: map-get($grid-breakpoints,'lg')){
       timeline-item{
         timeline-time{
-          font-size: 0.7em;
+          font-size: 1em;
         }
       }
     }
@@ -94,7 +94,7 @@ timeline {
           left: 30px;
         }
         timeline-time{
-          font-size: 0.8em;
+          font-size: 1em;
           width: 100%;
           left: 80px;
           position: relative;
