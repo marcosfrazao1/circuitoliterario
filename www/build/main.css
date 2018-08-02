@@ -15395,7 +15395,7 @@ ion-menu.show-menu {
   transform: translate3d(-9999px,  0,  0);
   position: absolute;
   display: block;
-  width: 250px;
+  width: 310px;
   height: 100%;
   contain: strict;
 }
@@ -15446,7 +15446,7 @@ ion-menu ion-backdrop {
 
 @media (max-width: 340px) {
   .menu-inner {
-    width: 210px;
+    width: 270px;
   }
 }
 
@@ -19627,7 +19627,7 @@ ion-spinner.spinner-paused svg {
 
 .split-pane-ios.split-pane-visible > .split-pane-side {
   min-width: 270px;
-  max-width: 270px;
+  max-width: 290px;
   border-right: 0.55px solid #c8c7cc;
   border-left: 0;
 }
@@ -19639,7 +19639,7 @@ ion-spinner.spinner-paused svg {
 
 .split-pane-md.split-pane-visible > .split-pane-side {
   min-width: 270px;
-  max-width: 270px;
+  max-width: 290px;
   border-right: 1px solid #dedede;
   border-left: 0;
 }
@@ -19651,7 +19651,7 @@ ion-spinner.spinner-paused svg {
 
 .split-pane-wp.split-pane-visible > .split-pane-side {
   min-width: 270px;
-  max-width: 270px;
+  max-width: 290px;
   border-right: 1px solid transparent;
   border-left: 0;
 }
@@ -25847,8 +25847,8 @@ page-atividades {
   font-size: calc(12px + 1.5vw);
 }
 
-page-home {
-  font-size: calc(12px + 1.5vw);
+html {
+  font-size: 12px;
 }
 
 page-paradidaticos .accordion-list {
