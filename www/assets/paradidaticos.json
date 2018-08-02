@@ -1,40 +1,16 @@
 {
     "items": [
         {
-            "name": "1 Ano Ensino Medio",
+            "name": "8 Ano Ensino Fundamental",
             "children": [
                 {
-                    "name": "Senhora",
-                    "information": "resumo"
-                },
-                {
-                    "name": "Poesia Brasileira",
-                    "information": "Resumo"
-                },
-                {
-                    "name": "Dom Casmurro",
+                    "name": "O dia do Coringa",
                     "information": "Resumo"
                 }
             ]
         },
-        {
-            "name": "2 Ano Ensino Médio",
-            "children": [
-                {
-                    "name": "Saragana",
-                    "information": "Resumo"
-                }
-            ]
-        },
-        {
-            "name": "3 Ano Ensino Médio",
-            "children": [
-                {
-                    "name": "NDA",
-                    "information": "Resumo"
-                }
-            ]
-        },
+
+
         {
             "name": "8 Ano Ensino Fundamental",
             "children": [
@@ -106,6 +82,41 @@
                 },
                 {
                     "name": "A carta de Pero Vaz De Caminha",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "1 Ano Ensino Medio",
+            "children": [
+                {
+                    "name": "Senhora",
+                    "information": "resumo"
+                },
+                {
+                    "name": "Poesia Brasileira",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Dom Casmurro",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "2 Ano Ensino Médio",
+            "children": [
+                {
+                    "name": "Saragana",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "3 Ano Ensino Médio",
+            "children": [
+                {
+                    "name": "NDA",
                     "information": "Resumo"
                 }
             ]
