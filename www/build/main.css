@@ -25691,11 +25691,18 @@ body ::-webkit-scrollbar, body *::-webkit-scrollbar {
   display: none;
 }
 
-ion-content {
+.getstart {
   background-image: url("../assets/imgs/logo.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: 20%;
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+.getstarta {
+  background-image: url("../assets/imgs/alberto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
 }
 
 timeline .timeline {
