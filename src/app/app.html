@@ -1,11 +1,14 @@
 <ion-split-pane>
     <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200" >
         <ion-header>
+                
             <ion-toolbar color="primary">
-                <ion-title align="center">Side Menu</ion-title>
+                <ion-title align="center">Menu</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content>
+
+        
 
             <ion-list>
                 <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>
@@ -21,7 +24,6 @@
         </ion-content>
 
     </ion-menu>
-
     <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
     <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>
 </ion-split-pane>

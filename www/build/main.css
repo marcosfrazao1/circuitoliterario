@@ -25851,6 +25851,12 @@ html {
   font-size: 12px;
 }
 
+ion-content {
+  background-image: url("../assets/imgs/logo.png");
+  background-size: cover;
+  background-position-x: 20%;
+}
+
 page-paradidaticos .accordion-list {
   background: #f4f4f4;
   margin-top: auto;
