@@ -1,0 +1,115 @@
+{
+    "items": [
+        {
+            "name": "1 Ano Ensino Medio",
+            "children": [
+                {
+                    "name": "Senhora",
+                    "information": "resumo"
+                },
+                {
+                    "name": "Poesia Brasileira",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Dom Casmurro",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "2 Ano Ensino Médio",
+            "children": [
+                {
+                    "name": "Saragana",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "3 Ano Ensino Médio",
+            "children": [
+                {
+                    "name": "NDA",
+                    "information": "Resumo"
+                }
+            ]
+        },
+        {
+            "name": "8 Ano Ensino Fundamental",
+            "children": [
+                {
+                    "name": "Mi Buenos Aires Querido",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Vidas Secas",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Édipo, O Maldito",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Stories from Shakespere",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Irmão Negro",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "A Casa das Palavras",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "O Alienista e Outros Contos",
+                    "information": "Resumo"
+                }
+
+            ]
+        },
+        {
+            "name": "9 Ano Ensino Fundamental",
+            "children": [
+                {
+                    "name": "A Revolução dos Bixos",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "O Gato Preto e outros Contos",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Os que bebem como os cães",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Historias para sala de aula",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Pachamama, La Tierra Madre",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Camões Lirica - Épica",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Auto da Compadecida",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "Auto da Barca do Inferno",
+                    "information": "Resumo"
+                },
+                {
+                    "name": "A carta de Pero Vaz De Caminha",
+                    "information": "Resumo"
+                }
+            ]
+        }
+
+    ]
+}
