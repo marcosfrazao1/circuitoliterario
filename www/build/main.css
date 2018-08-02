@@ -25680,7 +25680,7 @@ ion-navbar.toolbar {
 }
 
 body {
-  font-size: calc(12px + 1.5vw);
+  font-size: 16px;
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
@@ -25742,7 +25742,7 @@ timeline .timeline timeline-item ion-icon {
   /* CONFIGURAÇÕES DOS ICONES  */
   width: 40px;
   height: 40px;
-  font-size: 1.4em;
+  font-size: 18px;
   position: absolute;
   color: #fff;
   background: #46a4da;
@@ -25784,7 +25784,7 @@ timeline .timeline timeline-item:last-child ion-icon:after {
 
 @media screen and (max-width: 992px) {
   timeline .timeline timeline-item timeline-time {
-    font-size: 1em;
+    font-size: 16px;
   }
 }
 
@@ -25799,7 +25799,7 @@ timeline .timeline timeline-item:last-child ion-icon:after {
     left: 30px;
   }
   timeline .timeline timeline-item timeline-time {
-    font-size: 1em;
+    font-size: 16px;
     width: 100%;
     left: 80px;
     position: relative;
