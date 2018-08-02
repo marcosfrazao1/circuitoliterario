@@ -25,12 +25,12 @@
           <timeline-item *ngFor="let item of items">
             <timeline-time [time]="item.time"></timeline-time>
             <ion-icon [name]="item.icon"></ion-icon>
-            <ion-card width="830">
+            <ion-card width="400">
               <ion-card-header>
                 {{item.title}}
               </ion-card-header>
               
-                <ion-img width="200" height="200" src="{{item.content}}"></ion-img>
+                <img width="200" height="180" src="{{item.content}}">
               
             </ion-card>
           </timeline-item>
