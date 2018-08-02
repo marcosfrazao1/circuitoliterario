@@ -15395,7 +15395,7 @@ ion-menu.show-menu {
   transform: translate3d(-9999px,  0,  0);
   position: absolute;
   display: block;
-  width: 304px;
+  width: 200px;
   height: 100%;
   contain: strict;
 }
@@ -15446,7 +15446,7 @@ ion-menu ion-backdrop {
 
 @media (max-width: 340px) {
   .menu-inner {
-    width: 264px;
+    width: 160px;
   }
 }
 
@@ -22560,7 +22560,7 @@ ion-navbar.toolbar {
 
 .toolbar-background-md {
   border-color: #b2b2b2;
-  background: #d32f2f;
+  background: #f8f8f8;
 }
 
 .header-md::after,
@@ -22610,7 +22610,7 @@ ion-navbar.toolbar {
   padding: 0 12px;
   font-size: 2rem;
   font-weight: 500;
-  color: #ffffff;
+  color: #424242;
 }
 
 .bar-buttons-md {
