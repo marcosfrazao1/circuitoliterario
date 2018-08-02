@@ -13,7 +13,6 @@ import { Fale } from '../fale/fale';
 })
 export class HomePage {
 
-
   constructor(public navCtrl: NavController) {
 
 

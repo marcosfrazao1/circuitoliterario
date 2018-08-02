@@ -1,1 +1,27 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-split-pane>
+    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay">
+        <ion-header>
+            <ion-toolbar>
+                <ion-title>Side Menu</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+
+            <ion-list>
+
+                <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
+                <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
+                <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
+                <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
+                <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
+                <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
+
+            </ion-list>
+
+        </ion-content>
+
+    </ion-menu>
+
+    <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>
+</ion-split-pane>

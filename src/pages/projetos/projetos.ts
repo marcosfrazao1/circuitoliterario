@@ -14,6 +14,7 @@ import { Fale } from '../fale/fale';
     templateUrl: 'projetos.html'
 })
 export class Projetos {
+    
     information: any[];
 
     constructor(public navCtrl: NavController, private http: Http) {

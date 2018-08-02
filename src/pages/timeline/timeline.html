@@ -1,22 +1,11 @@
-<ion-content>
-  <ion-toolbar>
-    <ion-grid>
-      <ion-row>
-        <ion-col col-1>
-          <button ion-button round color="dark" (click)="HomeButton()"> Home</button>
-        </ion-col>
-        <ion-col col-8 offset-3>
-          <button ion-button round color="danger" (click)="TimelineButton()"> Linha do Tempo</button>
-          <button ion-button round color="danger" (click)="ParadidaticosButton()"> Paradidaticos</button>
-          <button ion-button round color="danger" (click)="ProjetosButton()"> Projetos</button>
-          <button ion-button round color="danger" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
-          <button ion-button round color="danger" (click)="MapaButton()"> Mapa da Leitura?</button>
-          <button ion-button padding="10" round color="danger" (click)="FaleButton()"> Fale Conosco</button>
-        </ion-col>
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" left>Toggle Left Menu</button>
+    <ion-title middle>Circuito Literário em Rede</ion-title>
+  </ion-navbar>
+</ion-header>
 
-      </ion-row>
-    </ion-grid>
-  </ion-toolbar>
+<ion-content>
 
   <ion-grid>
     <ion-row>
@@ -29,9 +18,9 @@
               <ion-card-header>
                 {{item.title}}
               </ion-card-header>
-              
-                <img width="200" height="180" src="{{item.content}}">
-              
+
+              <img width="200" height="180" src="{{item.content}}">
+
             </ion-card>
           </timeline-item>
 
@@ -55,4 +44,4 @@
 
 
 </ion-content>
-<ion-footer position=""bottom>here</ion-footer>
+<ion-footer position="" bottom>here</ion-footer>
