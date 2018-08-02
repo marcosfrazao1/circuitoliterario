@@ -33,10 +33,11 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-www/build
+www
 www/build/vendor.js.map
 www/build/vendor.js
 www/build/sw-toolbox.js
 www/build/polyfills.js
 www/build/main.js.map
 www/build/main.js
+
