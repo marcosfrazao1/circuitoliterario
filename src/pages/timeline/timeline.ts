@@ -22,9 +22,9 @@ export class Timeline {
         },
         {
             title: 'Hesíodo',
-            content: `../assets/timelineimgs/Hesiodo.jpg`,
+            content: `../assets/timelineimgs/hesiodo.jpg`,
             icon: 'calendar',
-            time: { subtitle: 'January', title: 'VIII aC' }
+            time: { title: 'VIII aC' }
         },
         {
             title: 'Esopo',
@@ -178,154 +178,120 @@ export class Timeline {
         },
         {
             title: 'Prudêncio',
-            ccontent: `../assets/timelineimgs/prudencio.jpg`,
+            content: `../assets/timelineimgs/prudencio.jpg`,
             icon: 'calendar',
             time: { title: 'séc. IV' }
         },
         {
             title: 'Efrém da Síria',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/efrem.jpg`,
             icon: 'calendar',
             time: { title: 'séc IV' }
         },
         {
             title: 'Agathias',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/agathias.jpg`,
             icon: 'calendar',
             time: { title: 'séc. VI' }
         },
         {
             title: 'João Malala',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/malalas.jpg`,
             icon: 'calendar',
             time: { title: '560' }
         },
         {
             title: 'André de Creta',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/andre.jpg`,
             icon: 'calendar',
             time: { title: 'sec VII' }
         },
         {
             title: 'João Damasceno',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/damasceno.jpg`,
             icon: 'calendar',
             time: { title: 'sec VII' }
         },
         {
             title: 'Alcuíno de York',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/alcuino.jpg`,
             icon: 'calendar',
             time: { title: 'sec VIII' }
         },
         {
             title: 'Beda',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/beda.jpg`,
             icon: 'calendar',
             time: { title: 'sec VIII' }
         },
         {
             title: 'Cynewulf',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/cynewulf.jpg`,
             icon: 'calendar',
             time: { title: 'sec IX' }
         },
         {
             title: 'Photios (“Myrobiblion”)',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/photios.jpg`,
             icon: 'calendar',
             time: { title: 'séc. IX' }
         },
         {
             title: 'Beowolf (anônimo)',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/beowolf.jpg`,
             icon: 'calendar',
             time: { title: '1000' }
         },
         {
+            title: 'Godofredo de Monmouth',
+            content: `../assets/timelineimgs/godofredo.jpg`,
+            icon: 'calendar',
+            time: { title: '1130' }
+        },
+        {
             title: 'Prodromos',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/teodoro.jpg`,
             icon: 'calendar',
             time: { title: 'sec XII' }
         },
         {
             title: 'Michel Psellos',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/michel.jpg`,
+            icon: 'calendar',
+            time: { title: 'sec XII' }
+        },
+        {
+            title: 'Allain de Lille',
+            content: `../assets/timelineimgs/allain.jpg`,
             icon: 'calendar',
             time: { title: 'sec XII' }
         },
         {
             title: 'Poema del Cid (anônimo)',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/cid.jpg`,
             icon: 'calendar',
             time: { title: '1140' }
         },
         {
             title: 'Canção dos Nibelungos (anônimo)',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/nibelungos.jpg`,
             icon: 'calendar',
             time: { title: '1180' }
         },
         {
             title: 'Snorri Sturluson)',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/snorri.jpg`,
             icon: 'calendar',
             time: { title: 'sec XIII' }
         },
         {
             title: 'Saxão, o Gramatico',
-            content: `Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize
-                scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo.
-                Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize
-                chicory burdock tatsoi dulse radish wakame beetroot.`,
+            content: `../assets/timelineimgs/saxao.jpg`,
             icon: 'calendar',
             time: { title: 'sec XIII' }
         },
+       
+       
     ];
 
     constructor(
