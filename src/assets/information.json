@@ -14,67 +14,171 @@
             ]
         },
         {
-            "name": "PLACEHOLDER",
+            "name": "Cirquinho do livro (Infantil)",
             "children": [
                 {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
                 },
                 {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
-                },
-                {
-                    "name": "PLACEHOLDER CHILD",
-                    "children": [
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                            
-                        },
-                        {
-                            "name": "PLACEHOLDER CHILD CHILD",
-                            "information": "PLACEHOLDER INFORMATION"
-                         
-                        }
-                    ]
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
                 }
             ]
         },
         {
-            "name": "PLACEHOLDER",
+            "name": "Barco da Leitura (Fundamental menor)",
             "children": [
                 {
-                    "name": "PLACEHODLER CHILD",
-                    "information": "PLACEHOLDER INFORMATION"
-
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
                 },
                 {
-                    "name": "PLACEHODLER CHILD",
-                    "information": "PLACEHOLDER INFORMATION"
-
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Terraço literário (Fundamental menor)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Salão de Literatura de Cordel (Fundamental menor)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Feira Literária (Fundamental ao Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Biblioteca Itinerante (Fundamental ao Médio/ Professores)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Bate Papo Literário (Fundamental menor ao Ensino Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Clube de leitura e oficinas literárias (Fundamental ao Ensino Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Café filosófico (Fundamental ao Ensino Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Entrei na Universidade, e agora? (Fundamental ao Ensino Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Quiosque literário (Comunidade em geral)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Política de Desenvolvimento de Acervos on – line ou Midiateca (Fundamental menor ao Ensino Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "Produção Editorial (Fundamental ao Médio)",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
                 }
             ]
         }
