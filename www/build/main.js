@@ -146,12 +146,6 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -163,46 +157,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
-
-
-
 var HomePage = /** @class */ (function () {
     function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    HomePage_1 = HomePage;
-    HomePage.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__timeline_timeline__["a" /* Timeline */]);
-    };
-    HomePage.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(HomePage_1);
-    };
-    HomePage.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    HomePage.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__projetos_projetos__["a" /* Projetos */]);
-    };
-    HomePage.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__atividades_atividades__["a" /* Atividades */]);
-    };
-    HomePage.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__mapa_mapa__["a" /* Mapa */]);
-    };
-    HomePage.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__fale_fale__["a" /* Fale */]);
-    };
-    HomePage = HomePage_1 = __decorate([
+    HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="primary" >\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n\n\n        <ion-card>\n\n          \n\n          <ion-card-header>\n\n            PROJETO FEIRA LITERÁRIA -“ LER PARA PENSAR E CONSTRUIR ...”\n\n          </ion-card-header>\n\n          \n\n          <ion-card-content class="main-text">\n\n              \n\n            <br>\n\n            <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística\n\n              como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n              patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n              os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e\n\n              escrita.\n\n            </p>\n\n            <br>\n\n            <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.\n\n              A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n              de cunho social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n              Lobato.\n\n            </p>\n\n            <br>\n\n            <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno\n\n              complexo cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela\n\n              se sentir reconhecido. Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas,\n\n              convites, teatro, biografia, memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a\n\n              percepção de quem descobre ali outros lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n            <br>\n\n            <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio, durante\n\n              o mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n              envolvidos todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares\n\n              de turma. As atividades propiciadas são: </p>\n\n            <br>\n\n            <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura, interpretação\n\n              e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis, produções\n\n              coletivas e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n              literários, troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n              visita à biblioteca, café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n          </ion-card-content>\n\n        </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
     ], HomePage);
     return HomePage;
-    var HomePage_1;
+    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -219,12 +185,6 @@ var HomePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -234,12 +194,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
-
-
-
-
-
 
 
 
@@ -254,42 +208,20 @@ var Paradidaticos = /** @class */ (function () {
             _this.information = data;
         });
     }
-    Paradidaticos_1 = Paradidaticos;
     Paradidaticos.prototype.toggleSection = function (i) {
         this.information[i].open = !this.information[i].open;
     };
     Paradidaticos.prototype.toggleItem = function (i, j) {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     };
-    Paradidaticos.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__timeline_timeline__["a" /* Timeline */]);
-    };
-    Paradidaticos.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
-    };
-    Paradidaticos.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(Paradidaticos_1);
-    };
-    Paradidaticos.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__projetos_projetos__["a" /* Projetos */]);
-    };
-    Paradidaticos.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__atividades_atividades__["a" /* Atividades */]);
-    };
-    Paradidaticos.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__mapa_mapa__["a" /* Mapa */]);
-    };
-    Paradidaticos.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__fale_fale__["a" /* Fale */]);
-    };
-    Paradidaticos = Paradidaticos_1 = __decorate([
+    Paradidaticos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-paradidaticos',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\paradidaticos\paradidaticos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\paradidaticos\paradidaticos.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]) === "function" && _b || Object])
     ], Paradidaticos);
     return Paradidaticos;
-    var Paradidaticos_1;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=paradidaticos.js.map
@@ -303,12 +235,6 @@ var Paradidaticos = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Timeline; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -318,12 +244,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
-
-
-
-
-
 
 
 var Timeline = /** @class */ (function () {
@@ -609,40 +529,17 @@ var Timeline = /** @class */ (function () {
             },
         ];
     }
-    Timeline_1 = Timeline;
     Timeline.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TimelinePage');
     };
-    Timeline.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(Timeline_1);
-    };
-    Timeline.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    Timeline.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Timeline.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__projetos_projetos__["a" /* Projetos */]);
-    };
-    Timeline.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__atividades_atividades__["a" /* Atividades */]);
-    };
-    Timeline.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__mapa_mapa__["a" /* Mapa */]);
-    };
-    Timeline.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__fale_fale__["a" /* Fale */]);
-    };
-    Timeline = Timeline_1 = __decorate([
+    Timeline = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-timeline',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="main-content">\n\n\n\n\n\n        <timeline endIcon="call">\n\n          <timeline-item *ngFor="let item of items">\n\n            <timeline-time [time]="item.time"></timeline-time>\n\n            <ion-icon [name]="item.icon"></ion-icon>\n\n            <ion-card width="400">\n\n              <ion-card-header>\n\n                {{item.title}}\n\n              </ion-card-header>\n\n\n\n              <img width="200" height="180" src="{{item.content}}">\n\n\n\n            </ion-card>\n\n          </timeline-item>\n\n\n\n        </timeline>\n\n\n\n\n\n\n\n\n\n</ion-content>\n\n<ion-footer position="" bottom>here</ion-footer>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\timeline\timeline.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
     ], Timeline);
     return Timeline;
-    var Timeline_1;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=timeline.js.map
@@ -820,12 +717,6 @@ var TimelineTimeComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -835,12 +726,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
-
-
-
-
-
 
 
 
@@ -855,42 +740,20 @@ var Projetos = /** @class */ (function () {
             _this.information = data;
         });
     }
-    Projetos_1 = Projetos;
     Projetos.prototype.toggleSection = function (i) {
         this.information[i].open = !this.information[i].open;
     };
     Projetos.prototype.toggleItem = function (i, j) {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     };
-    Projetos.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__timeline_timeline__["a" /* Timeline */]);
-    };
-    Projetos.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
-    };
-    Projetos.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Projetos.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(Projetos_1);
-    };
-    Projetos.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__atividades_atividades__["a" /* Atividades */]);
-    };
-    Projetos.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__mapa_mapa__["a" /* Mapa */]);
-    };
-    Projetos.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__fale_fale__["a" /* Fale */]);
-    };
-    Projetos = Projetos_1 = __decorate([
+    Projetos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-projetos',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\projetos\projetos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n\n\n        <ion-card>\n\n          <ion-list class="accordion-list">\n\n            <!-- First Level -->\n\n            <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n              <!-- Toggle Button -->\n\n              <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n                <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n                <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n                {{ item.name }}\n\n              </button>\n\n\n\n              <ion-list *ngIf="item.children && item.open" no-lines>\n\n                <!-- Second Level -->\n\n                <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n                  <!-- Toggle Button -->\n\n                  <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n                    <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n                    <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n                    {{ child.name }}\n\n                  </button>\n\n\n\n                  <!-- Direct Add Button as Fallback -->\n\n                  <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n                    <h2>{{ child.name }}</h2>\n\n                    <p text-lowercase>{{ child.information }}</p>\n\n\n\n                  </ion-item>\n\n\n\n                  <ion-list *ngIf="child.children && child.open">\n\n                    <!-- Third Level -->\n\n                    <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                      <h2>{{ item.name }}</h2>\n\n                      <p text-lowercase>{{ item.information }}</p>\n\n                      <!-- Direct Add Button -->\n\n\n\n                    </ion-item>\n\n                  </ion-list>\n\n\n\n                </ion-list-header>\n\n              </ion-list>\n\n\n\n            </ion-list-header>\n\n          </ion-list>\n\n        </ion-card>\n\n\n\n\n\n</ion-content>\n\n<ion-split-pane>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\projetos\projetos.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]) === "function" && _b || Object])
     ], Projetos);
     return Projetos;
-    var Projetos_1;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=projetos.js.map
@@ -904,12 +767,6 @@ var Projetos = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Atividades; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -921,46 +778,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
-
-
-
 var Atividades = /** @class */ (function () {
     function Atividades(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    Atividades_1 = Atividades;
-    Atividades.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__timeline_timeline__["a" /* Timeline */]);
-    };
-    Atividades.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    Atividades.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Atividades.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__projetos_projetos__["a" /* Projetos */]);
-    };
-    Atividades.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(Atividades_1);
-    };
-    Atividades.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__mapa_mapa__["a" /* Mapa */]);
-    };
-    Atividades.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__fale_fale__["a" /* Fale */]);
-    };
-    Atividades = Atividades_1 = __decorate([
+    Atividades = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-atividades',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\atividades\atividades.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  \n\n  \n\n        <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\atividades\atividades.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
     ], Atividades);
     return Atividades;
-    var Atividades_1;
+    var _a;
 }());
 
 //# sourceMappingURL=atividades.js.map
@@ -974,12 +803,6 @@ var Atividades = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Mapa; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -991,46 +814,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
-
-
-
 var Mapa = /** @class */ (function () {
     function Mapa(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    Mapa_1 = Mapa;
-    Mapa.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__timeline_timeline__["a" /* Timeline */]);
-    };
-    Mapa.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    Mapa.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Mapa.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__projetos_projetos__["a" /* Projetos */]);
-    };
-    Mapa.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__atividades_atividades__["a" /* Atividades */]);
-    };
-    Mapa.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(Mapa_1);
-    };
-    Mapa.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__fale_fale__["a" /* Fale */]);
-    };
-    Mapa = Mapa_1 = __decorate([
+    Mapa = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-mapa',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\mapa\mapa.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\mapa\mapa.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
     ], Mapa);
     return Mapa;
-    var Mapa_1;
+    var _a;
 }());
 
 //# sourceMappingURL=mapa.js.map
@@ -1044,12 +839,6 @@ var Mapa = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Fale; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mapa_mapa__ = __webpack_require__(30);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1061,46 +850,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
-
-
-
 var Fale = /** @class */ (function () {
     function Fale(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    Fale_1 = Fale;
-    Fale.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__timeline_timeline__["a" /* Timeline */]);
-    };
-    Fale.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    Fale.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Fale.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__projetos_projetos__["a" /* Projetos */]);
-    };
-    Fale.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__atividades_atividades__["a" /* Atividades */]);
-    };
-    Fale.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__mapa_mapa__["a" /* Mapa */]);
-    };
-    Fale.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(Fale_1);
-    };
-    Fale = Fale_1 = __decorate([
+    Fale = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-fale',template:/*ion-inline-start:"C:\Projects\circuitoionic\src\pages\fale\fale.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>Toggle Left Menu</button>\n\n    <ion-title middle>Circuito Literário em Rede</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n\n\n        <ion-card>\n\n          <ion-card-header>\n\n\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n\n\n          </ion-card-content>\n\n        </ion-card>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Projects\circuitoionic\src\pages\fale\fale.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
     ], Fale);
     return Fale;
-    var Fale_1;
+    var _a;
 }());
 
 //# sourceMappingURL=fale.js.map
