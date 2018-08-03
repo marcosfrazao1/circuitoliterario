@@ -1,14 +1,14 @@
 <ion-split-pane>
-    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200" >
+    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">
         <ion-header>
-                
+
             <ion-toolbar color="primary">
                 <ion-title align="center">Menu</ion-title>
             </ion-toolbar>
         </ion-header>
-        <ion-content>
+        <ion-content class="menu-left">
 
-        
+
 
             <ion-list>
                 <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>
@@ -18,6 +18,35 @@
                 <button ion-button full square color="primary" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>
                 <button ion-button full square color="primary" (click)="MapaButton()"> Mapa da Leitura?</button>
                 <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>
+
+            </ion-list>
+
+        </ion-content>
+
+    </ion-menu>
+
+    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">
+        <ion-header>
+
+            <ion-toolbar color="primary">
+                <ion-title align="center">Menu</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content class="menu-right">
+
+
+
+            <ion-list>
+                <ion-card>
+                    <ion-card-content>
+                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+                    </ion-card-content>
+                </ion-card>
+                <ion-card>
+                    <ion-card-content>
+                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+                    </ion-card-content>
+                </ion-card>
 
             </ion-list>
 

@@ -21,24 +21,17 @@ body{
     ::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
    -webkit-user-select: text;
    user-select: text;
-    
 }
 
-.getstart{
+.main-content {
+	background-color: rgb(245, 245, 245);
+ 
+}
+.menu-left{
+	background-color: rgb(240, 240, 240);
 
-    background-image: url('../assets/imgs/logo.png');
-    // background: url('../assets/imgs/logo.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position-x: 50%;
-    }
+}
+.menu-right{
+	background-color: rgb(240, 240, 240);
 
-    .getstarta{
-
-        background-image: url('../assets/imgs/alberto.png');
-        // background: url('../assets/imgs/logo.png');
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position-x: 100%;
-      
-        }
+}
