@@ -28001,6 +28001,11 @@ body ::-webkit-scrollbar, body *::-webkit-scrollbar {
   background-image: url("../assets/imgs/backgroundfeira.jpg");
 }
 
+.card-feira {
+  background-color: rgba(45, 84, 117, 0);
+  background-size: 100% 100%;
+}
+
 timeline .timeline {
   margin: 30px 0 0 0;
   padding: 0;
