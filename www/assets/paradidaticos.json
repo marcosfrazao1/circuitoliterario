@@ -5,8 +5,8 @@
             "children": [
                 {
                     "name": "O dia do Coringa",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/timelineimgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor.",
                     "children": [{}]
                 }
             ]
