@@ -27997,6 +27997,10 @@ body ::-webkit-scrollbar, body *::-webkit-scrollbar {
   background-color: #f0f0f0;
 }
 
+.feira-content {
+  background-image: url("../assets/imgs/backgroundfeira.jpg");
+}
+
 timeline .timeline {
   margin: 30px 0 0 0;
   padding: 0;
