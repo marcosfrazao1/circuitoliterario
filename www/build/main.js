@@ -64,18 +64,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_feira_feira__ = __webpack_require__(531);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atividades_atividades__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mapa_mapa__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__ = __webpack_require__(276);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -102,13 +100,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__["a" /* Timeline */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__["a" /* Paradidaticos */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__["a" /* Projetos */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_feira_feira__["a" /* Feira */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_atividades_atividades__["a" /* Atividades */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_mapa_mapa__["a" /* Mapa */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__["a" /* Fale */],
-                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["a" /* TimelineComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["b" /* TimelineItemComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["c" /* TimelineTimeComponent */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_atividades_atividades__["a" /* Atividades */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_mapa_mapa__["a" /* Mapa */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__["a" /* Fale */],
+                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["a" /* TimelineComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["b" /* TimelineItemComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["c" /* TimelineTimeComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -124,10 +121,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__["a" /* Timeline */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__["a" /* Paradidaticos */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__["a" /* Projetos */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_feira_feira__["a" /* Feira */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_atividades_atividades__["a" /* Atividades */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_mapa_mapa__["a" /* Mapa */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__["a" /* Fale */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_atividades_atividades__["a" /* Atividades */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_mapa_mapa__["a" /* Mapa */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__["a" /* Fale */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -666,10 +662,9 @@ var Timeline = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_timeline_timeline__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_paradidaticos_paradidaticos__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__ = __webpack_require__(531);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_atividades_atividades__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_mapa_mapa__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -679,7 +674,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -721,29 +715,25 @@ var MyApp = /** @class */ (function () {
     MyApp.prototype.ProjetosButton = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__["a" /* Projetos */]);
     };
-    MyApp.prototype.FeiraButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__["a" /* Feira */]);
-    };
     MyApp.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_atividades_atividades__["a" /* Atividades */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_atividades_atividades__["a" /* Atividades */]);
     };
     MyApp.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__pages_mapa_mapa__["a" /* Mapa */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_mapa_mapa__["a" /* Mapa */]);
     };
     MyApp.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__["a" /* Fale */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__["a" /* Fale */]);
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
     ], MyApp.prototype, "navCtrl", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar color="primary">\n\n                <ion-title align="center">Menu</ion-title>\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-left">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>\n\n                <button ion-button full square color="primary" (click)="TimelineButton()"> Linha do Tempo</button>\n\n                <button ion-button full square color="primary" (click)="ParadidaticosButton()"> Paradidaticos</button>\n\n                <button ion-button full square color="primary" (click)="ProjetosButton()"> Projetos</button>\n\n                <button ion-button full square color="primary" (click)="FeiraButton()"> Feira</button>\n\n                <button ion-button full square color="primary" (click)="AtividadesButton()"> Atividades de Cultura e Escrita</button>\n\n                <button ion-button full square color="primary" (click)="MapaButton()"> Mapa da Leitura?</button>\n\n                <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>\n\n\n\n            </ion-list>\n\n\n\n        </ion-content>\n\n\n\n    </ion-menu>\n\n\n\n    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar color="primary">\n\n                <ion-title align="center">Menu</ion-title>\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-right">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n                    </ion-card-content>\n\n                </ion-card>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n\n                    </ion-card-content>\n\n                </ion-card>\n\n\n\n            </ion-list>\n\n\n\n        </ion-content>\n\n\n\n    </ion-menu>\n\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -1114,77 +1104,6 @@ var Fale = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=fale.js.map
-
-/***/ }),
-
-/***/ 531:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Feira; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timeline_timeline__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__projetos_projetos__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__atividades_atividades__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mapa_mapa__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fale_fale__ = __webpack_require__(31);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-var Feira = /** @class */ (function () {
-    function Feira(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    Feira.prototype.TimelineButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__timeline_timeline__["a" /* Timeline */]);
-    };
-    Feira.prototype.HomeButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    Feira.prototype.ParadidaticosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__paradidaticos_paradidaticos__["a" /* Paradidaticos */]);
-    };
-    Feira.prototype.ProjetosButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__projetos_projetos__["a" /* Projetos */]);
-    };
-    Feira.prototype.AtividadesButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__atividades_atividades__["a" /* Atividades */]);
-    };
-    Feira.prototype.MapaButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__mapa_mapa__["a" /* Mapa */]);
-    };
-    Feira.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__fale_fale__["a" /* Fale */]);
-    };
-    Feira = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feira',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/''/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
-    ], Feira);
-    return Feira;
-    var _a;
-}());
-
-//# sourceMappingURL=feira.js.map
 
 /***/ })
 
