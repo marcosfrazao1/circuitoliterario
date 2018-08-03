@@ -13431,7 +13431,7 @@ ion-img {
   display: inline-block;
   min-width: 20px;
   min-height: 20px;
-  background: #eee;
+  background: #969696;
   contain: strict;
 }
 
@@ -27997,13 +27997,10 @@ body ::-webkit-scrollbar, body *::-webkit-scrollbar {
   background-color: #f0f0f0;
 }
 
-.feira-content {
+.card-feira {
   background-image: url("../assets/imgs/backgroundfeira.jpg");
   background-size: 100% 100%;
-}
-
-.card-feira {
-  background-color: rgba(240, 240, 240, 0);
+  margin-left: "0px";
 }
 
 timeline .timeline {
