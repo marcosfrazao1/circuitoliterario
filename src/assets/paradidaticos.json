@@ -5,12 +5,15 @@
             "children": [
                 {
                     "name": "O dia do Coringa",
-                    "information": "Resumo"
+                    "children": [
+                        {
+                            "name": "Maybe the Img location",
+                            "information": "Resumo resumo resumo resumo"
+                        }
+                    ]
                 }
             ]
         },
-
-
         {
             "name": "8 Ano Ensino Fundamental",
             "children": [
@@ -42,7 +45,6 @@
                     "name": "O Alienista e Outros Contos",
                     "information": "Resumo"
                 }
-
             ]
         },
         {
@@ -121,6 +123,5 @@
                 }
             ]
         }
-
     ]
 }
