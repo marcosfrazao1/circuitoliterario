@@ -15,6 +15,7 @@ import { Fale } from '../pages/fale/fale';
 
 @Component({
   templateUrl: 'app.html'
+  
 })
 export class MyApp {
   @ViewChild(Nav) navCtrl: Nav;
@@ -63,4 +64,6 @@ FaleButton(){
 }
 
 }
+
+
 
