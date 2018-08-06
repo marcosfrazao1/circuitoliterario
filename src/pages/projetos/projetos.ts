@@ -12,8 +12,8 @@ export class Projetos {
     
     information: any[];
 
-    constructor(public navCtrl: NavController, private Http: Http) {
-        let localData = Http.get('assets/information.json').map(res => res.json().items);
+    constructor(public navCtrl: NavController, private http: Http) {
+        let localData = http.get('assets/information.json').map(res => res.json().items);
         localData.subscribe(data => {
             this.information = data;
         })

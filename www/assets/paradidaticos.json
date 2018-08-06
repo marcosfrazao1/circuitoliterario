@@ -6,7 +6,7 @@
                 {
                     "name": "O dia do Coringa",
                     "src": "../assets/imgs/curinga.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor.",
                     "children": [{}]
                 }
             ]
@@ -16,38 +16,39 @@
             "children": [
                 {
                     "name": "Vidas Secas",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/vidas.jpg",
+                    "information": "O livro possui 13 capítulos que, por não terem uma linearidade temporal, podem ser lidos em qualquer ordem. Porém, o primeiro, “Mudança”, e o último, “Fuga”, devem ser lidos nessa sequência, pois apresentam uma ligação que fecha um ciclo. “Mudança” narra as agruras da família sertaneja na caminhada impiedosa pela aridez da caatinga, enquanto que em “Fuga” os retirantes partem da fazenda para uma nova busca por condições mais favoráveis de vida. Assim, pode-se dizer que a miséria em que as personagens vivem em Vidas Secas representa um ciclo. Quando menos se espera, a situação se agrada e a família é obrigada a se mudar novamente.",
+                   
                     "children": [{}]
                 },
                 {
                     "name": "Édipo, O Maldito",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/edipo.jpg",
+                    "information": "Na Grécia antiga, um jovem príncipe chamado Édipo é acusado de não ser filho de quem imagina. Para investigar quem são seus pais, consulta os deuses e recebe como resposta que sofreria uma maldição que pesaria sobre sua família. Então abandona a cidade e sua família, e torna-se andarilho.  Aos 16 anos derrota um terrível monstro que devora todos que não conseguem decifrar seus enigmas. Como recompensa Édipo torna-se rei, e casa com a rainha viúva Jocasta, com quem teve quatro filhos. No entanto, descobre que era adotado e que era responsável pela morte de Laios o rei e marido de Jocasta, seu verdadeiro pai.  Ao descobrir a verdade Jocasta se mata e Édipo fura seus próprios olhos, se condenando a viver em sofrimento. E acaba virando andarilho novamente guiado por sua filha Antígona. Quanto a sua morte ninguém soube de nada, Édipo cego desapareceu em um bosque sagrado em uma tempestade.",
                     "children": [{}]
                 },
                 {
                     "name": "Stories from Shakespere",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/stories.jpg",
+                    "information": "Não tem Resumo ainda",
                     "children": [{}]
                 },
                 {
                     "name": "Irmão Negro",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/irmao.jpg",
+                    "information": "Em 'Irmão negro', o narrador da história, Leo, é filho único e sempre desejou ter irmãos. Quando sua mãe recebe uma carta, fica chocada ao saber que sua irmã faleceu e deixou um filho, Sérgio, que está abandonado, vivendo nas ruas. A mãe de Leo viaja para Salvador e de lá traz seu primo, que deverá ser incorporado à família como 'irmão' de Leo. Sérgio é negro e a convivência se mostra difícil - o menino é faminto e calado. Assusta-se com facilidade. Desconhece vida de classe média. É discriminado pelos amigos de Leo e sofre o preconceito quando sai a passear com ele. O menino negro possui também um segredo. Só quando Leo consegue descobrir seu afeto pelo irmão negro o mistério é revelado.",
                     "children": [{}]
                 },
                 {
                     "name": "A casa das palavras",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/acasa.jpg",
+                    "information": "Uma imagem vale mais que mil palavras? Marina Colasanti, escritora, jornalista e artista plástica responde sem titubear: não vale. Afinal, diz, até para louvar a imagem foi preciso fazer uma frase. Nestas 25 crônicas, as palavras provam sua força. Dispostas com esmero de quem quer extrair ´o máximo do mínimo´, elas convidam ao encanto pela natureza que destruímos a cada dia. E tocam com coragem nas feridas da miséria, do descaso e da violência. Que com frequência tentamos ignorar.",
                     "children": [{}]
                 },
                 {
                     "name": "O Alienista e outros contos",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/alienista.jpg",
+                    "information": "Certo dia o Dr. Bacamarte resolve se dedicar aos estudos da psiquiatria e constrói na cidade um manicômio chamado Casa Verde para abrigar todos os loucos da região. Em pouco tempo o local fica cheio, e ele vai ficando cada vez mais obcecado pelo trabalho. Em dado momento, Dr. Bacamarte passou a enxergar loucura em todos e a internar pessoas que causavam espanto. A partir daí diversas outras personagens serão internadas pelo alienista, deixando a população da cidade alarmada.",
                     "children": [{}]
                 }
             ]
@@ -57,56 +58,56 @@
             "children": [
                 {
                     "name": "Revolução dos Bixos",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/revolucao.jpg",
+                    "information": "Verdadeiro clássico moderno, concebido por um dos mais influentes escritores do século 20, 'A Revolução dos Bichos' é uma fábula sobre o poder. Narra a insurreição dos animais de uma granja contra seus donos. Progressivamente, porém, a revolução degenera numa tirania ainda mais opressiva que a dos humanos. Escrita em plena Segunda Guerra Mundial, essa pequena narrativa causou desconforto ao satirizar ferozmente a ditadura stalinista numa época em que os soviéticos ainda eram aliados do Ocidente na luta contra o eixo nazifascista.",
                     "children": [{}]
                 },
                 {
                     "name": "O Gato Preto e outros contos",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/gato.jpg",
+                    "information": "Uma história de suspense e terror sobrenatural. O Gato Preto traz um homem que, movido pelo abuso do álcool e pela ira provocada pelo amor incondicional que um bicho pode dedicar a seu dono, vê seu sentimento se transformar em perversidade, e acaba por enforcar seu gato. Perseguido pelo fantasma do gato, ele adota outro animal, que, com o passar do tempo, além de despertar a mesma aversão em seu dono, revela em sua pelagem a marca da forca. ",
                     "children": [{}]
                 },
                 {
                     "name": "Os que bebem como os cães",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/timelineimgs/cao.jpg",
+                    "information": "A cela, o pátio, o grito: este é o círculo de monotonia profunda e intensa que cerca o prisioneiro Jeremias. Assis Brasil nos transporta para a realidade de um condenado que vive um cotidiano sofrido em diferentes celas no mesmo presídio. A divisão do livro em 3 partes repetitivas e subsequentes oferta ao leitor a chance de penetrar na existência do personagem.",
                     "children": [{}]
                 },
                 {
                     "name": "Historias para sala de aula",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/timelineimgs/historia.jpg",
+                    "information": "sem resumo",
                     "children": [{}]
                 },
                 {
                     "name": "Pachama, La Tierra Madre",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/pachamama.jpg",
+                    "information": "Sem resumo",
                     "children": [{}]
                 },
                 {
                     "name": "Camões | Lírica Épica",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/camoes.jpg",
+                    "information": "A produção de Camões divide-se em três géneros: o lírico, o épico e o teatral. A sua obra lírica foi desde logo apreciada como uma alta conquista. Demonstrou o seu virtuosismo especialmente nas canções e elegias, mas as suas redondilhas não lhes ficam atrás. De facto, foi um mestre nesta forma, dando uma nova vida à arte da glosa, instilando nela espontaneidade e simplicidade, uma delicada ironia e um fraseado vivaz, levando a poesia cortesã ao seu nível mais elevado. A sua produção épica está sintetizada n’Os Lusíadas, uma alentada glorificação dos feitos portugueses.",
                     "children": [{}]
                 },
                 {
                     "name": "Auto da Compadecida",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/auto.jpg",
+                    "information": "A peça é narrada pelo palhaço e a história se inicia quando Chicó e João Grilo tentam convencer o padre a benzer o cachorro de sua patroa, a mulher do padeiro. Como o padre se nega a benzer e o cachorro morre, o padeiro e sua esposa exigem que o padre faça o enterro do animal. Esse é apenas o início dos inúmeros “causos” de João Grilo e Chicó.",
                     "children": [{}]
                 },
                 {
                     "name": "Alto da Barca do Inferno",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/barca.jpg",
+                    "information": "A peça inicia-se num porto imaginário, onde se encontram as duas barcas, a Barca do Inferno, cuja tripulação é o Diabo e o seu Companheiro, e a Barca da Glória, tendo como tripulação um Anjo na proa. Cada personagem discute com o Diabo e com o Anjo para saber em qual das barcas entrará. Só os Quatro Cavaleiros e o Parvo entram na Barca da Glória, e todos os outros rumam ao Inferno.",
                     "children": [{}]
                 },
                 {
                     "name": "Carta de Pero Vaz de Caminha",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/carta.jpg",
+                    "information": "A Carta é exemplo do deslumbramento do europeu diante do Novo Mundo. O escrevente documenta os traços de terra e o momento de vista da terra (quando se avistou o Monte Pascoal, a que deu-se o nome de Ilha de Vera Cruz). Os portugueses seguem até a praia, onde acontece o primeiro contato com os índios, quando os portugueses praticam o primeiro escambo com os índios brasileiros. Menciona-se também o pau-brasil e é narrada a Primeira Missa na nova terra.",
                     "children": [{}]
                 }
             ]
@@ -116,20 +117,20 @@
             "children": [
                 {
                     "name": "Senhora",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/senhora.jpg",
+                    "information": "Aurélia Camargo, filha de uma pobre costureira e órfã de pai,depois de perder seu irmão apaixonou-se por Fernando Seixas – homem ambicioso - a quem namorou. Este, porém, desfaz a relação, movido pela vontade de se casar com uma moça rica, Adelaide Amaral, e pelo dote ao qual teria direito de receber. Passado algum tempo, Aurélia, já órfã de mãe também, recebe uma grande herança do avô e ascende socialmente. A história de Fernando vai dar então uma reviravolta.",
                     "children": [{}]
                 },
                 {
                     "name": "Poesia Brasileira",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/poesia.jpg",
+                    "information": "Dúvida existencial, amor impossível - estes são os temas mais conhecidos da poesia romântica. Mas há nesse movimento artístico outras facetas: o ímpeto eufórico, a luta pela liberdade, o louvor à pátria e aos índios, o humor e o grotesco. Esta coletânea reúne a diversidade que o romantismo adquiriu em solo brasileiro",
                     "children": [{}]
                 },
                 {
                     "name": "Dom Casmurro",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/dom.jpg",
+                    "information": "Bento Santiago, o narrador da história contada em primeira pessoa, vai unir relatos desde sua mocidade até os dias em que está escrevendo o livro. Bento escreve sobre suas reminiscências da juventude, sua vida no seminário, seu caso com Capitu e o ciúme que advém desse relacionamento, que se torna o enredo central da trama. Dom Casmurro é um homem martirizado pela dúvida, e que não consegue tomar uma decisão firme.",
                     "children": [{}]
                 }
             ]
@@ -139,8 +140,8 @@
             "children": [
                 {
                     "name": "Saragana",
-                    "src": "../assets/timelineimgs/agathias.jpg",
-                    "information": "Resumo resumo resumo resumo",
+                    "src": "../assets/imgs/saragana.jpg",
+                    "information": "sem resumo",
                     "children": [{}]
                 }
             ]
