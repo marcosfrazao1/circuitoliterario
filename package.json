@@ -1,7 +1,7 @@
 {
   "name": "circuitoionic",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "Paulo Sá",
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
@@ -35,5 +35,5 @@
     "@ionic/app-scripts": "3.1.11",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "Circuito Literário em Rede"
 }
