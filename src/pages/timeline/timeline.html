@@ -1,11 +1,16 @@
 <ion-header>
   <ion-navbar color="primary">
-    <button ion-button menuToggle="left" left>Toggle Left Menu</button>
-    <ion-title middle>Circuito Literário em Rede</ion-title>
+    <button ion-button menuToggle="left" left>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title align="center">Circuito Literário em Rede</ion-title>
+    <button ion-button menuToggle="right" right>
+      <ion-icon name="menu"></ion-icon>
+    </button>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <ion-card>
     <timeline endIcon="call">
       <timeline-item *ngFor="let item of items">

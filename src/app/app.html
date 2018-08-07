@@ -3,7 +3,9 @@
         <ion-header>
 
             <ion-toolbar color="primary">
-                <ion-title align="center">Menu</ion-title>
+                <ion-title>
+                        <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>
+                </ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content class="menu-left" >
@@ -18,12 +20,16 @@
                 <button ion-button full square color="primary" (click)="FeiraButton()"> Feira</button>
                 <button ion-button full square color="primary" (click)="AtividadesButton()"> Atividades</button>
                 <button ion-button full square color="primary" (click)="MapaButton()"> Mapa da Leitura?</button>
-                <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>
 
             </ion-list>
-
+            
+                <img src="../assets/imgs/rebeca.jpg">
+            
         </ion-content>
+        <ion-footer>
+                <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>
 
+        </ion-footer>
     </ion-menu>
 
     <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">
@@ -40,18 +46,16 @@
             <ion-list>
                 <ion-card>
                     <ion-card-content>
-                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
-                    </ion-card-content>
+                            O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do Colégio Diocesano                    </ion-card-content>
                 </ion-card>
                 <ion-card>
                     <ion-card-content>
-                        The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
-                    </ion-card-content>
+                            A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo dos alunos                    </ion-card-content>
                 </ion-card>
 
-                <ion-card>
-                    <img src="../assets/imgs/camoes.jpg">
-                </ion-card>
+                
+                        <img src="../assets/imgs/dio.jpg">
+                 
             </ion-list>
 
         </ion-content>
