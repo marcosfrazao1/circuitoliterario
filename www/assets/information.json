@@ -1,18 +1,6 @@
 {
     "items": [
-        {
-            "name": "Feira Literária",
-            "children": [
-                {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
-                },
-                {
-                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
-                    "information": "PLACEHOLDER"
-                }
-            ]
-        },
+
         {
             "name": "Cirquinho do livro (Infantil)",
             "children": [
@@ -54,19 +42,6 @@
         },
         {
             "name": "Salão de Literatura de Cordel (Fundamental menor)",
-            "children": [
-                {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
-                },
-                {
-                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
-                    "information": "PLACEHOLDER"
-                }
-            ]
-        },
-        {
-            "name": "Feira Literária (Fundamental ao Médio)",
             "children": [
                 {
                     "name": "Apresentação do projeto",

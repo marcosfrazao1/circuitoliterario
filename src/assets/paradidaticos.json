@@ -70,13 +70,13 @@
                 },
                 {
                     "name": "Os que bebem como os cães",
-                    "src": "../assets/timelineimgs/cao.jpg",
+                    "src": "../assets/imgs/cao.jpg",
                     "information": "A cela, o pátio, o grito: este é o círculo de monotonia profunda e intensa que cerca o prisioneiro Jeremias. Assis Brasil nos transporta para a realidade de um condenado que vive um cotidiano sofrido em diferentes celas no mesmo presídio. A divisão do livro em 3 partes repetitivas e subsequentes oferta ao leitor a chance de penetrar na existência do personagem.",
                     "children": [{}]
                 },
                 {
                     "name": "Historias para sala de aula",
-                    "src": "../assets/timelineimgs/historia.jpg",
+                    "src": "../assets/imgs/historia.jpg",
                     "information": "sem resumo",
                     "children": [{}]
                 },
