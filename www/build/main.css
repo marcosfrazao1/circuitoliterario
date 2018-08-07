@@ -28198,6 +28198,10 @@ page-paradidaticos .list {
   margin-bottom: 4px;
 }
 
+page-paradidaticos .p {
+  text-transform: capitalize;
+}
+
 page-projetos .accordion-list {
   background: #f4f4f4;
   margin-top: auto;
