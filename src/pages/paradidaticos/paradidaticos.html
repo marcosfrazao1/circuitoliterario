@@ -43,7 +43,7 @@
                       <ion-grid>
                           <ion-row>
                             <ion-col col-2>
-                              <img src="{{child.src}}">
+                              <img src="{{child.src}}" (click)="showAlert()">
                             </ion-col>
                             <ion-col col-10>
                               <p>{{child.information}}</p>

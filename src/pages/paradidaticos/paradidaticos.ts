@@ -17,7 +17,9 @@ export class Paradidaticos {
             this.information = data;
         })
     }
+
   
+
     toggleSection(i) {
         this.information[i].open = !this.information[i].open;
     }
@@ -26,5 +28,7 @@ export class Paradidaticos {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     }
 
-  
-  }
+
+    
+
+}
