@@ -37,10 +37,19 @@ body{
 }
 
 
+.main-text{
+    h1{
+        color: white
+
+    };
+    p{
+        color: white
+    }
+}
 
 .card-feira{
     background-image:url("../assets/imgs/backgroundfeira.jpg");
     background-size: 100% 100%;
-    margin-left: "0px"
+    margin-left: "0px";
 
 }
