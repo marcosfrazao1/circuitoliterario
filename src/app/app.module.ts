@@ -7,9 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpModule } from '@angular/http'
 
 
-// Import your library
-import { Ng2Carousel3dModule }  from 'ng2-carousel-3d';
-
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Timeline } from '../pages/timeline/timeline';
