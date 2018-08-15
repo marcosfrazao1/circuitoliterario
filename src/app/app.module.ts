@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { HttpModule } from '@angular/http'
 
+
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Timeline } from '../pages/timeline/timeline';
@@ -37,9 +38,14 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
   imports: [
     BrowserModule,
     HttpModule,
+<<<<<<< HEAD
     IonicModule.forRoot(MyApp),
     SweetAlert2Module.forRoot()
 
+=======
+    IonicModule.forRoot(MyApp)
+   
+>>>>>>> 8d3b7a0e1ce6ce6d40cfb5448c8465277e5ae6e0
   ],
   bootstrap: [IonicApp],
   entryComponents: [
