@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Http } from '@angular/http';
+import swal from 'sweetalert2'
 
 
 @Component({
@@ -17,6 +18,20 @@ export class Fale {
         })
     }
 
+    openModal(name, text, imgsrc) {
+        let Title = name
+        let Summary = text
+        let SRC = imgsrc
+        swal({
+            title: Title,
+            text: Summary,
+            imageUrl: SRC,
+            confirmButtonText: 'Cool',
+            backdrop: false,
+            grow: "fullscreen",
+            heightAuto: false
+        })
+    }
 
     toggleSection(i) {
         this.information[i].open = !this.information[i].open;
