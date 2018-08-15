@@ -1,9 +1,9 @@
 import { IonicModule } from 'ionic-angular';
 import { NgModule } from '@angular/core';
 import {
-    TimelineComponent,
-    TimelineItemComponent,
-    TimelineTimeComponent
+  TimelineComponent,
+  TimelineItemComponent,
+  TimelineTimeComponent
 } from './timeline';
 
 @NgModule({
@@ -19,4 +19,4 @@ import {
     TimelineTimeComponent,
   ]
 })
-export class TimelineComponentModule {}
+export class TimelineComponentModule { }

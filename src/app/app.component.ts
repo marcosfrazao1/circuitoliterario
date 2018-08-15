@@ -14,54 +14,54 @@ import { Fale } from '../pages/fale/fale';
 
 
 @Component({
-  templateUrl: 'app.html'
-  
+    templateUrl: 'app.html'
+
 })
 export class MyApp {
-  @ViewChild(Nav) navCtrl: Nav;
-  rootPage:any = HomePage;
+    @ViewChild(Nav) navCtrl: Nav;
+    rootPage: any = HomePage;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
-    this.initializeApp();
+    constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+        this.initializeApp();
 
-    // used for an example of ngFor and navigation
+        // used for an example of ngFor and navigation
 
 
-  }
-  
-  initializeApp() {
-    this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
-    });
-  }
+    }
 
-  TimelineButton() {
-    this.navCtrl.setRoot(Timeline)
-}
-HomeButton() {
-    this.navCtrl.setRoot(HomePage)
-}
-ParadidaticosButton() {
-    this.navCtrl.setRoot(Paradidaticos)
-}
-ProjetosButton(){
-    this.navCtrl.setRoot(Projetos)
-}
-FeiraButton(){
-    this.navCtrl.setRoot(Feira)
-}
-AtividadesButton(){
-    this.navCtrl.setRoot(Atividades)
-}
-MapaButton(){
-    this.navCtrl.setRoot(Mapa)
-}
-FaleButton(){
-    this.navCtrl.setRoot(Fale)
-}
+    initializeApp() {
+        this.platform.ready().then(() => {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            this.statusBar.styleDefault();
+            this.splashScreen.hide();
+        });
+    }
+
+    TimelineButton() {
+        this.navCtrl.setRoot(Timeline)
+    }
+    HomeButton() {
+        this.navCtrl.setRoot(HomePage)
+    }
+    ParadidaticosButton() {
+        this.navCtrl.setRoot(Paradidaticos)
+    }
+    ProjetosButton() {
+        this.navCtrl.setRoot(Projetos)
+    }
+    FeiraButton() {
+        this.navCtrl.setRoot(Feira)
+    }
+    AtividadesButton() {
+        this.navCtrl.setRoot(Atividades)
+    }
+    MapaButton() {
+        this.navCtrl.setRoot(Mapa)
+    }
+    FaleButton() {
+        this.navCtrl.setRoot(Fale)
+    }
 
 }
 

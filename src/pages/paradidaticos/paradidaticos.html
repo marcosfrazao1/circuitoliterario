@@ -30,7 +30,8 @@
               <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>
                 <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>
                 <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>
-                {{ child.name }}
+                <h2>{{ child.name }}</h2>
+                <p>{{ child.information }}</p>
               </button>
 
               <!-- Direct Add Button as Fallback -->

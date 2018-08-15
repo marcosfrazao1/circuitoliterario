@@ -17,7 +17,6 @@ import { Atividades } from '../pages/atividades/atividades';
 import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
-import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
 
 
 @NgModule({
@@ -37,9 +36,7 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
-    IonicModule.forRoot(MyApp),
-    SweetAlert2Module.forRoot()
+    HttpModule
 
   ],
   bootstrap: [IonicApp],
