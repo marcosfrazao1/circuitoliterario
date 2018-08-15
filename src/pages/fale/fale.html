@@ -12,12 +12,20 @@
 
 <ion-content class="main-content">
   <ion-card>
-    <ion-card-header>
-    </ion-card-header>
+    <ion-row>
+      <ion-col col-6 col-md-4 col-xl-3 *ngFor="let item of information; let i = index" no-lines no-padding>
+        <ion-card class="paradidaticosimgs">
 
-    <ion-card-content>
-    </ion-card-content>
+          <swal #deleteSwal title="{{item.name}}" text="{{item.information}}" type="question">
+          </swal>
+          <img (click)="deleteSwal.show()" src="{{item.src}}">
+        </ion-card>
+      </ion-col>
+    </ion-row>
   </ion-card>
+
+
+
 </ion-content>
 
 <ion-footer bottom>

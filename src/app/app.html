@@ -2,10 +2,8 @@
     <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200" >
         <ion-header>
 
-            <ion-toolbar color="primary">
-                <ion-title>
-                        <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>
-                </ion-title>
+            <ion-toolbar (click)="HomeButton()" color="primary">
+            
             </ion-toolbar>
         </ion-header>
         <ion-content class="menu-left" >
@@ -36,7 +34,7 @@
         <ion-header>
 
             <ion-toolbar color="primary">
-                <ion-title align="center">Menu</ion-title>
+             
             </ion-toolbar>
         </ion-header>
         <ion-content class="menu-right" >
