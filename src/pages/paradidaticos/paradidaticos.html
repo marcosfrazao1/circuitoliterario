@@ -12,58 +12,17 @@
 
 <ion-content class="main-content">
   <ion-card>
-    <ion-card>
-      <ion-list class="accordion-list">
-        <!-- First Level -->
-        <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
-          <!-- Toggle Button -->
-          <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
-            <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>
-            <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>
-            {{ item.name }}
-          </button>
+    <ion-row>
+      <ion-col col-6 col-md-4 col-xl-3 *ngFor="let item of information; let i = index" no-lines no-padding>
+        <ion-card class="paradidaticosimgs">
 
-          <ion-list *ngIf="item.children && item.open" no-lines>
-            <!-- Second Level -->
-            <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
-              <!-- Toggle Button -->
-              <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>
-                <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>
-                <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>
-                <h2>{{ child.name }}</h2>
-                <p>{{ child.information }}</p>
-              </button>
 
-              <!-- Direct Add Button as Fallback -->
-              <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
-                <h2>{{ child.name }}</h2>
-                <p>{{ child.information }}</p>
-              </ion-item>
-
-              <ion-list *ngIf="child.children && child.open">
-                <!-- Third Level -->
-                <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col col-2>
-                        <img src="{{child.src}}" (click)="showAlert()">
-                      </ion-col>
-
-                      <ion-col col-10>
-                        <p>{{child.information}}</p>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                  <!-- Direct Add Button -->
-
-                </ion-item>
-              </ion-list>
-            </ion-list-header>
-          </ion-list>
-        </ion-list-header>
-      </ion-list>
-    </ion-card>
+          <img (click)='openModal(item.name, item.information, item.src)' src="{{item.src}}">
+        </ion-card>
+      </ion-col>
+    </ion-row>
   </ion-card>
+
 
 
 

@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Http } from '@angular/http';
-import swal from 'sweetalert2'
-
 
 @Component({
     selector: 'page-fale',
@@ -11,26 +8,7 @@ import swal from 'sweetalert2'
 export class Fale {
     information: any[];
 
-    constructor(public navCtrl: NavController, private http: Http) {
-        let localData = http.get('assets/paradidaticos.json').map(res => res.json().items);
-        localData.subscribe(data => {
-            this.information = data;
-        })
-    }
-
-    openModal(name, text, imgsrc) {
-        let Title = name
-        let Summary = text
-        let SRC = imgsrc
-        swal({
-            title: Title,
-            text: Summary,
-            imageUrl: SRC,
-            confirmButtonText: 'Cool',
-            backdrop: false,
-            grow: "fullscreen",
-            heightAuto: false
-        })
+    constructor(public navCtrl: NavController) {
     }
 
     toggleSection(i) {
