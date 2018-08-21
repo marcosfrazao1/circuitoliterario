@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform, NavController } from 'ionic-angular';
+import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -11,6 +11,7 @@ import { Feira } from '../pages/feira/feira';
 import { Atividades } from '../pages/atividades/atividades';
 import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
+import { Bliblioteca } from '../pages/bliblioteca/bliblioteca'
 
 
 @Component({
@@ -61,6 +62,9 @@ export class MyApp {
     }
     FaleButton() {
         this.navCtrl.setRoot(Fale)
+    }
+    BlibliotecaButton() {
+        this.navCtrl.setRoot(Bliblioteca)
     }
 
 }
