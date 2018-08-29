@@ -15,7 +15,6 @@ import { Feira } from '../pages/feira/feira';
 import { Atividades } from '../pages/atividades/atividades';
 import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
-import { Bliblioteca } from '../pages/bliblioteca/bliblioteca'
 
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
@@ -26,7 +25,6 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     MyApp,
     HomePage,
     Timeline,
-    Bliblioteca,
     Paradidaticos,
     Projetos,
     Feira,
@@ -55,7 +53,6 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     MyApp,
     HomePage,
     Timeline,
-    Bliblioteca,
     Paradidaticos,
     Projetos,
     Feira,
