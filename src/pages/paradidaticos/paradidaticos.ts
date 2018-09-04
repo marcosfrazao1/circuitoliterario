@@ -11,6 +11,7 @@ import swal from 'sweetalert2'
     templateUrl: 'paradidaticos.html'
 })
 export class Paradidaticos {
+    
     information: any[];
 
     constructor(public navCtrl: NavController, private http: Http) {
