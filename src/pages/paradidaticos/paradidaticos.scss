@@ -4,29 +4,29 @@ page-paradidaticos {
         margin-top: auto
     }
     .section {
-        background: #a68119;
+        background: color($colors, secondary);
         color: rgb(255, 255, 255);
-        margin-bottom: 4px;
+        margin-bottom: 0px;
     }
     .section-active {
-        background: #ac2931;
+        background: color($colors, primary);
         color: rgb(255, 255, 255);
     }
  
     .child {
-        background: #e8e7e6;
+        background: #ffffff;
         color: #000;
-        margin-bottom: 4px;
+        margin-bottom: 0px;
     }
     .child-item {
-        background: #f3f2f1;
-        padding: 10px;
+        background: #ffffff;
+        padding: 1px;
     }
     .label {
         margin: 0px;
     }
     .list {
-        margin-bottom: 4px;
+        margin-bottom: 0px;
     }
 
     .p {
