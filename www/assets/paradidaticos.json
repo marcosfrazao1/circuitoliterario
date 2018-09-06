@@ -250,30 +250,197 @@
             "name": "Infantil I",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A arca de ninguem",
+                    "src": "assets/imgs/Infantil I/A arca de ninguem.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A borboleta bela e a rosa amarela",
+                    "src": "assets/imgs/Infantil I/A BORBOLETA BELA E A ROSA AMARELA.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A caixa maluca",
+                    "src": "assets/imgs/Infantil I/A caixa maluca.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A pequena bruxa",
+                    "src": "assets/imgs/Infantil I/A pequena bruxa.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A tartaruga infeliz",
+                    "src": "assets/imgs/Infantil I/A tartaruga infeliz.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Ass coisas boas do ano",
+                    "src": "assets/imgs/Infantil I/AS COISAS BOAS DO ANO.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Bicho,pra que te quero",
+                    "src": "assets/imgs/Infantil I/Bicho,pra que te quero.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Bichos diversos",
+                    "src": "assets/imgs/Infantil I/Bichos diversos.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Cadê o docinho que estava aqui",
+                    "src": "assets/imgs/Infantil I/cadE o docinho que estava aqui.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "E não tinha briga não",
+                    "src": "assets/imgs/Infantil I/E NAO TINHA BRIGa nao.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Em nome da paz",
+                    "src": "assets/imgs/Infantil I/EM NOME DA PAZ.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Era uma vez duas casas",
+                    "src": "assets/imgs/Infantil I/ERA UMA VEZ DUAS CASAS.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "A bela e a fera",
+                    "src": "assets/imgs/Infantil I/a bela e a fera.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Era uma vez.....",
+                    "src": "assets/imgs/Infantil I/era uma vez.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Fabulas",
+                    "src": "assets/imgs/Infantil I/FABULAS.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Gato pra lá, Rato pra cá",
+                    "src": "assets/imgs/Infantil I/GATO PRA LA E RATO PRA CA.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Gato que pulava em sapato",
+                    "src": "assets/imgs/Infantil I/Gato que pulava em sapato.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Giafinha flor faz uma descoberta",
+                    "src": "assets/imgs/Infantil I/GIRAFINHA FLOR FAZ UMA DESCOBERTA.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Luis e Luisa",
+                    "src": "assets/imgs/Infantil I/LUIS E LUISA.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Mágicas-Palavras",
+                    "src": "assets/imgs/Infantil I/Mágicas-Palavras.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Margarida friorenta",
+                    "src": "assets/imgs/Infantil I/Margarida friorenta.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Maria vai com as outras",
+                    "src": "assets/imgs/Infantil I/MARIA VAI COM AS OUTRAS.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Menina bonita do laço de fita",
+                    "src": "assets/imgs/Infantil I/MENINA BONITA DO LAÇO DE FITA.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O boi do Piaui",
+                    "src": "assets/imgs/Infantil I/o boi do Piaui.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O cofrinho das palavras",
+                    "src": "assets/imgs/Infantil I/o cofrinho das palavras.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O galinho apressado",
+                    "src": "assets/imgs/Infantil I/O GALINHO APRESSADO.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O gato do mato e o cachorro do morro",
+                    "src": "assets/imgs/Infantil I/O gato do mato e o cachorro do morro.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O jogo do pega pega",
+                    "src": "assets/imgs/Infantil I/o jogo do pega pega.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O menino que descobriu as palavras",
+                    "src": "assets/imgs/Infantil I/O menino que descobriu as palavras.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O menino que engoliu o quatro",
+                    "src": "assets/imgs/Infantil I/O MENINO QUE ENGOLIU O QUATRO.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O menino, o dinheiro, e os três cofrinhos",
+                    "src": "assets/imgs/Infantil I/O MENINO, O DINHEIRO ,E OS TRES COFRINHOS.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O pequeno lobisomem",
+                    "src": "assets/imgs/Infantil I/O pequeno lobisomem.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O rabo do gato",
+                    "src": "assets/imgs/Infantil I/O rabo do gato.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "O sapo zé",
+                    "src": "assets/imgs/Infantil I/o SAPO ZE.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Toca de gente casa de bicho",
+                    "src": "assets/imgs/Infantil I/TOCA DE GENTE CASA DE BICHO.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Um amor de confusao",
+                    "src": "assets/imgs/Infantil I/um amor de confusao.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Uma joaninha diferente",
+                    "src": "assets/imgs/Infantil I/uma joaninha diferente.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
+                ,
+                {
+                    "name": "Uma noite sem igual",
+                    "src": "assets/imgs/Infantil I/UMA NOITE SEM IGUAL.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                }
+
             ]
         },
         {
