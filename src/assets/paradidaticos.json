@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "name": "Cirquinho do livro (Infantil)",
+            "name": "Martenal I",
             "children": [
                 {
                     "name": "O dia do Coringa",
@@ -15,11 +15,12 @@
             ]
         },
         {
-            "name": "Barco da Leitura (Fundamental menor)",
+            "name": "Martenal II",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -28,11 +29,12 @@
             ]
         },
         {
-            "name": "Terraço literário (Fundamental menor)",
+            "name": "Infantil I",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -41,11 +43,12 @@
             ]
         },
         {
-            "name": "Salão de Literatura de Cordel (Fundamental menor)",
+            "name": "Infantil II",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -54,11 +57,12 @@
             ]
         },
         {
-            "name": "Biblioteca Itinerante (Fundamental ao Médio/ Professores)",
+            "name": "1° Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -67,11 +71,12 @@
             ]
         },
         {
-            "name": "Bate Papo Literário (Fundamental menor ao Ensino Médio)",
+            "name": "2°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -80,11 +85,12 @@
             ]
         },
         {
-            "name": "Clube de leitura e oficinas literárias (Fundamental ao Ensino Médio)",
+            "name": "3°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -93,11 +99,12 @@
             ]
         },
         {
-            "name": "Café filosófico (Fundamental ao Ensino Médio)",
+            "name": "4°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -106,11 +113,12 @@
             ]
         },
         {
-            "name": "Entrei na Universidade, e agora? (Fundamental ao Ensino Médio)",
+            "name": "5°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -119,11 +127,12 @@
             ]
         },
         {
-            "name": "Quiosque literário (Comunidade em geral)",
+            "name": "6°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -132,11 +141,12 @@
             ]
         },
         {
-            "name": "Política de Desenvolvimento de Acervos on – line ou Midiateca (Fundamental menor ao Ensino Médio)",
+            "name": "7°Ano do Fundamental",
             "children": [
                 {
-                    "name": "Apresentação do projeto",
-                    "information": "PLACEHOLDER DA INFORMAÇÂO DO PROJETO"
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 },
                 {
                     "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
@@ -145,7 +155,49 @@
             ]
         },
         {
-            "name": "Produção Editorial (Fundamental ao Médio)",
+            "name": "8°Ano do Fundamental",
+            "children": [
+                {
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "9°Ano do Fundamental",
+            "children": [
+                {
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "1° Ano do Ensino Médio",
+            "children": [
+                {
+                    "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
+                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                },
+                {
+                    "name": "PLACEHOLDER DE OUTROS ITENS DA ABA FEIRA LITERARIA",
+                    "information": "PLACEHOLDER"
+                }
+            ]
+        },
+        {
+            "name": "1° Ano do Ensino Médio",
             "children": [
                 {
                     "name": "Apresentação do projeto",
