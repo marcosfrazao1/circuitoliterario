@@ -58,7 +58,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Circuito literário em Rede\n\n    </ion-card-header>\n\n\n\n    <ion-card-content class="home-text">\n\n      <br>\n\n      <p>O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do\n\n        Colégio Diocesano, mais especificamente formando leitores e escritores do Ensino Infantil ao Ensino Médio, por meio\n\n        de projetos literários desenvolvidos pelo colégio, voltado para todo o processo de leitura, ensino e aprendizagem\n\n        do aluno.\n\n      </p>\n\n      <img src="../../assets/imgs/turma.jpg">\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n \n\n \n\n      <img src="assets/imgs/turma.jpg">\n\n   \n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Missão\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      A Biblioteca Professora Teresa Filpi Sampaio tem por missão ser um espaço de estudo e construção do conhecimento, a fim de\n\n      cooperar com a dinâmica da escola, despertar o interesse intelectual, favorecer o enriquecimento cultural e incentivar\n\n      o hábito da leitura.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Localização\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Localização: Rua 13 de Maio, 2° piso<br> Ramal 442<br> Horário de funcionamento: de 8h às 18h, de segunda à sexta e\n\n      aos sábados, das 8h às 12h<br> Bibliotecária Bruna Dayane <br> E-mail bibliotecaria@diocesano.g12.br<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviços\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Acervo; Espaço de estudo em grupo e cabines individuais; Projetos literários; Acesso à Internet; Serviço de empréstimo e\n\n      devolução de exemplares. Cadastro: pai ou responsável deverá comparecer à biblioteca para realizar o cadastro do aluno,\n\n      portando o documento de identificação. Empréstimo é efetuado por todos os funcionários da Biblioteca através do sistema.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviço de empréstimo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      O aluno poderá solicitar o empréstimo de até dois exemplares conforme o prazo de devolução para cada tipo de acervo:<br>      Revista\n\n      - 2 dias;<br> Acervo Geral - 5 dias;<br> Acervo Geral(Piauí)- 10 dias;<br> Literatura - 10 dias; Literatura Piauiense-10\n\n      dias;\n\n      <br> Braile - 10 dias;<br> Caso a devolução não seja realizada na data prevista, será gerada uma multa para cada exemplar\n\n      no valor de R$3,00 por dia.<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Sala de estudo em grupo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Para o uso da sala de estudo em grupo, o agendamento deverá ser realizado com 24 horas de antecedência, por grupo de no mínimo\n\n      3 alunos e no máximo 8 alunos, na sala da Coordenação, nos horários de 8h10 às 10h10 e de 10h20 às 12h20 para o turno\n\n      da manhã, e das 14h às 15h50 e das 16h às 17h50 pela tarde, de segunda a sexta.<br> O aluno deverá estar vestindo\n\n      o fardamento completo e cumprir o mesmo regulamento do manual do aluno. </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Circuito Literário em Rede\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <ion-list>\n\n        <ion-item>Cirquinho do livro\n\n        </ion-item>\n\n        <ion-item>Feira Literária\n\n        </ion-item>\n\n        <ion-item>Barco da Leitura\n\n        </ion-item>\n\n        <ion-item>Biblioteca Itinerante\n\n        </ion-item>\n\n        <ion-item>Bate Papo Literário\n\n        </ion-item>\n\n        <ion-item>Café Filosófico\n\n        </ion-item>\n\n        <ion-item>Entrei na Universidade!\n\n        </ion-item>\n\n        <ion-item>Clube e oficinas literárias\n\n        </ion-item>\n\n        <ion-item>Quiosque literário\n\n        </ion-item>\n\n        <ion-item>Paradidáticos em Rede\n\n        </ion-item>\n\n        <ion-item>Acervo on – line\n\n        </ion-item>\n\n        <ion-item>Salão de cordel\n\n        </ion-item>\n\n        <ion-item>Política de Desenvolvimento de Acervos\n\n        </ion-item>\n\n        <ion-item>Produção Editorial </ion-item>\n\n      </ion-list>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -94,277 +94,277 @@ var Timeline = /** @class */ (function () {
         this.items = [
             {
                 title: 'Homero',
-                content: "../assets/timelineimgs/homero.jpg",
+                content: "assets/timelineimgs/homero.jpg",
                 icon: 'calendar',
                 time: { title: 'VIII aC' }
             },
             {
                 title: 'Hesíodo',
-                content: "../assets/timelineimgs/hesiodo.jpg",
+                content: "assets/timelineimgs/hesiodo.jpg",
                 icon: 'calendar',
                 time: { title: 'VIII aC' }
             },
             {
                 title: 'Esopo',
-                content: "../assets/timelineimgs/esopo.jpg",
+                content: "assets/timelineimgs/esopo.jpg",
                 icon: 'calendar',
                 time: { title: 'VII aC' }
             },
             {
                 title: 'Bíblia',
-                content: "../assets/timelineimgs/testamento.jpg",
+                content: "assets/timelineimgs/testamento.jpg",
                 icon: 'calendar',
                 time: { title: 'VI aC' }
             },
             {
                 title: 'Píndaro',
-                content: "../assets/timelineimgs/pindaro.jpg",
+                content: "assets/timelineimgs/pindaro.jpg",
                 icon: 'calendar',
                 time: { title: 'VI aC' }
             },
             {
                 title: 'Ésquilo',
-                content: "../assets/timelineimgs/esquilo.jpg",
+                content: "assets/timelineimgs/esquilo.jpg",
                 icon: 'calendar',
                 time: { title: '472 aC' }
             },
             {
                 title: 'Sófocles',
-                content: "../assets/timelineimgs/sofocles.jpg",
+                content: "assets/timelineimgs/sofocles.jpg",
                 icon: 'calendar',
                 time: { title: '446 aC' }
             },
             {
                 title: 'Eurípedes',
-                content: "../assets/timelineimgs/euripedes.jpg",
+                content: "assets/timelineimgs/euripedes.jpg",
                 icon: 'calendar',
                 time: { title: '438 aC' }
             },
             {
                 title: 'Aristófanes',
-                content: "../assets/timelineimgs/aristofanes.jpg",
+                content: "assets/timelineimgs/aristofanes.jpg",
                 icon: 'calendar',
                 time: { title: '425 aC' }
             },
             {
                 title: 'Calímaco',
-                content: "../assets/timelineimgs/calimaco.jpg",
+                content: "assets/timelineimgs/calimaco.jpg",
                 icon: 'calendar',
                 time: { title: 'III aC' }
             },
             {
                 title: 'Teócrito',
-                content: "../assets/timelineimgs/teocrito.jpg",
+                content: "assets/timelineimgs/teocrito.jpg",
                 icon: 'calendar',
                 time: { title: 'III aC' }
             },
             {
                 title: 'Plauto',
-                content: "../assets/timelineimgs/plauto.jpg",
+                content: "assets/timelineimgs/plauto.jpg",
                 icon: 'calendar',
                 time: { title: '205 aC' }
             },
             {
                 title: 'Terêncio',
-                content: "../assets/timelineimgs/terencio.jpg",
+                content: "assets/timelineimgs/terencio.jpg",
                 icon: 'calendar',
                 time: { title: 'II aC' }
             },
             {
                 title: 'Catulo',
-                content: "../assets/timelineimgs/catulo.jpg",
+                content: "assets/timelineimgs/catulo.jpg",
                 icon: 'calendar',
                 time: { title: 'I aC' }
             },
             {
                 title: 'Varrão',
-                content: "../assets/timelineimgs/varrao.jpg",
+                content: "assets/timelineimgs/varrao.jpg",
                 icon: 'calendar',
                 time: { title: 'I aC' }
             },
             {
                 title: 'Cícero',
-                content: "../assets/timelineimgs/cicero.jpg",
+                content: "assets/timelineimgs/cicero.jpg",
                 icon: 'calendar',
                 time: { title: '81 aC' }
             },
             {
                 title: 'Virgílio',
-                content: "../assets/timelineimgs/virgilio.jpg",
+                content: "assets/timelineimgs/virgilio.jpg",
                 icon: 'calendar',
                 time: { title: '42 aC' }
             },
             {
                 title: 'Horácio',
-                content: "../assets/timelineimgs/horacio.jpg",
+                content: "assets/timelineimgs/horacio.jpg",
                 icon: 'calendar',
                 time: { title: '35 aC' }
             },
             {
                 title: 'Ovídio',
-                content: "../assets/timelineimgs/ovidio.jpg",
+                content: "assets/timelineimgs/ovidio.jpg",
                 icon: 'calendar',
                 time: { title: '19 aC' }
             },
             {
                 title: 'Sêneca',
-                content: "../assets/timelineimgs/seneca.jpg",
+                content: "assets/timelineimgs/seneca.jpg",
                 icon: 'calendar',
                 time: { title: 'sec I' }
             },
             {
                 title: 'Estácio',
-                content: "../assets/timelineimgs/estacio.jpg",
+                content: "assets/timelineimgs/estacio.jpg",
                 icon: 'calendar',
                 time: { title: 'sec I' }
             },
             {
                 title: 'Luciano de Samostata',
-                content: "../assets/timelineimgs/luciano.jpg",
+                content: "assets/timelineimgs/luciano.jpg",
                 icon: 'calendar',
                 time: { title: 'sec II' }
             },
             {
                 title: 'Tertuliano',
-                content: "../assets/timelineimgs/tertuliano.jpg",
+                content: "assets/timelineimgs/tertuliano.jpg",
                 icon: 'calendar',
                 time: { title: 'sec II' }
             },
             {
                 title: 'São Jerônimo',
-                content: "../assets/timelineimgs/jeronimo.jpg",
+                content: "assets/timelineimgs/jeronimo.jpg",
                 icon: 'calendar',
                 time: { title: 'sec IV' }
             },
             {
                 title: 'Santo Ambrósio',
-                content: "../assets/timelineimgs/ambrosio.jpg",
+                content: "assets/timelineimgs/ambrosio.jpg",
                 icon: 'calendar',
                 time: { title: 'sec IV' }
             },
             {
                 title: 'Santo Agostinho',
-                content: "../assets/timelineimgs/agostinho.jpg",
+                content: "assets/timelineimgs/agostinho.jpg",
                 icon: 'calendar',
                 time: { title: 'sec IV' }
             },
             {
                 title: 'Claudiano',
-                content: "../assets/timelineimgs/claudiano.jpg",
+                content: "assets/timelineimgs/claudiano.jpg",
                 icon: 'calendar',
                 time: { title: 'sec IV' }
             },
             {
                 title: 'Prudêncio',
-                content: "../assets/timelineimgs/prudencio.jpg",
+                content: "assets/timelineimgs/prudencio.jpg",
                 icon: 'calendar',
                 time: { title: 'séc. IV' }
             },
             {
                 title: 'Efrém da Síria',
-                content: "../assets/timelineimgs/efrem.jpg",
+                content: "assets/timelineimgs/efrem.jpg",
                 icon: 'calendar',
                 time: { title: 'séc IV' }
             },
             {
                 title: 'Agathias',
-                content: "../assets/timelineimgs/agathias.jpg",
+                content: "assets/timelineimgs/agathias.jpg",
                 icon: 'calendar',
                 time: { title: 'séc. VI' }
             },
             {
                 title: 'João Malala',
-                content: "../assets/timelineimgs/malalas.jpg",
+                content: "assets/timelineimgs/malalas.jpg",
                 icon: 'calendar',
                 time: { title: '560' }
             },
             {
                 title: 'André de Creta',
-                content: "../assets/timelineimgs/andre.jpg",
+                content: "assets/timelineimgs/andre.jpg",
                 icon: 'calendar',
                 time: { title: 'sec VII' }
             },
             {
                 title: 'João Damasceno',
-                content: "../assets/timelineimgs/damasceno.jpg",
+                content: "assets/timelineimgs/damasceno.jpg",
                 icon: 'calendar',
                 time: { title: 'sec VII' }
             },
             {
                 title: 'Alcuíno de York',
-                content: "../assets/timelineimgs/alcuino.jpg",
+                content: "assets/timelineimgs/alcuino.jpg",
                 icon: 'calendar',
                 time: { title: 'sec VIII' }
             },
             {
                 title: 'Beda',
-                content: "../assets/timelineimgs/beda.jpg",
+                content: "assets/timelineimgs/beda.jpg",
                 icon: 'calendar',
                 time: { title: 'sec VIII' }
             },
             {
                 title: 'Cynewulf',
-                content: "../assets/timelineimgs/cynewulf.jpg",
+                content: "assets/timelineimgs/cynewulf.jpg",
                 icon: 'calendar',
                 time: { title: 'sec IX' }
             },
             {
                 title: 'Photios (“Myrobiblion”)',
-                content: "../assets/timelineimgs/photios.jpg",
+                content: "assets/timelineimgs/photios.jpg",
                 icon: 'calendar',
                 time: { title: 'séc. IX' }
             },
             {
                 title: 'Beowolf (anônimo)',
-                content: "../assets/timelineimgs/beowolf.jpg",
+                content: "assets/timelineimgs/beowolf.jpg",
                 icon: 'calendar',
                 time: { title: '1000' }
             },
             {
                 title: 'Godofredo de Monmouth',
-                content: "../assets/timelineimgs/godofredo.jpg",
+                content: "assets/timelineimgs/godofredo.jpg",
                 icon: 'calendar',
                 time: { title: '1130' }
             },
             {
                 title: 'Prodromos',
-                content: "../assets/timelineimgs/teodoro.jpg",
+                content: "assets/timelineimgs/teodoro.jpg",
                 icon: 'calendar',
                 time: { title: 'sec XII' }
             },
             {
                 title: 'Michel Psellos',
-                content: "../assets/timelineimgs/michel.jpg",
+                content: "assets/timelineimgs/michel.jpg",
                 icon: 'calendar',
                 time: { title: 'sec XII' }
             },
             {
                 title: 'Allain de Lille',
-                content: "../assets/timelineimgs/allain.jpg",
+                content: "assets/timelineimgs/allain.jpg",
                 icon: 'calendar',
                 time: { title: 'sec XII' }
             },
             {
                 title: 'Poema del Cid (anônimo)',
-                content: "../assets/timelineimgs/cid.jpg",
+                content: "assets/timelineimgs/cid.jpg",
                 icon: 'calendar',
                 time: { title: '1140' }
             },
             {
                 title: 'Canção dos Nibelungos (anônimo)',
-                content: "../assets/timelineimgs/nibelungos.jpg",
+                content: "assets/timelineimgs/nibelungos.jpg",
                 icon: 'calendar',
                 time: { title: '1180' }
             },
             {
                 title: 'Snorri Sturluson)',
-                content: "../assets/timelineimgs/snorri.jpg",
+                content: "assets/timelineimgs/snorri.jpg",
                 icon: 'calendar',
                 time: { title: 'sec XIII' }
             },
             {
                 title: 'Saxão, o Gramatico',
-                content: "../assets/timelineimgs/saxao.jpg",
+                content: "assets/timelineimgs/saxao.jpg",
                 icon: 'calendar',
                 time: { title: 'sec XIII' }
             },
@@ -375,7 +375,7 @@ var Timeline = /** @class */ (function () {
     };
     Timeline = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <timeline endIcon="call">\n\n      <timeline-item *ngFor="let item of items">\n\n        <timeline-time [time]="item.time"></timeline-time>\n\n        <ion-icon [name]="item.icon"></ion-icon>\n\n        <ion-card width="400">\n\n          <ion-card-header>\n\n            {{item.title}}\n\n          </ion-card-header>\n\n\n\n          <img width="100%" height="100%" src="{{item.content}}">\n\n        </ion-card>\n\n      </timeline-item>\n\n    </timeline>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/
+            selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <timeline endIcon="call">\n\n      <timeline-item *ngFor="let item of items">\n\n        <timeline-time [time]="item.time"></timeline-time>\n\n        <ion-icon [name]="item.icon"></ion-icon>\n\n        <ion-card width="400">\n\n          <ion-card-header>\n\n            {{item.title}}\n\n          </ion-card-header>\n\n\n\n          <img width="100%" height="100%" src="{{item.content}}">\n\n        </ion-card>\n\n      </timeline-item>\n\n    </timeline>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
@@ -397,6 +397,8 @@ var Timeline = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_sweetalert2__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_sweetalert2__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -406,6 +408,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -420,6 +423,20 @@ var Paradidaticos = /** @class */ (function () {
             _this.information = data;
         });
     }
+    Paradidaticos.prototype.openModal = function (name, text, imgsrc) {
+        var Title = name;
+        var Summary = text;
+        var SRC = imgsrc;
+        __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default()({
+            title: Title,
+            text: Summary,
+            imageUrl: SRC,
+            confirmButtonText: 'Cool',
+            backdrop: false,
+            grow: "fullscreen",
+            heightAuto: false
+        });
+    };
     Paradidaticos.prototype.toggleSection = function (i) {
         this.information[i].open = !this.information[i].open;
     };
@@ -428,7 +445,7 @@ var Paradidaticos = /** @class */ (function () {
     };
     Paradidaticos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-paradidaticos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-row>\n\n      <ion-col col-6 col-md-4 col-xl-3 *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <ion-card class="paradidaticosimgs">\n\n\n\n\n\n          <img (click)=\'openModal(item.name, item.information, item.src)\' src="{{item.src}}">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n\n\n\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/
+            selector: 'page-paradidaticos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-card *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <!-- Toggle Button -->\n\n          <!-- Direct Add Button as Fallback -->\n\n            <ion-grid>\n\n              <ion-row>\n\n                <ion-col col-6 col-md-4 col-xl-3  *ngFor="let child of item.children; let j = index" no-lines no-padding class="child-item">\n\n                  <ion-card *ngIf="!child.children">\n\n                    <img src=\'{{child.src}}\'>\n\n                    \n\n                    \n\n                  </ion-card>\n\n                </ion-col>\n\n              </ion-row>\n\n            </ion-grid>\n\n\n\n        \n\n\n\n        </ion-card>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>\n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\paradidaticos\paradidaticos.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
     ], Paradidaticos);
@@ -439,7 +456,7 @@ var Paradidaticos = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -480,7 +497,7 @@ var Projetos = /** @class */ (function () {
     };
     Projetos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-list *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n            <!-- Toggle Button -->\n\n            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n              {{ child.name }}\n\n            </button>\n\n\n\n            <!-- Direct Add Button as Fallback -->\n\n            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n              <h2>{{ child.name }}</h2>\n\n              <p text-lowercase>{{ child.information }}</p>\n\n            </ion-item>\n\n\n\n            <ion-list *ngIf="child.children && child.open">\n\n              <!-- Third Level -->\n\n              <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                <h2>{{ item.name }}</h2>\n\n                <p text-lowercase>{{ item.information }}</p>\n\n                <!-- Direct Add Button -->\n\n              </ion-item>\n\n            </ion-list>\n\n          </ion-list-header>\n\n        </ion-list>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/
+            selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-list *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n            <!-- Toggle Button -->\n\n            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n              {{ child.name }}\n\n            </button>\n\n\n\n            <!-- Direct Add Button as Fallback -->\n\n            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n              <h2>{{ child.name }}</h2>\n\n              <p text-lowercase>{{ child.information }}</p>\n\n            </ion-item>\n\n\n\n            <ion-list *ngIf="child.children && child.open">\n\n              <!-- Third Level -->\n\n              <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>\n\n                <h2>{{ item.name }}</h2>\n\n                <p text-lowercase>{{ item.information }}</p>\n\n                <!-- Direct Add Button -->\n\n              </ion-item>\n\n            </ion-list>\n\n          </ion-list-header>\n\n        </ion-list>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
     ], Projetos);
@@ -491,7 +508,7 @@ var Projetos = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -515,7 +532,7 @@ var Feira = /** @class */ (function () {
     }
     Feira = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feira',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-img src="../assets/imgs/banner-feira.jpg" height="100%" width="100%"></ion-img>\n\n  </ion-card>\n\n  <ion-card class="card-feira">\n\n    <ion-card-header class="main-text">\n\n      <h1> FEIRA LITERÁRIA 2018</h1>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content class="main-text">\n\n      <br>\n\n      <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um\n\n        todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do patrimônio cultural\n\n        brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade, os sonhos e a fantasia,\n\n        a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n      </p>\n\n      <br>\n\n      <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.\n\n        A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas de cunho\n\n        social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro Lobato.\n\n      </p>\n\n      <br>\n\n      <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno complexo\n\n        cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir reconhecido.\n\n        Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro, biografia,\n\n        memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre ali outros\n\n        lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n      <br>\n\n      <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio, durante o mês\n\n        de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão envolvidos\n\n        todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de turma.\n\n        As atividades propiciadas são: </p>\n\n      <br>\n\n      <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura, interpretação\n\n        e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis, produções coletivas\n\n        e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais literários,\n\n        troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária, visita à biblioteca,\n\n        café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/
+            selector: 'page-feira',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n\n\n    <img class="banner" src="assets/imgs/banner-feira.jpg">\n\n\n\n  </ion-card>\n\n  <ion-card class="card-feira">\n\n    <ion-card-header class="main-text">\n\n      <h1> FEIRA LITERÁRIA 2018</h1>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content class="main-text">\n\n      <br>\n\n      <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como\n\n        um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do patrimônio\n\n        cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade, os sonhos\n\n        e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n      </p>\n\n      <br>\n\n      <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos de carreira.\n\n        A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas de cunho\n\n        social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro Lobato.\n\n      </p>\n\n      <br>\n\n      <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um pequeno complexo\n\n        cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir reconhecido.\n\n        Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro, biografia,\n\n        memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre ali outros\n\n        lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n      <br>\n\n      <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio, durante o\n\n        mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão envolvidos\n\n        todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de turma.\n\n        As atividades propiciadas são: </p>\n\n      <br>\n\n      <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura, interpretação\n\n        e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis, produções coletivas\n\n        e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais literários,\n\n        troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária, visita à biblioteca,\n\n        café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\feira\feira.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Feira);
@@ -526,7 +543,7 @@ var Feira = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -550,7 +567,7 @@ var Atividades = /** @class */ (function () {
     }
     Atividades = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-atividades',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n\n      <button ion-button menuToggle="left" left>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n      <button ion-button menuToggle="right" right>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n  <ion-card>\n\n    <ion-card-header>\n\n\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/
+            selector: 'page-atividades',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n\n      <button ion-button menuToggle="left" left>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n      <button ion-button menuToggle="right" right>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <!-- AQUI VAI FICAR O TEXTO DA PAGINA PRINCIPAL  -->\n\n  <ion-card>\n\n    <ion-card-header>\n\n\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\atividades\atividades.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Atividades);
@@ -561,7 +578,7 @@ var Atividades = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -585,7 +602,7 @@ var Mapa = /** @class */ (function () {
     }
     Mapa = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mapa',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-card-header>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/
+            selector: 'page-mapa',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-card-header>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\mapa\mapa.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Mapa);
@@ -596,7 +613,7 @@ var Mapa = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -618,9 +635,15 @@ var Fale = /** @class */ (function () {
     function Fale(navCtrl) {
         this.navCtrl = navCtrl;
     }
+    Fale.prototype.toggleSection = function (i) {
+        this.information[i].open = !this.information[i].open;
+    };
+    Fale.prototype.toggleItem = function (i, j) {
+        this.information[i].children[j].open = !this.information[i].children[j].open;
+    };
     Fale = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fale',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-card-header>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="../../assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/
+            selector: 'page-fale',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <ion-card-header>\n\n    </ion-card-header>\n\n\n\n    <ion-card-content>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n\n\n<ion-footer bottom>\n\n  <ion-card>\n\n    <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n\n  </ion-card>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Fale);
@@ -631,13 +654,13 @@ var Fale = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -645,7 +668,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 227:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -656,22 +679,24 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_timeline_timeline__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_paradidaticos_paradidaticos__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_feira_feira__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_atividades_atividades__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mapa_mapa__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_projetos_projetos__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_feira_feira__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_atividades_atividades__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mapa_mapa__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__toverux_ngx_sweetalert2__ = __webpack_require__(279);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -712,6 +737,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: []
+                }),
+                __WEBPACK_IMPORTED_MODULE_16__toverux_ngx_sweetalert2__["a" /* SweetAlert2Module */].forRoot({
+                    buttonsStyling: false,
+                    customClass: 'modal-content',
+                    confirmButtonClass: 'btn btn-primary',
+                    cancelButtonClass: 'btn'
                 })
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
@@ -740,7 +771,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -752,11 +783,11 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_timeline_timeline__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_paradidaticos_paradidaticos__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_atividades_atividades__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mapa_mapa__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_atividades_atividades__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mapa_mapa__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -825,7 +856,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
     ], MyApp.prototype, "navCtrl", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar (click)="HomeButton()" color="primary">\n\n\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-left">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>\n\n                <button ion-button full square color="primary" (click)="TimelineButton()"> Linha do Tempo</button>\n\n                <button ion-button full square color="primary" (click)="ParadidaticosButton()"> Paradidaticos</button>\n\n                <button ion-button full square color="primary" (click)="ProjetosButton()"> Projetos</button>\n\n                <button ion-button full square color="primary" (click)="FeiraButton()"> Feira</button>\n\n                <button ion-button full square color="primary" (click)="AtividadesButton()"> Atividades</button>\n\n                <button ion-button full square color="primary" (click)="MapaButton()"> Mapa da Leitura?</button>\n\n\n\n            </ion-list>\n\n\n\n            <img src="../assets/imgs/rebeca.jpg">\n\n\n\n        </ion-content>\n\n        <ion-footer>\n\n            <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>\n\n\n\n        </ion-footer>\n\n    </ion-menu>\n\n\n\n    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar color="primary">\n\n\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-right">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do Colégio\n\n                        Diocesano </ion-card-content>\n\n                </ion-card>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo\n\n                        dos alunos </ion-card-content>\n\n                </ion-card>\n\n\n\n\n\n                <img src="../assets/imgs/dio.jpg">\n\n\n\n            </ion-list>\n\n\n\n        </ion-content>\n\n\n\n    </ion-menu>\n\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar (click)="HomeButton()" color="primary">\n\n\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-left">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <button ion-button full square color="primary" (click)="HomeButton()"> Home</button>\n\n                <button ion-button full square color="primary" (click)="TimelineButton()"> Linha do Tempo</button>\n\n                <button ion-button full square color="primary" (click)="ParadidaticosButton()"> Paradidaticos</button>\n\n                <button ion-button full square color="primary" (click)="ProjetosButton()"> Projetos</button>\n\n                <button ion-button full square color="primary" (click)="FeiraButton()"> Feira</button>\n\n                <button ion-button full square color="primary" (click)="AtividadesButton()"> Atividades</button>\n\n                <button ion-button full square color="primary" (click)="MapaButton()"> Mapa da Leitura?</button>\n\n\n\n            </ion-list>\n\n\n\n            <img src="assets/imgs/rebeca.jpg">\n\n\n\n        </ion-content>\n\n        <ion-footer>\n\n            <button ion-button full square color="primary" (click)="FaleButton()"> Fale Conosco</button>\n\n\n\n        </ion-footer>\n\n    </ion-menu>\n\n\n\n    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">\n\n        <ion-header>\n\n\n\n            <ion-toolbar color="primary">\n\n\n\n            </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="menu-right">\n\n\n\n\n\n\n\n            <ion-list>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do Colégio\n\n                        Diocesano </ion-card-content>\n\n                </ion-card>\n\n                <ion-card>\n\n                    <ion-card-content>\n\n                        A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo\n\n                        dos alunos </ion-card-content>\n\n                </ion-card>\n\n\n\n\n\n                <img src="assets/imgs/dio.jpg">\n\n\n\n            </ion-list>\n\n\n\n        </ion-content>\n\n\n\n    </ion-menu>\n\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -836,7 +867,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 277:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -906,5 +937,5 @@ var TimelineTimeComponent = /** @class */ (function () {
 
 /***/ })
 
-},[204]);
+},[205]);
 //# sourceMappingURL=main.js.map
