@@ -29,7 +29,7 @@ export class Paradidaticos {
             title: Title,
             text: Summary,
             imageUrl: SRC,
-            confirmButtonText: 'Cool',
+            confirmButtonText: 'Fechar',
             backdrop: false,
             grow: "fullscreen",
             heightAuto: false
