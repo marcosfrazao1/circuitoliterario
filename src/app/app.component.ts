@@ -8,8 +8,6 @@ import { Timeline } from '../pages/timeline/timeline'
 import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
-import { Atividades } from '../pages/atividades/atividades';
-import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
 
 
@@ -52,12 +50,6 @@ export class MyApp {
     }
     FeiraButton() {
         this.navCtrl.setRoot(Feira)
-    }
-    AtividadesButton() {
-        this.navCtrl.setRoot(Atividades)
-    }
-    MapaButton() {
-        this.navCtrl.setRoot(Mapa)
     }
     FaleButton() {
         this.navCtrl.setRoot(Fale)

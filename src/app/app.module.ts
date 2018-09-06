@@ -12,8 +12,6 @@ import { Timeline } from '../pages/timeline/timeline';
 import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
-import { Atividades } from '../pages/atividades/atividades';
-import { Mapa } from '../pages/mapa/mapa';
 import { Fale } from '../pages/fale/fale';
 
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
@@ -28,8 +26,6 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     Paradidaticos,
     Projetos,
     Feira,
-    Atividades,
-    Mapa,
     Fale,
     TimelineComponent,
     TimelineItemComponent,
@@ -56,8 +52,6 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     Paradidaticos,
     Projetos,
     Feira,
-    Atividades,
-    Mapa,
     Fale
   ],
   providers: [
