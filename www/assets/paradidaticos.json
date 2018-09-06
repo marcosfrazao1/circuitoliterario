@@ -111,7 +111,7 @@
                 },
                 {
                     "name": "Chapeuzinho vermelho",
-                    "src": "assets/imgs/maternalII/chapeuzinho vermelho.jpg",
+                    "src": "assets/imgs/maternalII/chapeuzinho vermelho.png",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "O soldadinho de chumbo",
-                    "src": "assets/imgs/maternalII/o soldadinho de chumbo",
+                    "src": "assets/imgs/maternalII/o soldadinho de chumbo.jpg",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
@@ -234,6 +234,13 @@
                     "src": "assets/imgs/maternalII/o menino o dinheiro e os tres cofrinhos.jpg",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
+                ,
+                {
+                    "name": "branca de neve",
+                    "src": "assets/imgs/maternalII/branca de neve.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                }
+                
                 
 
 
