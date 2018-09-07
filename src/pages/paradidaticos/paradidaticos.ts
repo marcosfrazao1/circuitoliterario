@@ -14,7 +14,7 @@ export class Paradidaticos {
     
     information: any[];
 
-    constructor(public navCtrl: NavController, private http: Http) {
+    constructor(public navCtrl: NavController, http: Http) {
         let localData = http.get('assets/paradidaticos.json').map(res => res.json().items);
         localData.subscribe(data => {
             this.information = data;

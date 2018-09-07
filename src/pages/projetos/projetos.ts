@@ -14,7 +14,7 @@ export class Projetos {
     
     information: any[];
 
-    constructor(public navCtrl: NavController, private http: Http) {
+    constructor(public navCtrl: NavController, http: Http) {
         let localData = http.get('assets/information.json').map(res => res.json().items);
         localData.subscribe(data => {
             this.information = data;
@@ -28,7 +28,5 @@ export class Projetos {
     toggleItem(i, j) {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     }
-
-
 
 }
