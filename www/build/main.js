@@ -482,7 +482,7 @@ var Projetos = /** @class */ (function () {
     function Projetos(navCtrl, http) {
         var _this = this;
         this.navCtrl = navCtrl;
-        var localData = http.get('assets/information.json').map(function (res) { return res.json().items; });
+        var localData = http.get('assets/projetos.json').map(function (res) { return res.json().items; });
         localData.subscribe(function (data) {
             _this.information = data;
         });
