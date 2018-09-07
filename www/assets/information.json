@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "name": "Cirquinho do livro (Infantil)",
+            "name": "Cirquinho do livro",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "name": "Barco da Leitura (Fundamental menor)",
+            "name": "Barco da Leitura",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "name": "Terraço literário (Fundamental menor)",
+            "name": "Terraço literário",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "name": "Salão de Literatura de Cordel (Fundamental menor)",
+            "name": "Salão de Literatura de Cordel",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "name": "Biblioteca Itinerante (Fundamental ao Médio/ Professores)",
+            "name": "Biblioteca Itinerante",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "name": "Bate Papo Literário (Fundamental menor ao Ensino Médio)",
+            "name": "Bate Papo Literário",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "name": "Clube de leitura e oficinas literárias (Fundamental ao Ensino Médio)",
+            "name": "Clube de leitura e oficinas literárias",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -92,7 +92,7 @@
             ]
         },
         {
-            "name": "Café filosófico (Fundamental ao Ensino Médio)",
+            "name": "Café filosófico",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "name": "Entrei na Universidade, e agora? (Fundamental ao Ensino Médio)",
+            "name": "Entrei na Universidade, e agora?",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "name": "Quiosque literário (Comunidade em geral)",
+            "name": "Quiosque literário",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -131,7 +131,7 @@
             ]
         },
         {
-            "name": "Política de Desenvolvimento de Acervos on – line ou Midiateca (Fundamental menor ao Ensino Médio)",
+            "name": "Política de Desenvolvimento de Acervos on – line ou Midiateca",
             "children": [
                 {
                     "name": "Apresentação do projeto",
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "name": "Produção Editorial (Fundamental ao Médio)",
+            "name": "Produção Editorial",
             "children": [
                 {
                     "name": "Apresentação do projeto",

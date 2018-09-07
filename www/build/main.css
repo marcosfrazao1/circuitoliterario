@@ -27974,6 +27974,9 @@ ion-navbar.toolbar {
 }
 
 body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
   font-size: 16px;
   -webkit-user-select: text;
   -moz-user-select: text;
