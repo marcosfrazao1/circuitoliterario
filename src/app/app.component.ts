@@ -18,7 +18,7 @@ import { Fale } from '../pages/fale/fale';
 export class MyApp {
     @ViewChild(Nav) navCtrl: Nav;
     rootPage: any = HomePage;
-
+    activePage: any;
     constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
         this.initializeApp();
 
@@ -53,6 +53,7 @@ export class MyApp {
     }
     FaleButton() {
         this.navCtrl.setRoot(Fale)
+        this.activePage = this.rootPage;
     }
 
 }
