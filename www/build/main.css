@@ -28064,8 +28064,8 @@ timeline .timeline timeline-item timeline-time span:last-child {
 timeline .timeline timeline-item ion-card {
   /* CONFIGURAÇÕES DOS CARDS  */
   margin-left: 25% !important;
-  width: 30% !important;
-  position: relative;
+  height: 100%;
+  width: 30em !important;
 }
 
 timeline .timeline timeline-item ion-icon {

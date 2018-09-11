@@ -21,8 +21,20 @@
                     "information": "Por meio de oficinas e apresentações nas áreas de literatura, música, dança, pintura, escultura, teatro, cinema, fotografia e outras artes em geral, o projeto Terraço Literário visa incentivar os alunos à descoberta e promoção de suas habilidades e de sua autonomia como indivíduo singular, ético, criativo e participativo. As aptidões artísticas serão estimuladas por meio de uma competição saudável, e os shows propiciados oferecerão prazerosas apresentações na escola, unindo crescimento educacional e satisfação pessoal."
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                        }
+                    ]
                 }
             ]
         },
@@ -71,7 +83,6 @@
                 {
                     "name": "Apresentação do projeto",
                     "information": "A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade, os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita."
-
                 },
                 {
                     "name": "PLACEHOLDER",

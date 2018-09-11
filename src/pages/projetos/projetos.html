@@ -35,17 +35,13 @@
             <!-- Direct Add Button as Fallback -->
             <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
               <h2>{{ child.name }}</h2>
-              <p text-lowercase>{{ child.information }}</p>
+              <p>{{ child.information }}</p>
+              <ion-slides loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let child of child.imgsrc; let k = index">
+                  <img src="{{child.src }}"> 
+                </ion-slide>
+              </ion-slides>
             </ion-item>
-
-            <ion-list *ngIf="child.children && child.open">
-              <!-- Third Level -->
-              <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>
-                <h2>{{ item.name }}</h2>
-                <p text-lowercase>{{ item.information }}</p>
-                <!-- Direct Add Button -->
-              </ion-item>
-            </ion-list>
           </ion-list-header>
         </ion-list>
       </ion-list-header>
