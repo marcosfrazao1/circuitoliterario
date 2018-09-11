@@ -25,6 +25,7 @@ export class Paradidaticos {
         let Title = name
         let Summary = html
         let SRC = imgsrc
+        
         swal({
             title: Title,
             html: Summary,
@@ -33,8 +34,8 @@ export class Paradidaticos {
             backdrop: true,
             grow: false,
             heightAuto: true,
-            animation: false,
-            imageWidth: 400
+            imageWidth: 400,
+            width: 600,          
 
         })
     }
