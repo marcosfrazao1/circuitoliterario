@@ -17,11 +17,21 @@
         <timeline-time [time]="item.time"></timeline-time>
         <ion-icon [name]="item.icon"></ion-icon>
         <ion-card width="400">
-          <ion-card-header>
+          <ion-card-header align="center">
             {{item.title}}
           </ion-card-header>
 
-          <img width="100%" height="100%" src="{{item.content}}">
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <img width="100%" height="100%" src="{{item.content}}">
+              </ion-col>
+              <ion-col>
+                teste
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
         </ion-card>
       </timeline-item>
     </timeline>

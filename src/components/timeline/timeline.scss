@@ -35,8 +35,9 @@ timeline {
       /* Right content */    
       ion-card { /* CONFIGURAÇÕES DOS CARDS  */
         margin-left: 25% !important;
-        width: 30% !important;
-        position: relative;
+        height: 100%;
+        width: 30em !important;
+        
       }
       ion-icon { /* CONFIGURAÇÕES DOS ICONES  */
         width: 40px;

@@ -21,18 +21,21 @@ export class Paradidaticos {
         })
     }
 
-    openModal(name, text, imgsrc) {
+    openModal(name, html, imgsrc) {
         let Title = name
-        let Summary = text
+        let Summary = html
         let SRC = imgsrc
         swal({
             title: Title,
-            text: Summary,
+            html: Summary,
             imageUrl: SRC,
             confirmButtonText: 'Fechar',
-            backdrop: false,
-            grow: "fullscreen",
-            heightAuto: false
+            backdrop: true,
+            grow: false,
+            heightAuto: true,
+            animation: false,
+            imageWidth: 400
+
         })
     }
 
