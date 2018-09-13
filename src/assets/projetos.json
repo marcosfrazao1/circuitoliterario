@@ -8,8 +8,20 @@
                     "information": "O projeto visa colocar o aluno diretamente em contato e diálogo com o autor, de modo que esta vivência aproxime o estudante da existência de um escritor, da qual não raro as urgências burocráticas tenderão a afastá-lo no futuro. Mais do que ser leitor, o aluno poderá ser incentivado ser também um autor. A troca de experiências biográficas gera familiaridade, afeição, e isto enriquece do repertório cultural do aluno, e aprofunda sua compreensão da obra literária. "
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -23,16 +35,16 @@
                 {
                     "imgsrc": [
                         {
-                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                            "src": "assets/imgs/brand-diocesano.png"
                         },
                         {
-                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                            "src": "assets/imgs/brand-diocesano.png"
                         },
                         {
-                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                            "src": "assets/imgs/brand-diocesano.png"
                         },
                         {
-                            "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg"
+                            "src": "assets/imgs/brand-diocesano.png"
                         }
                     ]
                 }
@@ -46,8 +58,20 @@
                     "information": "O projeto Salão do Cordel visa estimular diretamente a produção de literatura de cordel, em virtude da acessibilidade do estilo para a juventude, bem como da valorização às raízes culturais nordestinas que o cordel enseja. O projeto comporta, primeiramente, as oficinas de produção de texto, e posteriormente, recital e exposição."
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -59,8 +83,20 @@
                     "information": "O projeto visa disponibilizar um ambiente interativo e integrador para o desenvolvimento de práticas e hábitos de leitura. A Biblioteca Itinerante do Colégio São Francisco de Sales tem o objetivo de estimular o contato com os livros, aproximando a comunidade escolar à Biblioteca CSFS através da descentralização do seu acervo e exposição em pontos estratégicos da escola. Desta forma, o quiosque facilita a realização de empréstimos e devoluções de exemplares, estreitando a relação entre aluno e biblioteca."
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -72,8 +108,20 @@
                     "information": "O projeto Encontro de Culturas tem como meta difundir o conhecimento sobre a história e sociabilidade dos três povos que deram origem ao povo brasileiro: o indígena, o português e africano, bem como compreender a relevância dos imigrantes, e o rico resultado cultural na atualidade dessa miscigenação. Ao conhecer a diversidade cultural do Brasil, o aluno também conhecerá a formação do Nordeste, do Piauí, e identificará mais de perto as características de sua nacionalidade, das etnias, línguas e costumes, contextualizando seus deslocamentos e conflitos em diversos momentos da história."
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -85,8 +133,20 @@
                     "information": "A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade, os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita."
                 },
                 {
-                    "name": "PLACEHOLDER",
-                    "information": "PLACEHOLDER"
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        },
+                        {
+                            "src": "assets/imgs/brand-diocesano.png"
+                        }
+                    ]
                 }
             ]
         }
