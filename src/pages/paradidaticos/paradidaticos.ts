@@ -32,7 +32,7 @@ export class Paradidaticos {
             imageUrl: SRC,
             showCloseButton: true,
             showCancelButton: true,
-            
+
             focusConfirm: false,
             confirmButtonText: 'Acesso à Bliblioteca',
             backdrop: true,
@@ -43,11 +43,11 @@ export class Paradidaticos {
 
         }).then((result) => {
             if (result.value) {
-                window.open(BliUrl,'_blank')  ;
+                window.open(BliUrl, '_blank');
             }
-          })
+        })
     }
-    
+
     toggleSection(i) {
         this.information[i].open = !this.information[i].open;
     }
