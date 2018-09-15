@@ -16,6 +16,7 @@
                 {
                     "name": "Você é minha mamãe?",
                     "src": "assets/imgs/Maternal 1/Voceeaminhamae.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Utilize estes coloridos livros com abas e animais de texturas suaves para compartilhar o mundo da leitura com uma criança que você ama. Animais primorosamente desenhados levam você e sua criança a aventuras em que o Gatinho faz novos amigos, o Coelhinho procura sua mamãe, o Cãozinho decide o que quer ser quando crescer e o Patinho encontra tempo para brincar."
                 },
                 {
@@ -658,6 +659,7 @@
                 },
                 {
                     "name": "O dia do Coringa",
+                    "src": "assets/imgs/curinga.jpg",
                     "src": "assets/imgs/curinga.jpg",
                     "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 }

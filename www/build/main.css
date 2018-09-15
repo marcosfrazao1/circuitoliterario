@@ -28033,7 +28033,7 @@ timeline .timeline:before {
   top: 0;
   bottom: 0;
   width: 10px;
-  background: #afdcf8;
+  background: #ffd95b;
   left: 20%;
   margin-left: -10px;
 }
@@ -28058,7 +28058,7 @@ timeline .timeline timeline-item timeline-time span {
 
 timeline .timeline timeline-item timeline-time span:last-child {
   font-size: 2.9em;
-  color: #3594cb;
+  color: #c77800;
 }
 
 timeline .timeline timeline-item ion-card {
@@ -28075,10 +28075,10 @@ timeline .timeline timeline-item ion-icon {
   font-size: 18px;
   position: absolute;
   color: #fff;
-  background: #46a4da;
+  background: #c77800;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 8px #afdcf8;
-  box-shadow: 0 0 0 8px #afdcf8;
+  -webkit-box-shadow: 0 0 0 8px #ffd95b;
+  box-shadow: 0 0 0 8px #ffd95b;
   text-align: center;
   left: 20%;
   top: 0;
@@ -28094,7 +28094,7 @@ timeline .timeline timeline-item ion-icon:after {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-left-color: #afdcf8;
+  border-left-color: #ffd95b;
   border-width: 10px;
   top: 10px;
 }
@@ -28154,7 +28154,7 @@ timeline .timeline timeline-item:last-child ion-icon:after {
   }
   timeline .timeline timeline-item ion-icon:after {
     border-left-color: transparent;
-    border-top-color: #afdcf8;
+    border-top-color: #ffd95b;
     top: 46px;
     left: 10px;
   }
