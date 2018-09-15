@@ -30,7 +30,7 @@
               <ion-row>
                 <ion-col col-6 col-md-4 col-xl-3  *ngFor="let child of item.children; let j = index" no-lines no-padding class="child-item">
                   <ion-card *ngIf="!child.children">
-                    <img (click)="openModal(child.name, child.information, child.src)" src='{{child.src}}'>
+                    <img (click)="openModal(child.name,  child.author,child.information, child.src)" src='{{child.src}}'>
                     
                     
                   </ion-card>

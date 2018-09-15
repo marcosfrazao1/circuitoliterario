@@ -11,14 +11,6 @@ export class Fale {
     constructor(public navCtrl: NavController) {
     }
 
-    toggleSection(i) {
-        this.information[i].open = !this.information[i].open;
-    }
-
-    toggleItem(i, j) {
-        this.information[i].children[j].open = !this.information[i].children[j].open;
-    }
-
 
 
 

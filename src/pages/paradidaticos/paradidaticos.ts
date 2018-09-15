@@ -21,20 +21,19 @@ export class Paradidaticos {
         })
     }
 
-    openModal(name, html, imgsrc) {
+    openModal(name, author, html, imgsrc) {
         let Title = name
+        let Author = author
         let Summary = html
         let SRC = imgsrc
         let BliUrl = "http://portal.ani.org.br/Corpore.Net/Main.aspx?ActionID=BibConsultaInternaActionWeb&SelectedMenuIDKey=ItemPesquisarReservar"
         swal({
             title: Title,
-            html: Summary + " <br>" + "<button ion-button>Acesse aqui a Bliblioteca</button>",
+            html: Author + "<br>" + "<br>" + Summary + "<br>" + "<button ion-button>Acesse aqui a Bliblioteca</button>",
             imageUrl: SRC,
             showCloseButton: true,
             showCancelButton: true,
-
             focusConfirm: false,
-            confirmButtonText: 'Acesso à Bliblioteca',
             backdrop: true,
             grow: false,
             heightAuto: true,
