@@ -6,62 +6,74 @@
                 {
                     "name": "A Galinha choca",
                     "src": "assets/imgs/Maternal 1/A Galinha choca.jpg",
-                    "information": "Um ovo a mais no ninho, e a galinha acabou chocando um inesperado filhotinho.Selecionado para o acervo permanente da Biblioteca Internacional para a Juventude de Munique."
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
+                    "information":"<p align='left'> Um ovo a mais no ninho, e a galinha acabou chocando um inesperado filhotinho.Selecionado para o acervo permanente da Biblioteca Internacional para a Juventude de Munique.</p>"
                 },
                 {
                     "name": "A Galinha Feliz",
                     "src": "assets/imgs/Maternal 1/AGalinhafeliz.jpg",
-                    "information": "Mas que feliz é a galinha, sentadinha, pondo ovinhos! Os pintinhos se aproximam com cuidado. Eles são muito bonzinhos. Os animais da fazenda surgem neste livro de maneira animada e divertida, como as crianças gostam."
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
+                    "information": "<p align='left'>Mas que feliz é a galinha, sentadinha, pondo ovinhos! Os pintinhos se aproximam com cuidado. Eles são muito bonzinhos. Os animais da fazenda surgem neste livro de maneira animada e divertida, como as crianças gostam.</p>"
                 },
                 {
                     "name": "Você é minha mamãe?",
                     "src": "assets/imgs/Maternal 1/Voceeaminhamae.jpg",
                     "author": "Autora:Mariana Caltabiano; Editora:scipione.",
-                    "information": "Utilize estes coloridos livros com abas e animais de texturas suaves para compartilhar o mundo da leitura com uma criança que você ama. Animais primorosamente desenhados levam você e sua criança a aventuras em que o Gatinho faz novos amigos, o Coelhinho procura sua mamãe, o Cãozinho decide o que quer ser quando crescer e o Patinho encontra tempo para brincar."
+                    "information": "<p align='left'>Utilize estes coloridos livros com abas e animais de texturas suaves para compartilhar o mundo da leitura com uma criança que você ama. Animais primorosamente desenhados levam você e sua criança a aventuras em que o Gatinho faz novos amigos, o Coelhinho procura sua mamãe, o Cãozinho decide o que quer ser quando crescer e o Patinho encontra tempo para brincar.</p>"
                 },
                 {
                     "name": "Animais da fazenda",
                     "src": "assets/imgs/Maternal 1/Animais da fazenda.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Bom dia todas as cores",
                     "src": "assets/imgs/Maternal 1/Bom dia todas as cores.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Fantasia",
                     "src": "assets/imgs/Maternal 1/Fantasia.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                    
                 },
                 {
                     "name": "Hora de brincar",
                     "src": "assets/imgs/Maternal 1/Horadebrincar.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O pote de melado",
                     "src": "assets/imgs/Maternal 1/O pote de melado.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O que tem dentro da sua fralda",
                     "src": "assets/imgs/Maternal 1/O que tem dentro da sua fralda.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O rabo do gato",
                     "src": "assets/imgs/Maternal 1/O rabo do gato.png",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O sanduíche da Maricota",
                     "src": "assets/imgs/Maternal 1/O sanduíche da Maricota.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Onde eu moro",
                     "src": "assets/imgs/Maternal 1/Onde eu moro.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
 
@@ -73,172 +85,206 @@
                 {
                     "name": "A bela e a fera",
                     "src": "assets/imgs/maternalII/a bela e a fera.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "A Cigarra e a formiga",
                     "src": "assets/imgs/maternalII/A CIGARRA E A FORMIGA.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "A festa no ceu",
                     "src": "assets/imgs/maternalII/A festa no ceu.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "A lebre e a tartaruga",
                     "src": "assets/imgs/maternalII/A lebre e a tartaruga.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "A Princesa e o sapo",
                     "src": "assets/imgs/maternalII/A Princesa e o sapo.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Alfabeto dos pingos",
                     "src": "assets/imgs/maternalII/Alfabeto dos pingos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Bela adormecida",
                     "src": "assets/imgs/maternalII/bela adormecida.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Cachinhos dourado",
                     "src": "assets/imgs/maternalII/Cachinhos dourado.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Chapeuzinho vermelho",
                     "src": "assets/imgs/maternalII/chapeuzinho vermelho.png",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Cinderela",
                     "src": "assets/imgs/maternalII/Cinderela.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Dona baratinha",
                     "src": "assets/imgs/maternalII/dona baratinha.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Era uma vez duas casas",
                     "src": "assets/imgs/maternalII/Era uma vez duas casas.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "João e Maria",
                     "src": "assets/imgs/maternalII/joao e maria.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "João e o pe de feijão",
                     "src": "assets/imgs/maternalII/joao e o pe de feijao.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Mamãe gata",
                     "src": "assets/imgs/maternalII/mamae gata.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Número dos pingos",
                     "src": "assets/imgs/maternalII/Número dos pingos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O Jogo do pega pega",
                     "src": "assets/imgs/maternalII/O JOGO DO PEGA PEGA.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O Jogo do puxa puxa",
                     "src": "assets/imgs/maternalII/O JOGO DO PUXA PUXA.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O leão e o ratinho",
                     "src": "assets/imgs/maternalII/O leão e o ratinho.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O lobo e os sete cabritinhos",
                     "src": "assets/imgs/maternalII/o lobo e os sete cabritinhos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O patinho feio",
                     "src": "assets/imgs/maternalII/o patinho feio.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O pequeno polegar",
                     "src": "assets/imgs/maternalII/O PEQUENO POLEGAR.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O rato do campo e o rato da cidade",
                     "src": "assets/imgs/maternalII/o rato do campo e o rato da cidade.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O sapo zé",
                     "src": "assets/imgs/maternalII/o SAPO ZE.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O soldadinho de chumbo",
                     "src": "assets/imgs/maternalII/o soldadinho de chumbo.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Os musicos de bremem",
                     "src": "assets/imgs/maternalII/os musicos de bremem.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Os três cabritos",
                     "src": "assets/imgs/maternalII/os tres cabritos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Os tres porquinhos",
                     "src": "assets/imgs/maternalII/os tres porquinhos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Peter pan",
                     "src": "assets/imgs/maternalII/peter pan.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Pinoquio",
                     "src": "assets/imgs/maternalII/pinoquio.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Pintadinha machucou",
                     "src": "assets/imgs/maternalII/PINTADINHA MACHUCOU.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "Rapunzel",
                     "src": "assets/imgs/maternalII/RAPUNZEL.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
                     "name": "O menino o dinheiro e os tres cofrinhos",
                     "src": "assets/imgs/maternalII/o menino o dinheiro e os tres cofrinhos.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
                 ,
                 {
                     "name": "branca de neve",
                     "src": "assets/imgs/maternalII/branca de neve.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
                 
@@ -253,6 +299,7 @@
                 {
                     "name": "A arca de ninguem",
                     "src": "assets/imgs/Infantil I/A arca de ninguem.jpg",
+                    "author": "Autora:Mariana Caltabiano; Editora:scipione.",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
@@ -659,7 +706,6 @@
                 },
                 {
                     "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
                     "src": "assets/imgs/curinga.jpg",
                     "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
                 }

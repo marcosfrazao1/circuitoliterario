@@ -214,7 +214,7 @@ body.stop-scrolling {
   .ionic-super-popup .sa-icon {
     width: 80px;
     height: 80px;
-    border: 4px solid gray;
+    border: 4px solid rgb(128, 128, 128);
     -webkit-border-radius: 40px;
     border-radius: 40px;
     border-radius: 50%;
