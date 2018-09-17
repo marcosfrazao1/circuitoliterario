@@ -40,11 +40,6 @@
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 },
                 {
-                    "name": "A Galinha choca",
-                    "src": "assets/imgs/Maternal 1/A Galinha choca.jpg",
-                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
-                },
-                {
                     "name": "O pote de melado",
                     "src": "assets/imgs/Maternal 1/O pote de melado.jpg",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
@@ -62,6 +57,11 @@
                 {
                     "name": "O sanduíche da Maricota",
                     "src": "assets/imgs/Maternal 1/O sanduíche da Maricota.jpg",
+                    "information": "Autora:Mariana Caltabiano; Editora:scipione."
+                },
+                {
+                    "name": "Onde eu moro",
+                    "src": "assets/imgs/Maternal 1/Onde eu moro.jpg",
                     "information": "Autora:Mariana Caltabiano; Editora:scipione."
                 }
 

@@ -29,7 +29,7 @@ export class Paradidaticos {
         let BliUrl = "http://portal.ani.org.br/Corpore.Net/Main.aspx?ActionID=BibConsultaInternaActionWeb&SelectedMenuIDKey=ItemPesquisarReservar"
         swal({
             title: Title,
-            html: Author + "<br>" + "<br>" + Summary + "<br>" + "<button ion-button>Acesse aqui a Bliblioteca</button>",
+            html: Author + "<br>" + "<br>" + Summary + "<br>" ,
             imageUrl: SRC,
             showCloseButton: true,
             showCancelButton: true,

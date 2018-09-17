@@ -430,7 +430,7 @@ var Paradidaticos = /** @class */ (function () {
         var BliUrl = "http://portal.ani.org.br/Corpore.Net/Main.aspx?ActionID=BibConsultaInternaActionWeb&SelectedMenuIDKey=ItemPesquisarReservar";
         __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default()({
             title: Title,
-            html: Author + "<br>" + "<br>" + Summary + "<br>" + "<button ion-button>Acesse aqui a Bliblioteca</button>",
+            html: Author + "<br>" + "<br>" + Summary + "<br>",
             imageUrl: SRC,
             showCloseButton: true,
             showCancelButton: true,
