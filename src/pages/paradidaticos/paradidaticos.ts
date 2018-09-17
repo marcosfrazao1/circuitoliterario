@@ -32,15 +32,21 @@ export class Paradidaticos {
             html: Author + "<br>" + "<br>" + Summary + "<br>" ,
             imageUrl: SRC,
             showCancelButton: true,
-            showCloseButton: true,         
-            confirmButtonText: "<p>Biblioteca</p> ",
+            showCloseButton: true,   
+                  
+            confirmButtonText: "<p>Biblioteca</p>",
+            confirmButtonColor: '#3085d6',
+            
             cancelButtonText:"<p>Ok</p>",
+            cancelButtonColor:'#3085d6',
+
             focusConfirm: false,
             backdrop: true,
             grow: false,
             heightAuto: true,
             imageWidth: 400,
             width: 600,
+            
 
         }).then((result) => {
             if (result.value) {
