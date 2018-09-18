@@ -656,14 +656,46 @@
             "name": "2°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "As aventuras de uma gota d’água",
+                    "src": "assets/imgs/2° EF/as aventura de uma gota.jpg",
+                    "author": "Autor: Samuel Murgel Branco",
+                    "information": "<p align='left'>Carolina ficou muito surpresa quando uma gotinha d´água do mar, colhida num vidro, começou a conversar com ela. Passado o susto, a gotinha começou a contar todo o percurso de sua vida, desde o momento em que nasceu numa nuvem.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A princesa que não queria aprendera ler.",
+                    "src": "assets/imgs/2° EF/A princesa que.jpg",
+                    "author": "Autora: Heloísa Prieto.",
+                    "information": "<p align='left'>Conheça a história de Rosa, uma linda princesa que adorava cantar pelos jardins do palácio em que vivia ao lado de seus pais, o rei Tancredo e a rainha Serena. Só que, embora fosse muito meiga e inteligente, Rosa se recusava a aprender a ler. Seus pais tentavam de tudo, mas não tinha jeito: a garota não queria saber de livros! Mas o passeio com seu gato Chiado e o encontro com a bruxa Serpentina fazem Rosa mudar de ideia</p>"
+                },
+                {
+                    "name": "O jogo das palavras mágicas.",
+                    "src": "assets/imgs/2° EF/o jogo das palavras.jpg",
+                    "author": "Autor: Elias José. Ilustrações",
+                    "information": "<p align='left'>O desafio é descobrir o ritmo e a musicalidade da linguagem poética e brincar com a magia de transformar em sentimentos palavras e imagens, magia pura para mostrar a riqueza da Língua Portuguesa.</p>"
+                },
+                {
+                    "name": "A menor fazedora de mágicas do mundo",
+                    "src": "assets/imgs/2° EF/a menor.jpg",
+                    "author": "Autor: Pedro Bandeira. Ilustrações",
+                    "information": "<p align='left'>Camila assistiu a um espetáculo de mágicas pela primeira vez na vida e ficou maravilhada! Tão maravilhada que decidiu aprender a tirar moedas do nariz das pessoas, pombas brancas de dentro de lenços e coelhos de cartolas. Coelho ela não tinha nenhum, por isso resolveu usar sua querida boneca Genoveva no lugar do coelho. Mas, e a cartola? E não é que foi encontrar uma justamente no velho baú do Vovô? Mas... ah! Foi só enfiar sua boneca dentro da cartola do Vovô, dizer a palavra mais mágica de que era capaz que... Horror! Que a Genoveva desapareceu de verdade! E agora? O que Camila pode fazer para salvar sua boneca perdida no terrível País das Mágicas Malfeitas?</p>"
+                },
+                {
+                    "name": "O reizinho mandão",
+                    "src": "assets/imgs/2° EF/o reizinho.jpg",
+                    "author": "Autora: RuthRocha",
+                    "information": "<p align='left'>A morte de um rei sábio e justo leva ao trono seu filho mimado e mandão. Além de criar leis absurdas, seu autoritarismo faz o povo literalmente perder a voz. Até que um dia... Um livro premiado, que deu origem à série que tem hoje o seu nome.</p>"
+                },
+                {
+                    "name": "O menino do dinheiro - sonhos de Família",
+                    "src": "assets/imgs/2° EF/o menino.jpg",
+                    "author": "Autor: Reinaldo Domingos.",
+                    "information": "<p align='left'>'O Menino do Dinheiro' é um garotinho que mesmo muito pequenino sabe o que quer e aprende a real importância de guardar suas moedinhas a fim de realizar os próprios sonhos. O autor apresenta em uma narração recheada de lições a importância de poupar, de saber fazer escolhas, do apoio e dos ensinamentos da mãe, já que o leitor poderá acompanhar através das ilustrações o crescimento do Menino do dinheiro, o protagonista, que anualmente, vê seus gordos cofrinhos quebrados e à medida que, os anos vão se passando, fica mais exigente consigo e começa a dar aulas, inclusive ao próprio pai.</p>"
+                },
+                {
+                    "name": "O boi",
+                    "src": "assets/imgs/2° EF/o boi.jpg",
+                    "author": "Adaptação: Márcia Evelin.",
+                    "information": "<p align='left'>“Eu cheguei agora, a todos eu vim saudar, trazendo meu lindo amante para ao povo apresentar....”. É com esse mote da cultura popular que o brincante, narrador da história “O Boi do Piauí”,, publicado pela editora Nova Aliança (PI), pede passagem para a entrada do Bumba meu Boi no imaginário do leitor. A anunciação da chegada do Boi, personagem protagonista da trama, funciona como um pacto ficcional com a intenção de fisgar o leitor para dentro da história.</p>"
                 }
             ]
         },
