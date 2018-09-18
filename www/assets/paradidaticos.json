@@ -703,15 +703,90 @@
             "name": "3°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "A Fábrica Mágica",
+                    "src": "assets/imgs/3° EF/as aventura de uma gota.jpg",
+                    "author": "Autora: Maria Cristina Furtado",
+                    "information": "<p align='left'>A Fábrica Mágica faz brinquedos mais do que especiais: acionados por magia, eles falam e interagem com as crianças que os ganham. Certo dia, um grande incidente ocorreu na fábrica, e a mágica parece ter dado errado: os brinquedos ficaram com algumas deficiências. Mas isso não significa que eles não podem ser amados e ser tão mágicos como os outros. Aí é que a verdadeira magia acontece.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "As aventuras de uma gota d’água",
+                    "src": "assets/imgs/3° EF/a fabrica.jpg",
+                    "author": "Autor: Samuel Murgel Branco",
+                    "information": "<p align='left'>Carolina ficou muito surpresa quando uma gotinha d´água do mar, colhida num vidro, começou a conversar com ela. Passado o susto, a gotinha começou a contar todo o percurso de sua vida, desde o momento em que nasceu numa nuvem.</p>"
+                },
+                {
+                    "name": "Em asas de borboletas em bolhas de sabão",
+                    "src": "assets/imgs/3° EF/em asas.jpg",
+                    "author": "Autores: Valeria Cristina e Victor",
+                    "information": "<p align='left'>Apresenta uma sensibilidade nova ao unir, através da palavra poética, imagens, cores, sons, lembranças regadas de encontros inusitados, numa espécie de poesia-cantiga que lapida a singeleza do cotidiano, transformando de modo sensível o elo entre o que vemos e o que nomeamos. As poesias guardam uma atmosfera livre-lúdica, possuem uma mescla de antíteses, de sensações arrebatadoras, valorizando as lembranças, os esquecimentos e as percepções mais intimistas, aqueles que guardamos na memória. Valéria Cristina nos faz revisitar os tempos dos sonhos bons e coloca entre parênteses os nossos medos, pois escreve com a alma, com gosto, com vontade de extravasar o que sente, sem arrodeios ou vaidade.</p>"
+                },
+                {
+                    "name": "O fantástico Mistério de Feiurinha",
+                    "src": "assets/imgs/3° EF/feuirinha.jpg",
+                    "author": "Autor: Pedro Bandeira",
+                    "information": "<p align='left'>Um pouco mais velha, e esperando o sétimo filho, Branca de Neve, agora Branca Encantado, convocou suas amigas para que descobrissem o paradeiro de Feiurinha, que havia desaparecido com seu príncipe, seu castelo e seu reino sem deixar pistas. Logo, a reunião estava completa. Chegaram Chapeuzinho Vermelho, Cinderela Encantado, Bela Adormecida Encantado, Rapunzel Encantado e Rosa Encantado Della Moura Torta. Juntas, começaram a discutir possibilidades e a pesquisar nos livros. Mas nem sinal da história de Feiurinha. Foram procurar um autor, que também não conseguiu nenhuma pista, e já estavam todos desanimados, quando Jerusa, a empregada, contou a história que ninguém encontrava.</p>"
+                },
+                {
+                    "name": "Um amigo para sempre",
+                    "src": "assets/imgs/3° EF/um amigo.jpg",
+                    "author": "Autora: Marina Colasanti",
+                    "information": "<p align='left'>Um amigo para sempre é uma das obras-primas de Marina Colasanti, que estreou na literatura com uma linguagem poética e simbólica, num momento em que predominava a crítica social e política por meio da paródia dos contos de fada. Aqui, não se trata de um conto de encantamento, mas o encantamento – ou transcendência – está presente pelo modo de narrar um episódio da vida do escritor angolano Luandino Vieira: na prisão, em Cabo Verde, pacientemente, ele conquista a confiança e amizade de um pássaro.</p>"
+                },
+                {
+                    "name": "Em Angola tem? No Brasil também!",
+                    "src": "assets/imgs/3° EF/em angola.jpg",
+                    "author": "Autor: Rogério Andrade Barbosa",
+                    "information": "<p align='left'>Matondo vive em Luanda, em Angola, e Josinaldo em Salvador, Brasil. Os dois garotos trocam correspondência e descobrem, aos poucos, uma série de afinidades nos seus gostos e semelhanças entre suas cidades, a respeito do modo de vida, cultura e sua religiosidade. Mas afinal, por que Luanda e Salvador podem ser consideradas cidades-irmãs? No livro Em Angola tem? No Brasil também! os autores Rogério Andrade Barbosa e Jô Oliveira dão um verdadeiro presente às crianças angolanas e brasileiras, ao mostrar que, mesmo separadas por um imenso mar, vibram e gingam ao som de tambores ancestrais.</p>"
+                },
+                {
+                    "name": "Meu planeta rima com água",
+                    "src": "assets/imgs/3° EF/meu planeta.jpg",
+                    "author": "Autor: César Obeid.",
+                    "information": "<p align='left'>Se a nova geração está muito mais consciente sobre a preservação ambiental, o que há de errado? Este não é apenas mais um livro que fala sobre a água. Ele dá voz a ela. Um convite em forma de poesia que chama para a reflexão sobre a importância da água e de todos os recursos naturais.</p>"
+                },
+                {
+                    "name": "Um mundo de histórias de países distantes",
+                    "src": "assets/imgs/3° EF/um mundo de historia.jpg",
+                    "author": "Autor: Graziella Favaro.",
+                    "information": "<p align='left'>O livro traz oito contos da tradição popular de diferentes países: Albânia, Itália, Romênia, Marrocos, Serra Leoa, Sri Lanka, povo cigano, Argélia. Antes de cada história, uma breve introdução com particularidades da região é apresentada ao jovem leitor. São histórias de pequenos e gigantes, guerreiros e princesas, animais falantes e objetos encantados, de trapaças e de magia. Essas histórias apresentam um território encantado onde a realidade e a fantasia se encontram para acompanhar esta deliciosa viagem.</p>"
+                },
+                {
+                    "name": "Tem oba-oba no baobá: histórias com perfume de África",
+                    "src": "assets/imgs/3° EF/oba-oba.jpg",
+                    "author": "Autor: Claudia Lins",
+                    "information": "<p align='left'>Na montanha do Quilombo, a sábia tartaruga Nina Zina conta histórias para alegrar a árvore gigante que tem saudades da África, terra que nunca conheceu. Uma engenhosa aranha africana enfrenta desafios em busca das histórias que vivem na arca mágica de Nyame. Na floresta, tambores ecoam para a festa de casamento de Omoba, o filho do rei. Tumtum, ticutum, tum, tá... Vai ter oba-oba no baobá.</p>"
+                },
+                {
+                    "name": "Iara e a poluição das águas.",
+                    "src": "assets/imgs/3° EF/iara e a poluiçao.jpg",
+                    "author": "Autor: Samuel Murgel Branco.",
+                    "information": "<p align='left'>A história de 'A Iara e a Poluição das Águas' é contada por uma conhecida personagem do nosso folclore: a Iara, protetora das águas. Mas ela não está sozinha. O Curupira, protetor das matas e dos animais, também tem muito a dizer. Para tornar os ensinamentos mais atraentes, o autor criou uma fábula em que os animais se expressam. O objetivo do livro é mostrar que a poluição das águas é um crime contra a natureza e que poderia ser evitado com medidas simples e, principalmente, com a nossa conscientização e cooperação.</p>"
+                },
+                {
+                    "name": "Ipaty, o curumim da selva.",
+                    "src": "assets/imgs/3° EF/ipaty.jpg",
+                    "author": "Autor: Eli.",
+                    "information": "<p align='left'>O livro narra as aventuras do curumim, cujo nome dá título ao livro, contadas pelo próprio menino. Entrelaçadas nas aventuras estão as lendas, os mitos, as tradições, os costumes e o cotidiano dos Macuxi, indígenas que habitam as serras do estado de Roraima, próximo à fronteira do Brasil e Venezuela.</p>"
+                },
+                {
+                    "name": "Onde estão as Multiplicações?",
+                    "src": "assets/imgs/3° EF/onde estao as.jpg",
+                    "author": "Autora: Luzia Faraco Ramos.",
+                    "information": "<p align='left'>Carolina ficou muito surpresa quando uma gotinha d´água do mar, colhida num vidro, começou a conversar com ela. Passado o susto, a gotinha começou a contar todo o percurso de sua vida, desde o momento em que nasceu numa nuvem.Multiplicação não é coisa só de escola. Carrinhos, chaves, flores, aranhas, baratas e muito mais são usados pela Turma da Matemática para encontrar quantidades que se repetem várias vezes. Vamos aprender junto com as crianças?.</p>"
+                },
+                {
+                    "name": "Doces frações – Série Turma da Matemática.",
+                    "src": "assets/imgs/3° EF/doces fracoes.jpg",
+                    "author": "Autor: Faifi, Luzia",
+                    "information": "<p align='left'>Caio, Adelaide e Binha foram ajudar vovó Elisa a cortar tortas para vendê-las. Como será que eles acharam o preço certo se dividiram as tortas em pedaços diferentes? Foi assim que eles construíram o conceito de fração e a nova de equivalência.</p>"
+                },
+                {
+                    "name": "O grande livro das emoções.",
+                    "src": "assets/imgs/3° EF/o grande.jpg",
+                    "author": "Autores: Mary Hoffman; RosAsquith.",
+                    "information": "<p align='left'>Você gosta de estar entre os seus amigos, deseja que o aceitam e que queriam estar com você, mas isso nem sempre é fácil.Em cada uma destas 20 histórias, há um pequeno segredo que o ajudará a conviver com aqueles que o rodeiam, ajudando a se posicionarem diante dos sentimentos. A cada página surge uma nova reflexão, uma nova abordagem, ou seja, uma contribuição maior para o crescimento infantil.</p>"
                 }
+                
             ]
         },
         {
