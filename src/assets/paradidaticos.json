@@ -1024,14 +1024,64 @@
             "name": "7°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "O Conde de Monte Cristo",
+                    "src": "assets/imgs/7 ANO/o conde.png",
+                    "author": "Autor: Heloísa Prieto.",
+                    "information": "<p align='left'>Um romance do Destino. Vítima e vingador, Edmond Dantès, o personagem central, encarna ele próprio, o destino. A história de um homem bom a quem roubam a liberdade e o amor. No cativeiro trava amizade com o abade Faria, que lhe oferece ajuda para a fuga. Um homem que regressará coberto de riquezas, vingador impiedoso, para além de toda a lei humana ou divina</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Romeu e Julieta de William Shakespeare",
+                    "src": "assets/imgs/7 ANO/romeu e julieta.png",
+                    "author": "Autor: Walcyr Carrasco.",
+                    "information": "<p align='left'>A peça abre numa rua com o desentendimento entre os Montecchios e os Capuletos. O Príncipe de Verona intervém e declara que irá punir com morte as pessoas que colaborarem para mais uma briga de ambas as famílias. Tal desentendimento irá se desdobrar na vida de Romeu e Julieta, que, mesmo tendo famílias rivais, entregar-se-ão para um amor impossível, repleto de inimigos e de intrigas, mas de um sentimento sem limites.</p>"
+                },
+                {
+                    "name": "Helena",
+                    "src": "assets/imgs/7 ANO/helena.jpg",
+                    "author": "Autor: Machado de Assis.",
+                    "information": "<p align='left'>Nas primeiras obras de Machado de Assis (ditas românticas), o papel da figura feminina na família tem grande importância, e se liga a temas constantes. Helena é alvo de suspeitas, em função de ser pobre e de ser fruto de uma união não-conjugal. Em muitos aspectos, Helena é a figura transicional entre valores aristocrático-senhoriais do Brasil Império, fundado na perpetuação do nome da família, e da classe média urbana, mais focada na intimidade e nos vínculos amorosos e extraestamentais. A importância das classes sociais para certas personagens é evidente. Suas crises existências e emotivas decorrem do descompasso, profundamente sentido pela moça, entre sua inclinação à virtude e transparência, por um lado, e a necessidade de manter as aparências na sociedade senhorial carioca.</p>"
+                },
+                {
+                    "name": "Crônicas 4",
+                    "src": "assets/imgs/7 ANO/cronicas 4.jpg",
+                    "author": "Autor: Rubem Braga...[et.al.].",
+                    "information": "<p align='left'>Um grande cronista precisa viver o dia-a-dia com olhos atentos aos menores detalhes. Nada pode passar em branco e o que seria apenas um flash da realidade transforma-se em boa literatura. Acompanhe o olhar curioso e bem-humorado de Rubem Braga, Carlos Drummond de Andrade, Fernando Sabino e Paulo Mendes Campos sobre o ser humano e seu cotidiano.</p>"
+                },
+                {
+                    "name": "Contos brasileiros 1",
+                    "src": "assets/imgs/7 ANO/contos brasileiros.jpg",
+                    "author": "Autor: Graciliano Ramos... [et al.] ",
+                    "information": "<p align='left'>A paixão pelo ofício de escrever e contar histórias reúne neste volume sete grandes escritores de épocas e estilos diferentes. Lima Barreto se definia como “mulato, sem dinheiro, mas livre”, num Brasil ainda cheio de resquícios escravocratas. Já Graciliano Ramos precisou enfrentar a repressão e a censura do Estado Novo. Ignácio de Loyola Brandão sentia desde criança que seria escritor; já Luiz Vilela nunca procurou saber por que escrevia. Stanislaw Ponte Preta gostava mesmo de contar histórias engraçadas. Marcos Rey tinha atração pelas palavras, mesmo sem saber ler, assim como José J. Veiga. Com muita arte e sensibilidade, eles revelam diferentes aspectos da chamada “realidade brasileira”, mostrando o que mudou durante os anos - e muitas vezes séculos - na História do nosso país.</p>"
+                },
+                {
+                    "name": "A ladeira da saudade",
+                    "src": "assets/imgs/7 ANO/aladeira.jpg",
+                    "author": "Autor: José Ganymédes.",
+                    "information": "<p align='left'>O livro relata o amor de uma adolescente do século XX, em Ouro Preto, no Brasil. Ao decorrer do livro, cita-se uma obra, "Marília de Dirceu", do arcadista Tomás Antônio Gonzaga. Após o término de um namoro, a jovem Lilia passa alguns dias em Ouro Preto onde faz novas amizades e conhece Dirceu, com quem revive a história de Gonzaga e Dorotéia.</p>"
+                },
+                {
+                    "name": "África e Brasil",
+                    "src": "assets/imgs/7 ANO/africa e brasil.jpg",
+                    "author": "Autor: Eduardo D’Amorim.",
+                    "information": "<p align='left'>A contribuição africana para a formação do povo brasileiro, sobretudo no que se refere à dimensão sociocultural e política, ainda não foi plenamente compreendida ou estudada. Na maioria das vezes, a relação entre esse continente e o Brasil se restringe a alguns elementos culturais, como práticas alimentares, palavras incorporadas à língua portuguesa, ritmos, instrumentos musicais. Contudo, quando o olhar investigativo se aprofunda, descobrem-se outros inúmeros entrelaçamentos.</p>"
+                },
+                {
+                    "name": "London",
+                    "src": "assets/imgs/7 ANO/LONDON.jpg",
+                    "author": "",
+                    "information": "<p align='left'></p>"
+                },
+                {
+                    "name": "London",
+                    "src": "assets/imgs/7 ANO/LONDON.jpg",
+                    "author": "",
+                    "information": "<p align='left'></p>"
+                },
+                {
+                    "name": "London",
+                    "src": "assets/imgs/7 ANO/LONDON.jpg",
+                    "author": "",
+                    "information": "<p align='left'></p>"
                 }
             ]
         },
