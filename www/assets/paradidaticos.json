@@ -1011,6 +1011,12 @@
                     "src": "assets/imgs/6 ANO/MUSEU.jpg",
                     "author": "Autores: Nereide Schilaro Santa Rosa e Neusa Schilaro Scaléa.",
                     "information": "<p align='left'></p>"
+                },
+                {
+                    "name": "London",
+                    "src": "assets/imgs/6 ANO/LONDON.jpg",
+                    "author": "",
+                    "information": "<p align='left'></p>"
                 }
             ]
         },
