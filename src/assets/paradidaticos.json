@@ -657,7 +657,7 @@
             "children": [
                 {
                     "name": "As aventuras de uma gota d’água",
-                    "src": "assets/imgs/2° EF/as aventura de uma gota.jpg",
+                    "src": "assets/imgs/2° EF/as aventuras de uma.png",
                     "author": "Autor: Samuel Murgel Branco",
                     "information": "<p align='left'>Carolina ficou muito surpresa quando uma gotinha d´água do mar, colhida num vidro, começou a conversar com ela. Passado o susto, a gotinha começou a contar todo o percurso de sua vida, desde o momento em que nasceu numa nuvem.</p>"
                 },
@@ -704,15 +704,9 @@
             "children": [
                 {
                     "name": "A Fábrica Mágica",
-                    "src": "assets/imgs/3° EF/as aventura de uma gota.jpg",
+                    "src": "assets/imgs/3° EF/a fabrica.jpg",
                     "author": "Autora: Maria Cristina Furtado",
                     "information": "<p align='left'>A Fábrica Mágica faz brinquedos mais do que especiais: acionados por magia, eles falam e interagem com as crianças que os ganham. Certo dia, um grande incidente ocorreu na fábrica, e a mágica parece ter dado errado: os brinquedos ficaram com algumas deficiências. Mas isso não significa que eles não podem ser amados e ser tão mágicos como os outros. Aí é que a verdadeira magia acontece.</p>"
-                },
-                {
-                    "name": "As aventuras de uma gota d’água",
-                    "src": "assets/imgs/3° EF/a fabrica.jpg",
-                    "author": "Autor: Samuel Murgel Branco",
-                    "information": "<p align='left'>Carolina ficou muito surpresa quando uma gotinha d´água do mar, colhida num vidro, começou a conversar com ela. Passado o susto, a gotinha começou a contar todo o percurso de sua vida, desde o momento em que nasceu numa nuvem.</p>"
                 },
                 {
                     "name": "Em asas de borboletas em bolhas de sabão",
@@ -728,7 +722,7 @@
                 },
                 {
                     "name": "Um amigo para sempre",
-                    "src": "assets/imgs/3° EF/um amigo.jpg",
+                    "src": "assets/imgs/3° EF/um amigo.png",
                     "author": "Autora: Marina Colasanti",
                     "information": "<p align='left'>Um amigo para sempre é uma das obras-primas de Marina Colasanti, que estreou na literatura com uma linguagem poética e simbólica, num momento em que predominava a crítica social e política por meio da paródia dos contos de fada. Aqui, não se trata de um conto de encantamento, mas o encantamento – ou transcendência – está presente pelo modo de narrar um episódio da vida do escritor angolano Luandino Vieira: na prisão, em Cabo Verde, pacientemente, ele conquista a confiança e amizade de um pássaro.</p>"
                 },
@@ -776,7 +770,7 @@
                 },
                 {
                     "name": "Doces frações – Série Turma da Matemática.",
-                    "src": "assets/imgs/3° EF/doces fracoes.jpg",
+                    "src": "assets/imgs/3° EF/doces fracoes.png",
                     "author": "Autor: Faifi, Luzia",
                     "information": "<p align='left'>Caio, Adelaide e Binha foram ajudar vovó Elisa a cortar tortas para vendê-las. Como será que eles acharam o preço certo se dividiram as tortas em pedaços diferentes? Foi assim que eles construíram o conceito de fração e a nova de equivalência.</p>"
                 },
@@ -793,14 +787,100 @@
             "name": "4°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "O jardim de versos",
+                    "src": "assets/imgs/4° EF/o jardim.jpg",
+                    "author": "Autor: Robert Louis Stevenson. ",
+                    "information": "<p align='left'></p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Os doze trabalhos de Hércules- Monteiro Lobato em quadrinh",
+                    "src": "assets/imgs/4° EF/os dozes.jpg",
+                    "author": "",
+                    "information": "<p align='left'>A obra traz uma seleção de 30 poemas do livro Jardim de versos de uma criança, do autor escocês Robert Louis Stevenson, publicado em 1885. Nesses poemas, o autor, um adulto, fala com a voz de uma criança sobre seu cotidiano, suas brincadeiras e fantasias. É esse olhar infantil e a musicalidade dos versos que tornam esta obra um clássico da poesia para crianças.</p>"
+                },
+                {
+                    "name": "O pequeno príncipe",
+                    "src": "assets/imgs/4° EF/o pequeno.jpg",
+                    "author": "Autor: Antoine de Saint –Exupéry. ",
+                    "information": "<p align='left'>O Pequeno Príncipe' tornou-se obra de apelo universal, um clássico moderno traduzido para mais de oitenta idiomas. Suas páginas abrigam valiosas lições sobre a solidão, a amizade, o tempo, a vida e a morte, compartilhadas conosco por meio do pequeno habitante do asteroide B 612. Apesar de escrito e narrado por um adulto, 'O Pequeno Príncipe' se dirige, desde suas primeiras linhas, às crianças. É, na verdade, uma ode à infância, uma delicada viagem a esse planeta que aos poucos abandonamos, vivendo em prol das nossas vaidades, vícios, obrigações, números e demais coisas 'sérias e importantes'.</p>"
+                },
+                {
+                    "name": "Cartas a povos distantes",
+                    "src": "assets/imgs/4° EF/cartas.jpg",
+                    "author": "Autor: Fábio Monteiro.",
+                    "information": "<p align='left'>Giramundo, um inventivo menino, recebe uma carta misteriosa, de um amigo de Luanda, Angola. Curioso, ele responde com muitas perguntas ao inusitado destinatário, na ânsia de descobrir seu nome, como é o lugar onde vive, qual é sua história. Seu Joaquim, o dono da venda, português de Luanda, intermedia o contato. Esse é o início de uma bela amizade, de uma linda troca de correspondências e da descoberta de lugares distantes.</p>"
+                },
+                {
+                    "name": "João das Letras",
+                    "src": "assets/imgs/4° EF/joão.jpg",
+                    "author": "Autora: Regina Rennó.",
+                    "information": "<p align='left'></p>"
+                },
+                {
+                    "name": "Ou isto ou Aquilo",
+                    "src": "assets/imgs/4° EF/ou isto.jpg",
+                    "author": "Autora: Cecilia Meireles.",
+                    "information": "<p align='left'>Em uma cidadezinha, parece que todo mundo acorda cedo: José, Zefa, Manuel, Ofélia, Raimundo, Clara. Cada um com seu ofício: sapateiro, doceira, padeiro, costureira, jardineiro, cozinheira.Todos fazem alguma coisa ou algum serviço: meia-sola, bem-casado, pão de mel, camisa de colarinho, poda, peixe.E João das Letras, o que faz?O que faz esse moço de braços esguios, mãos ossudas, dedos longos?</p>"
+                },
+                {
+                    "name": "O gato Malhado e a Andorinha Sinhá",
+                    "src": "assets/imgs/4° EF/o gato.jpg",
+                    "author": "Autor: Jorge Amado.",
+                    "information": "<p align='left'>AJorge Amado colheu essa história de amor de uma trova do poeta Estêvão da Escuna, que a costumava recitar no Mercadodas Sete Portas, em Salvador, e a colocou no papel com o tom fabular dos contos infanto-juvenis em 1948, quando vivia em Paris. Não era uma história para ser publicada, mas um presente para o filho, João Jorge, que completava um ano de idade. Guardado entre as coisas do menino, o texto só foi reencontrado em 1976. João Jorge entregou então a narrativa a Carybé, que ilustrou as páginas datilografadas.</p>"
+                },
+                {
+                    "name": "Ulomma - a casa da beleza e outros contos",
+                    "src": "assets/imgs/4° EF/ulommar.jpg",
+                    "author": "Autor: Sunny.",
+                    "information": "<p align='left'>'Ulomma, Casa da Beleza' é uma coletânea de contos que apresenta ao público brasileiro um pouco da rica tradição oral africana. Algumas histórias são conhecidas, em versões ligeiramente modificadas como UnuNile, Todos vocês, sobre a tartaruga que queria participar de uma festa no céu. Guardadas pelo autor, que as ouviu de seus pais e avós durante a infância na Nigéria, todas trazem ensinamentos e oferecem elementos importantes para o resgate da história e da cultura africanas, componentes de nossa formação cultural.</p>"
+                },
+                {
+                    "name": "A febre do planeta – cidadania ambiental",
+                    "src": "assets/imgs/4° EF/A febre do planeta.jpg",
+                    "author": "Autor: Edson Gabriel Garcia.",
+                    "information": "<p align='left'>Após os alunos promoverem uma guerra de lixo durante o recreio, a diretora Guga resolve ter uma conversa importante sobre cidadania - em especial, sobre a relação do Homem com o planeta Terra e sua responsabilidade com o ambiente e que vive. A partir desta reflexão, professores e estudantes formam o CEAA (Conselho Escolar de Ativistas Ambientais), com o objetivo de promover entre a comunidade ações de conscientização sobre a importância de respeitar o planeta e como cada um pode fazer a sua parte. Em meio à história, os leitores encontram glossários e textos com informações adicionais sobre o tema.</p>"
+                },
+                {
+                    "name": "Passarinhos e gaviões: uma fábula da democracia ",
+                    "src": "assets/imgs/4° EF/Pssarinhos e gavioes.jpg",
+                    "author": "Autor: Francisco Rodrigues de Alencar Filho.",
+                    "information": "<p align='left'>Um pardal descobre que, se comer ovos, pode se transformar em gavião e ser o rei da mata. Ele e seus aliados tornam-se ditadores. Os descontentes dão um jeito de mudar a situação e elaboram a nova constituição da floresta. Esta fábula desenvolve temas como autoritarismo, censura, constituição e democracia, fazendo com que o leitor compreenda como são feitas e para que servem as leis que regem uma sociedade.</p>"
+                },
+                {
+                    "name": "Bem-me-quer, mal-me-quer! Margarida par ou margarida ímpar?",
+                    "src": "assets/imgs/4° EF/bem me quer mal me quer.jpg",
+                    "author": "Autor: Atílio Bari",
+                    "information": "<p align='left'>Matemática em cena propõe incentivar o ensino da matemática por meio de jogos teatrais. Cada volume da coleção apresenta uma história divertida permeada por desafios e curiosidades matemáticas, além de dicas para a montagem de uma peça e um texto para teatro.</p>"
+                },
+                {
+                    "name": "E eles queriam contar",
+                    "src": "assets/imgs/4° EF/e eles queriam contar.jpg",
+                    "author": "Autor: Luzia Faraco Faifi.",
+                    "information": "<p align='left'>Caio e Adelaide viviam num tempo em que os números ainda não tinham sido inventados e descobriram um jeito de contar as cabras de seu rebanho. Como eles conseguiram? Veja a história desses pequenos pastores e descubra como eles construíram a noção de dezena.</p>"
+                },
+                {
+                    "name": "Nossa tabuadinha",
+                    "src": "assets/imgs/4° EF/nossa tabuadinha.jpg",
+                    "author": "Organizadoras: Roberta Martins e Sueli Yukiko",
+                    "information": "<p align='left'>Esta obra oferece um reforço da disciplina de Matemática para - operações aritméticas, tabuadas das quatro operações, cálculo de porcentagem e juros, sistema monetário brasileiro, sistema de medidas, números decimais, algarismos romanos e números ordinais.</p>"
+                },
+                {
+                    "name": "Kuery",
+                    "src": "assets/imgs/4° EF/Kuery.jpg",
+                    "author": "Autor: Júlio Emílio Braz.",
+                    "information": "<p align='left'>Kuery significa 'plural' entre os mbiyá. Júlio Emílio Braz escolheu esta palavra como título pensando nos múltiplos aspectos do humano, índio ou não, e se prendendo destacadamente em um deles: o amor. Não para apresentá-lo como diferente, mas para deixar claro como é igual e ao mesmo tempo tão singelo entre os vários grupos tribais desse imenso e diverso Brasil. O amor, como todas as coisas na vida, pode ter muitas e muitas maneiras de se expressar. Por isso, o amor é plural. Todos nós, de um jeito ou de outro, amamos. Todos nós.</p>"
+                },
+                {
+                    "name": "Vovó Nanã vai à Escola",
+                    "src": "assets/imgs/4° EF/Vovo nanã.jpg",
+                    "author": "Autor: Dagoberto José Fonseca.",
+                    "information": "<p align='left'>Aisha e Yetundê são primas e moram juntas na casa da avó. Vovó Nanã nasceu na Nigéria, África, e conta muitas histórias interessantes sobre as origens africanas. Este ano ela vai ser muito importante para a Semana Cultural da escola de suas netas. Por meio da tradição da oralidade na cultura dos povos africanos, Nanã reconstrói as origens da África e do Brasil.</p>"
+                },
+                {
+                    "name": "A Festa da Asa-Branca",
+                    "src": "assets/imgs/4° EF/a festa.jpg",
+                    "author": "Autor: Wilson Seraine.",
+                    "information": "<p align='left'>A Asa Branca decidiu dar uma festa e reuniu muitas aves. E, não por mero acaso, todas as aves convidadas são aquelas que são citadas na extensa obra musical de Luiz Gonzaga. No auge da festa, que acontece em baixo de um juazeiro, se escuta um tiro de bacamarte… Era madrugada de 13 de dezembro e o tiro foi disparado por seu Januário, anunciando o nascimento de seu filho Luiz, que mais tarde viria a ser o rei do baião! Mais do que ampliar a percepção acerca dos pássaros, esse livro também leva o leitor a discutir alguns aspectos da cultura nordestina, com ênfase na culinária, na literatura de cordel, no ecossistema – sertão e, ainda, nos saberes populares.</p>"
                 }
             ]
         },
@@ -808,14 +888,82 @@
             "name": "5°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "UYRÁ: O defensor do planeta.",
+                    "src": "assets/imgs/5°EF/UYRA.jpg",
+                    "author": "Autor: Fernando Carraro. ",
+                    "information": "<p align='left'>Uyrá é um curumim inteligente que vive em uma comunidade indígena da Floresta Amazônica. Ele adora aprender coisas novas, principalmente relacionadas à preservação da natureza e do nosso planeta. Para proteger a floresta, Uyrá conta com a ajuda de seus amigos e, ao lado deles, aprontam várias travessuras. Ao longo da história, Uyrá conhece um repórter que o ajudará a entender mais sobre as mudanças climáticas do mundo, sobre o aquecimento global e também conhece a história do líder ambientalista Chico Mendes - com quem acaba se identificando.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Kiese - história de um africano no Brasil",
+                    "src": "assets/imgs/5°EF/Kiese.jpg",
+                    "author": "",
+                    "information": "<p align='left'>O livro narra a trajetória de Kiese, um menino que foi capturado ainda na infância em sua aldeia, na África, e trazido para o Brasil para ser escravizado. É também a história de muitos africanos que foram tirados de seu território, separados de seus familiares e amigos e trazidos para o Brasil ao longo do tempo que durou o regime escravista em nosso país. A história de Kiese é a história de um brasileiro que lutou para conquistar um lugar para ser feliz com sua família, seus amigos e sua gente. Sua história se confunde com a própria formação do Brasil.</p>"
+                },
+                {
+                    "name": "De olhos bem abertos - a formação da consciência do cidadão. ",
+                    "src": "assets/imgs/5°EF/de olhos bem.jpg",
+                    "author": "Autor: Edson Gabriel Garcia.",
+                    "information": "<p align='left'>A diretora Glorinha recebe um abaixo-assinado dos alunos pedindo a saída do presidente do grêmio estudantil. Aproveitando a oportunidade, ela propõe a eleição de representantes de classe em toda a escola. As ações e situações propostas levam a refletir sobre cidadania, democracia, diálogo e participação política.</p>"
+                },
+                {
+                    "name": "Saúde e Vida",
+                    "src": "assets/imgs/5°EF/Saúde.png",
+                    "author": "Autor: Fernando Carraro",
+                    "information": "<p align='left'>Ter saúde não é só deixar de ficar doente. É, acima de tudo, levar sempre uma vida saudável com diversão, boa alimentação, atividade física e também cuidados médicos, quando necessário. Neste livro, conheceremos mais sobre a saúde pública, responsável por fornecer os cuidados de saúde a quem precisa deles. Giovana, depois de férias na praia, volta para a escola. Ela e seus amigos preparam, com a orientação da professora, um projeto sobre saúde. Vão conversar sobre questões como atendimento hospitalar, vacinação, cuidados de higiene e muito mais.</p>"
+                },
+                {
+                    "name": "ABC da Ecologia",
+                    "src": "assets/imgs/5°EF/abc.jpg",
+                    "author": "Autor: Cineas Santos.",
+                    "information": "<p align='left'>Em verso e prosa, o ABC da Ecologia é um apelo urgente à preservação da Natureza, um manifesto em defesa da vida em nosso planeta. O colorido das ilustrações e a poética dos versos chamam a atenção do leitor iniciante, levando-o a absorver a mensagem central: o cuidado com o meio ambiente</p>"
+                },
+                {
+                    "name": "As viagens de Gulliver",
+                    "src": "assets/imgs/5°EF/viagens.jpg",
+                    "author": "Autor: Jonathan Swift",
+                    "information": "<p align='left'>Desde menino, Gulliver sonhava em viver grandes aventuras nos mares. Quando adulto, tornou-se médico e passou a exercer sua profissão em navios. Assim, abandonou sua família na Inglaterra para realizar o seu sonho de infância. Neste livro, ele conta como foi parar em reinos e países exóticos e as aventuras que viveu por lá.</p>"
+                },
+                {
+                    "name": "A fala da cor na dança do Beija-flor",
+                    "src": "assets/imgs/5°EF/a fala.jpg",
+                    "author": "Autor: Assis Brasil.",
+                    "information": "<p align='left'>Nesta obra, o autor reúne dois contos que abordam a importância de aprender a conviver com a natureza e como é possível preservá-la. Personagens cativantes, como um beija-flor e um periquito, prendem a leitura do começo ao fim, em aventuras de fácil compreensão para crianças e adolescentes.</p>"
+                },
+                {
+                    "name": "Asas do Joel",
+                    "src": "assets/imgs/5°EF/asas.jpg",
+                    "author": "Autor: Walcyr Carrasco.",
+                    "information": "<p align='left'>Pedrinho queria voar. Estudou um bocado sobre asas e, escondido de todos, começou a construir um par delas para decolar um belo dia rumo ao azul do céu. Joel era... um garoto com problemas. Desses de quem todo mundo toma as figurinhas, de quem se rouba balas. Um bobo, achava Pedrinho. Excepcional, ensinou-lhe a mãe. Que dupla, não é? mas deu no que deu... Lendo esta história, você vai descobrir que amizade é uma coisa tão inexplicável, tão mágica e tão forte, que faz até mesmo as coisas impossíveis baterem asas e saírem voando por aí.</p>"
+                },
+                {
+                    "name": "Bisa Bia, Bisa Bel",
+                    "src": "assets/imgs/5°EF/BisA BIA.jpg",
+                    "author": "Autor: Ana Maria Machado.",
+                    "information": "<p align='left'>Um livro de extraordinária beleza, contando a história de uma menina que, no convívio imaginário com sua bisavó e sua bisneta, aprende a conviver consigo mesma. Três tempos e três vivências que se cruzam e se completam numa só pessoa, a menina Isabel. O diálogo de Isabel - ou melhor, de Bel - com sua avó - Bisa Bia - e, depois, com sua futura bisneta é uma mistura encantadora do real e do imaginário, levando o leitor a perceber as mudanças no papel da mulher na sociedade.</p>"
+                },
+                {
+                    "name": "O jeito de cada um",
+                    "src": "assets/imgs/5°EF/o jeito de cada.jpg",
+                    "author": "Autor: Edson Gabriel Garcia.",
+                    "information": "<p align='left'>A escola ofereceu uma quantia em dinheiro para que cada classe comprasse alguma coisa que fosse útil aos alunos. A professora Taís colocou o tema em votação, e venceu a ideia de Marcelinho: a turma comprou um espelho. A partir dessa situação, o livro discute questões como preconceito e discriminação.</p>"
+                },
+                {
+                    "name": "Berimbau",
+                    "src": "assets/imgs/5°EF/Berimbau.jpg",
+                    "author": "Autor: Manuel Bandeira.",
+                    "information": "<p align='left'>Balõezinhos, Porquinho-da-índia, Andorinha, O grilo, Céu, Na rua do sabão, Mozart no céu, Vozes na noite, Trem de ferro, O anel de vidro, A estrela, Madrigal tão engraçadinho e Os sapos são alguns dentre os 29 poemas que compõem este livro. Com a seleção de Elias José, o livro traz poemas com um toque lúdico, humor e ritmo envolventes. De maneira simples e gostosa, os poemas entretêm, divertem e aguçam a imaginação do pequeno leitor. Além de mexerem com os sentimentos e as emoções, levarão a criança a embarcar na fantasia, plena de liberdade, ternura e graça.</p>"
+                },
+                {
+                    "name": "O que fazer primeiro?",
+                    "src": "assets/imgs/5°EF/o que fazer.jpg",
+                    "author": "Autor: Luzia Faraco Ramos.",
+                    "information": "<p align='left'>Verão. Praia. Filipe, Nice e Rafa conhecem Zito e Marisa. Estão de férias e têm um mês inteiro de diversão pela frente. A turma participa de um campeonato de surfe, de um torneio de vôlei e de um programa de incentivo à pesquisa. Que tema escolher? Inventar uma música? Ou uma peça? Será que eles vão ganhar todas essas competições? Com tanta disputa, a amizade entre eles vai ficar mais forte ou criar problemas?</p>"
+                },
+                {
+                    "name": "Dom, talento e vocação. Quem não tem? ",
+                    "src": "assets/imgs/5°EF/dom.jpg",
+                    "author": "Autor: Fernando Carraro.",
+                    "information": "<p align='left'>Com 'Dom, talento e vocação. Quem não tem?', Fernando Carraro apresenta a envolvente história de uma professora que um dia percebe a necessidade de promover entre seus alunos a oportunidade de eles descobrirem e desenvolverem suas qualidades. Com um projeto repleto de estratégias criativas, intitulado Caça-talentos, que inclui até mesmo a criação da ONG Caça-talentos, os alunos percebem que descobrir sua vocação e desenvolvê-la deve ser um de seus principais objetivos de vida. Os resultados obtidos com o desenvolvimento do projeto são promissores e os alunos seguem suas vidas sentindo-se plenamente realizados nas profissões que escolheram.</p>"
                 }
             ]
         },
@@ -823,14 +971,46 @@
             "name": "6°Ano do Fundamental",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Ecologia da cidade",
+                    "src": "assets/imgs/6 ANO/ECOLOGIA DA CIDADE.jpg",
+                    "author": "Autor: Samuel Murgel Branco.",
+                    "information": "<p align='left'>Vivemos uma época de grandes preocupações com a proteção do meio ambiente. Fala-se muito do desmatamento da Amazônia, da destruição do Pantanal, do desaparecimento de espécies animais e vegetais. Existe, porém, um tipo de ambiente inteiramente criado pelo ser humano, sobre o qual deveríamos, também, concentrar nossas atenções. É o ambiente do homem moderno - as cidades. Neste livro, o autor, biólogo, mostra que esse ambiente também possui os seus problemas de desequilíbrio ecológico.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Diga não à violência!",
+                    "src": "assets/imgs/6 ANO/diga nao a violencia.jpg",
+                    "author": "Autor: Fernando.",
+                    "information": "<p align='left'>Um acontecimento inesperado desencadeia momentos de reflexão sobre a violência social. Um assalto sofrido pelo personagem Pedro, de 10 anos, desencadeia uma conversa em sala de aula sobre os vários tipos de violência social. Pedro e seus colegas contam as situações pelas quais passaram e como se sentiram. Com leveza, esta obra aborda situações como bullying, preconceito contra etnia, classe social, cor da pele, entre outras, promovendo momentos de reflexão e discutindo formas de superar as múltiplas faces da violência.</p>"
+                },
+                {
+                    "name": "Os Cavaleiros do Graal",
+                    "src": "assets/imgs/6 ANO/os cavaleiros do graal.jpg",
+                    "author": "Autor: Luiz.",
+                    "information": "<p align='left'>As poucas lendas encantaram tanto as pessoas quanto a do Graal. As histórias sobre o cálice onde teria sido recolhido o sangue de Cristo Crucificado atravessaram os séculos. O sonho de encontrá-lo motivou aventuras reais, expedições, assim como livros e filmes. Nesta história, você vai conhecer como tudo começou, na Inglaterra, nos tempos do Rei Arthur e dos cavaleiros da Távola redonda. Três heróicos cavaleiros andantes saem em busca do Graal. A missão os fará correr perigos. Mas do que nunca precisarão tanto da habilidade com as armas quanto da fé e da força de seus corações.</p>"
+                },
+                {
+                    "name": "Sonho de Uma Noite de Verão",
+                    "src": "assets/imgs/6 ANO/sonho de uma noite de verao.jpg",
+                    "author": "Autor: William Shakespeare.",
+                    "information": "<p align='left'>A história se inicia com o Duque Teseu, que se prepara para casar com Hipólita. Antes do casamento, Teseu é chamado para resolver uma disputa amorosa envolvendo a romântica Hérmia e o seu pai Egeu. Hérmia ama Lisandro, mas Egeu tem a ideia de forçar Hérmia a casar-se com Demétrio; Teseu então decide que Hérmia tem até seu casamento com Hipólita para escolher o seu destino: casa-se com Demétrio, morre ou converte-se no altar de Diana e abandona a companhia de homens para viver em solidão. Lisandro propõe à sua amada que ambos fujam de Atenas, e ela concorda. Hérmia conta o seu plano à sua amiga Helena, que morre de amores por Demétrio. Helena acaba informando-o da fuga, a fim de ficar sozinha com ele na floresta. Os quatro então entram em uma floresta povoada por elfos, fadas e outros seres encantados.</p>"
+                },
+                {
+                    "name": "Contos de Outrora",
+                    "src": "assets/imgs/6 ANO/contos de outrora.jpg",
+                    "author": "Autora: Rosane Pamplona.",
+                    "information": "<p align='left'>As histórias recontadas por Rosane Pamplona em Contos de outrora para jovens de agora não são contos de fada nem tampouco de aventura ou trapaça. Trata-se, antes de tudo, de narrativas de teor filosófico, que buscam transmitir, por meio de imagens, a antiga sabedoria de um povo. Em sua maioria, os contos nos apresentam uma questão reflexiva e enigmática, sem apontar saídas confortáveis ou respostas contundentes em todos os momentos.</p>"
+                },
+                {
+                    "name": "Aquecimento global não da rima com legal",
+                    "src": "assets/imgs/6 ANO/AQUECIMENNTO.jpg",
+                    "author": "Autor: César Obeid.",
+                    "information": "<p align='left'>Apresentado em forma de cordel, este livro será um bom instrumento para apresentar o principal problema ambiental da atualidade aos estudantes do ensino fundamental I. O jovem leitor ficará sabendo quais são as ações que mais agridem o meio ambiente e quais as ações que ajudam a evitar o desgaste do nosso planeta. Ações pessoais e de grupos organizados são formas de reverter essa situação de instabilidade ecológica e garantir uma existência saudável para as futuras gerações.</p>"
+                },
+                {
+                    "name": "Vamos ao museu?",
+                    "src": "assets/imgs/6 ANO/MUSEU.jpg",
+                    "author": "Autores: Nereide Schilaro Santa Rosa e Neusa Schilaro Scaléa.",
+                    "information": "<p align='left'></p>"
                 }
             ]
         },
