@@ -1172,14 +1172,22 @@
             "name": "1° Ano do Ensino Médio",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Antologia de Poesia Brasileira – Romantismo",
+                    "src": "assets/imgs/1 SÉRIE/Antologia.jpg",
+                    "author": "Vários autores.",
+                    "information": "<p align='left'>Dúvida existencial, amor impossível - estes são os temas mais conhecidos da poesia romântica. Mas há nesse movimento artístico outras facetas: o ímpeto eufórico, a luta pela liberdade, o louvor à pátria e aos índios, o humor e o grotesco. Esta coletânea reúne a diversidade que o romantismo adquiriu em solo brasileiro.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Dom Casmurro",
+                    "src": "assets/imgs/1 SÉRIE/Dom casmurro.jpg",
+                    "author": "Autor: Machado de Assis.",
+                    "information": "<p align='left'>Bento Santiago, o narrador da história contada em primeira pessoa, vai unir relatos desde sua mocidade até os dias em que está escrevendo o livro. Bento escreve sobre suas reminiscências da juventude, sua vida no seminário, seu caso com Capitu e o ciúme que advém desse relacionamento, que se torna o enredo central da trama. Dom Casmurro é um homem martirizado pela dúvida, e que não consegue tomar uma decisão firme.</p>"
+                },
+                {
+                    "name": "Senhora",
+                    "src": "assets/imgs/1 SÉRIE/Senhora.jpg",
+                    "author": "Autor: José de Alencar.",
+                    "information": "<p align='left'>Aurélia Camargo, filha de uma pobre costureira e órfã de pai,depois de perder seu irmão apaixonou-se por Fernando Seixas – homem ambicioso - a quem namorou. Este, porém, desfaz a relação, movido pela vontade de se casar com uma moça rica, Adelaide Amaral, e pelo dote ao qual teria direito de receber. Passado algum tempo, Aurélia, já órfã de mãe também, recebe uma grande herança do avô e ascende socialmente. A história de Fernando vai dar então uma reviravolta.</p>"
                 }
             ]
         },
@@ -1187,14 +1195,28 @@
             "name": "2° Ano do Ensino Médio",
             "children": [
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Sagarana",
+                    "src": "assets/imgs/2 SÉRIE/Sagarana.jpg",
+                    "author": "Autor: João Guimarães Rosa.",
+                    "information": "<p align='left'>As narrativas de Sagarana, repletas de incidentes, casos fantásticos e imaginários, contém às vezes mais de uma “história” dentro da “história”. De um modo geral, casos secundários são postos em função do principal: têm a finalidade de comprovar ou preparar terreno para a história principal. Confundindo lugares e paisagens, mesclando o real, o imaginário e o lendário, é um livro regionalista universalista já que suas histórias localizam-se no sertão de Minas Gerais, no entanto tratam de questões existenciais universais.</p>"
                 },
                 {
-                    "name": "O dia do Coringa",
-                    "src": "assets/imgs/curinga.jpg",
-                    "information": "O ponto de partida deste livro de Jostein Gaarder é a história de um garoto chamado Hans-Thomas e seu pai, que cruzam a Europa, da Noruega à Grécia, à procura da mulher que os deixou oito anos antes. No meio da viagem, um livro misterioso desencadeia uma narrativa paralela, em que mitos gregos, maldições de família, náufragos e cartas de baralho que ganham vida transformam a viagem de Hans-Thomas numa autêntica iniciação à busca do conhecimento - ou à filosofia. O dia do Curinga é a história de muitas viagens fantásticas que se entrelaçam numa viagem única e ainda mais fantástica - e que só pode ser feita por um grande aventureiro: o leitor."
+                    "name": "Memórias de um sargento de milícia",
+                    "src": "assets/imgs/2 SÉRIE/Memórias.png",
+                    "author": "Autor: Manuel Antônio de Almeida.",
+                    "information": "<p align='left'>Conta a história de Leonardo, que quando pequeno só sabia aprontar travessuras e ao crescer, virou um sargento de milícias. Quando seus pais brigaram, ele foi morar com o Padrinho que tentou educá-lo para que fosse padre. Contudo, o Padrinho não obteve sucesso em seus planos, conseguiu que ele ficasse na escola por mais dois anos. Assim, Leonardo aprendeu a ler muito mal e a escrever pior ainda.Leonardo não é um vilão, mas não representa um modelo de comportamento; é uma pessoa comum, longe de ser um herói romântico.</p>"
+                },
+                {
+                    "name": "Memórias Póstumas de Brás Cubas",
+                    "src": "assets/imgs/2 SÉRIE/memorias postumas.jpg",
+                    "author": "Autor: Machado de Assis",
+                    "information": "<p align='left'>Brás Cubas leva uma vida desregrada e repleta de atropelos. Narrado em primeira pessoa, seu autor é Brás Cubas, um defunto-autor, isto é, um homem que já morreu e que deseja escrever a sua autobiografia. Nascido numa típica família da elite carioca do século XIX, do túmulo o morto escreve suas memórias póstumas. </p>"
+                },
+                {
+                    "name": "Civilização (conto)",
+                    "src": "assets/imgs/2 SÉRIE/civilizacao.jpg",
+                    "author": "Autor: Eça de Queirós",
+                    "information": "<p align='left'>Civilização é um conto de Eça de Queirós onde é narrada a vida de Jacinto, um homem novo e culto que vivia luxuosamente, rodeado dos mais sofisticados e recentes inventos e das mais belas obras-primas da literatura. De facto, Jacinto era um homem sempre aborrecido, desanimado e entediado, apesar do luxo em que vivia. Era o protótipo do homem civilizado, mas também da infelicidade. Tudo havia de mudar quando o protagonista decide ir passar uma temporada bem longe da civilização.</p>"
                 }
             ]
         }
