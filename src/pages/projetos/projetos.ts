@@ -4,8 +4,6 @@ import { Http } from '@angular/http'
 import 'rxjs/add/operator/map'
 
 
-
-
 @Component({
     selector: 'page-projetos',
     templateUrl: 'projetos.html'
