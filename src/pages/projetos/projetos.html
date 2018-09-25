@@ -37,7 +37,7 @@
             <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
               <h2>{{ child.name }}</h2>
               <p>{{ child.information }}</p>
-              <ion-slides loop="true" slidesPerView="3">
+              <ion-slides loop="true" slidesPerView="2">
                 <ion-slide *ngFor="let child of child.imgsrc; let k = index">
                   <img src="{{ child.src }}"> 
                 </ion-slide>
