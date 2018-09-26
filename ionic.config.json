@@ -1,5 +1,7 @@
 {
   "name": "circuitoionic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

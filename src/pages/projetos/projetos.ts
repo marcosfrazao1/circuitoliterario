@@ -26,5 +26,8 @@ export class Projetos {
     toggleItem(i, j) {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     }
-
+    
+    
+      }
+    
 }
