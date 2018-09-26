@@ -26,4 +26,23 @@ export class Projetos {
     toggleItem(i, j) {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     }  
+
+    ngAfterViewInit(){  
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/all.js";
+      
+        
+          if (d.getElementById(id)){
+            //if <script id="facebook-jssdk"> exists
+            delete (<any>window).FB;
+            fjs.parentNode.replaceChild(js, fjs);
+          } else {
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, 'script', 'facebook-jssdk'));
+      }
+
+      
 }

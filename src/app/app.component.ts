@@ -10,6 +10,10 @@ import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
 import { Fale } from '../pages/fale/fale';
 
+import { Component } from '@angular/core';
+import { Platform } from 'ionic-angular';
+import { StatusBar, Splashscreen } from 'ionic-native';
+
 
 @Component({
     templateUrl: 'app.html'
