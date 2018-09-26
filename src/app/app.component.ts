@@ -4,16 +4,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { Timeline } from '../pages/timeline/timeline'
+import { Timeline } from '../pages/timeline/timeline';
 import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
 import { Fale } from '../pages/fale/fale';
-
-import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
-
 
 @Component({
     templateUrl: 'app.html'

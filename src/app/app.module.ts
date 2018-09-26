@@ -13,6 +13,7 @@ import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
 import { Fale } from '../pages/fale/fale';
 
+
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
 
@@ -59,5 +60,6 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     Facebook,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
+  
 })
 export class AppModule { }
