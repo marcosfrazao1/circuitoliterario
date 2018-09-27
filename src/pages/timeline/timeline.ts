@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'page-timeline',
@@ -13,6 +14,7 @@ export class Timeline {
             content: `assets/timelineimgs/homero.jpg`,
             icon: 'calendar',
             time: { title: 'VIII aC' }
+            
         },
         {
             title: 'Hesíodo',
