@@ -10,13 +10,31 @@
                 {
                     "imgsrc": [
                         {
-                            "src": "assets/imgs/Batepapo/BATE PAPO ATUALIDADES.jpg"
+                            "src": "assets/imgs/Batepapo/1.jpg"
                         },
                         {
-                            "src": "assets/imgs/Batepapo/BATE PAPO LITERÁRIO 1.jpg"
+                            "src": "assets/imgs/Batepapo/2.jpg"
                         },
                         {
-                            "src": "assets/imgs/Batepapo/BATE PAPO LITERÁRIO.jpg"
+                            "src": "assets/imgs/Batepapo/3.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/4.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/5.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/6.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/7.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/8.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/9.jpg"
                         }
                     ]
                 }
@@ -32,16 +50,13 @@
                 {
                     "imgsrc": [
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/TerracoLiterario/1.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/TerracoLiterario/2.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
-                        },
-                        {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/TerracoLiterario/3.jpg"
                         }
                     ]
                 }
@@ -82,16 +97,16 @@
                 {
                     "imgsrc": [
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/QuiosqueLiterrio/1.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/QuiosqueLiterrio/2.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/QuiosqueLiterrio/3.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/QuiosqueLiterrio/4.jpg"
                         }
                     ]
                 }
@@ -123,25 +138,25 @@
             ]
         },
         {
-            "name": "Feira Literária",
+            "name": "Barco da Leitura",
             "children": [
                 {
                     "name": "Apresentação do projeto",
-                    "information": "A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do patrimônio cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade, os sonhos e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita."
+                    "information": "O projeto Encontro de Culturas tem como meta difundir o conhecimento sobre a história e sociabilidade dos três povos que deram origem ao povo brasileiro: o indígena, o português e africano, bem como compreender a relevância dos imigrantes, e o rico resultado cultural na atualidade dessa miscigenação. Ao conhecer a diversidade cultural do Brasil, o aluno também conhecerá a formação do Nordeste, do Piauí, e identificará mais de perto as características de sua nacionalidade, das etnias, línguas e costumes, contextualizando seus deslocamentos e conflitos em diversos momentos da história."
                 },
                 {
                     "imgsrc": [
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/Barcodaleitura/1.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/Barcodaleitura/2.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/Barcodaleitura/3.jpg"
                         },
                         {
-                            "src": "assets/imgs/brand-diocesano.png"
+                            "src": "assets/imgs/Barcodaleitura/4.jpg"
                         }
                     ]
                 }
