@@ -18,7 +18,7 @@ export class Timeline {
         },
         {
             title: 'Hesíodo',
-            content: `assets/timelineimgs/hesiodo.png`,
+            content: `assets/timelineimgs/Hesiodo.png`,
             icon: 'calendar',
             time: { title: 'VIII aC' }
         },
