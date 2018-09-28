@@ -108,7 +108,7 @@ var Timeline = /** @class */ (function () {
             },
             {
                 title: 'Hesíodo',
-                content: "assets/timelineimgs/hesiodo.jpg",
+                content: "assets/timelineimgs/Hesiodo.png",
                 icon: 'calendar',
                 time: { title: 'VIII aC' }
             },
