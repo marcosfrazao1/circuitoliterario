@@ -40,8 +40,7 @@ webpackEmptyAsyncContext.id = 152;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_facebook__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -51,26 +50,72 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 
 
 var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl, fb) {
-        this.navCtrl = navCtrl;
-        this.fb = fb;
+    function HomePage(facebook) {
+        this.facebook = facebook;
     }
     HomePage.prototype.login = function () {
-        this.fb.login(['public_profile', 'user_friends', 'email'])
-            .then(function (res) { return console.log('Logged into Facebook!', res); })
-            .catch(function (e) { return console.log('Error logging into Facebook', e); });
+        return __awaiter(this, void 0, void 0, function () {
+            var loginResponse, _a;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0: return [4 /*yield*/, this.facebook.login(['public_profile'])];
+                    case 1:
+                        loginResponse = _b.sent();
+                        _a = this;
+                        return [4 /*yield*/, this.facebook.api(loginResponse.authResponse.userID + "/?fields=id,name,picture", ['public_profile'])];
+                    case 2:
+                        _a.user = _b.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n\n\n\n\n    <img src="assets/imgs/Biblioteca.jpg">\n\n\n\n    \n\n\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Missão\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      A Biblioteca Professora Teresa Filpi Sampaio tem por missão ser um espaço de estudo e construção do conhecimento,\n\n      a fim de\n\n      cooperar com a dinâmica da escola, despertar o interesse intelectual, favorecer o enriquecimento cultural e\n\n      incentivar\n\n      o hábito da leitura.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Localização\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Localização: Rua 13 de Maio, 2° piso<br> Ramal 442<br> Horário de funcionamento: de 8h às 18h, de segunda à sexta\n\n      e\n\n      aos sábados, das 8h às 12h<br> Bibliotecária Bruna Dayane <br> E-mail bibliotecaria@diocesano.g12.br<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviços\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Acervo; Espaço de estudo em grupo e cabines individuais; Projetos literários; Acesso à Internet; Serviço de\n\n      empréstimo e\n\n      devolução de exemplares. Cadastro: pai ou responsável deverá comparecer à biblioteca para realizar o cadastro do\n\n      aluno,\n\n      portando o documento de identificação. Empréstimo é efetuado por todos os funcionários da Biblioteca através do\n\n      sistema.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviço de empréstimo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      O aluno poderá solicitar o empréstimo de até dois exemplares conforme o prazo de devolução para cada tipo de\n\n      acervo:<br> Revista\n\n      - 2 dias;<br> Acervo Geral - 5 dias;<br> Acervo Geral(Piauí)- 10 dias;<br> Literatura - 10 dias; Literatura\n\n      Piauiense-10\n\n      dias;\n\n      <br> Braile - 10 dias;<br> Caso a devolução não seja realizada na data prevista, será gerada uma multa para cada\n\n      exemplar\n\n      no valor de R$3,00 por dia.<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Sala de estudo em grupo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Para o uso da sala de estudo em grupo, o agendamento deverá ser realizado com 24 horas de antecedência, por grupo\n\n      de no mínimo\n\n      3 alunos e no máximo 8 alunos, na sala da Coordenação, nos horários de 8h10 às 10h10 e de 10h20 às 12h20 para o\n\n      turno\n\n      da manhã, e das 14h às 15h50 e das 16h às 17h50 pela tarde, de segunda a sexta.<br> O aluno deverá estar vestindo\n\n      o fardamento completo e cumprir o mesmo regulamento do manual do aluno. </ion-card-content>\n\n  </ion-card>\n\n\n\n  \n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n\n\n\n\n    <img src="assets/imgs/Biblioteca.jpg">\n\n\n\n    \n\n\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Missão\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      A Biblioteca Professora Teresa Filpi Sampaio tem por missão ser um espaço de estudo e construção do conhecimento,\n\n      a fim de\n\n      cooperar com a dinâmica da escola, despertar o interesse intelectual, favorecer o enriquecimento cultural e\n\n      incentivar\n\n      o hábito da leitura.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Localização\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Localização: Rua 13 de Maio, 2° piso<br> Ramal 442<br> Horário de funcionamento: de 8h às 18h, de segunda à sexta\n\n      e\n\n      aos sábados, das 8h às 12h<br> Bibliotecária Bruna Dayane <br> E-mail bibliotecaria@diocesano.g12.br<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviços\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Acervo; Espaço de estudo em grupo e cabines individuais; Projetos literários; Acesso à Internet; Serviço de\n\n      empréstimo e\n\n      devolução de exemplares. Cadastro: pai ou responsável deverá comparecer à biblioteca para realizar o cadastro do\n\n      aluno,\n\n      portando o documento de identificação. Empréstimo é efetuado por todos os funcionários da Biblioteca através do\n\n      sistema.\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Serviço de empréstimo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      O aluno poderá solicitar o empréstimo de até dois exemplares conforme o prazo de devolução para cada tipo de\n\n      acervo:<br> Revista\n\n      - 2 dias;<br> Acervo Geral - 5 dias;<br> Acervo Geral(Piauí)- 10 dias;<br> Literatura - 10 dias; Literatura\n\n      Piauiense-10\n\n      dias;\n\n      <br> Braile - 10 dias;<br> Caso a devolução não seja realizada na data prevista, será gerada uma multa para cada\n\n      exemplar\n\n      no valor de R$3,00 por dia.<br>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Sala de estudo em grupo\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Para o uso da sala de estudo em grupo, o agendamento deverá ser realizado com 24 horas de antecedência, por grupo\n\n      de no mínimo\n\n      3 alunos e no máximo 8 alunos, na sala da Coordenação, nos horários de 8h10 às 10h10 e de 10h20 às 12h20 para o\n\n      turno\n\n      da manhã, e das 14h às 15h50 e das 16h às 17h50 pela tarde, de segunda a sexta.<br> O aluno deverá estar vestindo\n\n      o fardamento completo e cumprir o mesmo regulamento do manual do aluno. </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-header>\n\n    <ion-navbar>\n\n      <ion-title>Home</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ionic_native_facebook__["a" /* Facebook */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ionic_native_facebook__["a" /* Facebook */]) === "function" && _a || Object])
     ], HomePage);
     return HomePage;
+    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -533,7 +578,7 @@ var Projetos = /** @class */ (function () {
     };
     Projetos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/'<ion-header>\n\n\n\n    \n\n\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button> \n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="main-content">\n\n  \n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n            \n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-list *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n            <!-- Toggle Button -->\n\n            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n              {{ child.name }}\n\n            </button>\n\n\n\n            <!-- Direct Add Button as Fallback -->\n\n            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n              <h2>{{ child.name }}</h2>\n\n              <p>{{ child.information }}</p>\n\n              <ion-slides loop="true" slidesPerView="2">\n\n                <ion-slide *ngFor="let child of child.imgsrc; let k = index">\n\n                  <img src="{{ child.src }}"> \n\n                </ion-slide>\n\n                </ion-slides>\n\n            </ion-item>\n\n\n\n        \n\n\n\n          </ion-list-header>\n\n         \n\n      \n\n      \n\n\n\n        </ion-list>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n  \n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/
+            selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/'<ion-header>\n\n\n\n    \n\n\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button> \n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<script>\n\n  window.fbAsyncInit = function() {\n\n    FB.init({\n\n      appId      : \'{your-app-id}\',\n\n      cookie     : true,\n\n      xfbml      : true,\n\n      version    : \'{api-version}\'\n\n    });\n\n      \n\n    FB.AppEvents.logPageView();   \n\n      \n\n  };\n\n\n\n  (function(d, s, id){\n\n     var js, fjs = d.getElementsByTagName(s)[0];\n\n     if (d.getElementById(id)) {return;}\n\n     js = d.createElement(s); js.id = id;\n\n     js.src = "https://connect.facebook.net/en_US/sdk.js";\n\n     fjs.parentNode.insertBefore(js, fjs);\n\n   }(document, \'script\', \'facebook-jssdk\'));\n\n</script>\n\n\n\n\n\n\n\n<ion-content class="main-content">\n\n  \n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n            \n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-list *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n            <!-- Toggle Button -->\n\n            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n              {{ child.name }}\n\n            </button>\n\n\n\n            <!-- Direct Add Button as Fallback -->\n\n            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n              <h2>{{ child.name }}</h2>\n\n              <p>{{ child.information }}</p>\n\n              <ion-slides loop="true" slidesPerView="2">\n\n                <ion-slide *ngFor="let child of child.imgsrc; let k = index">\n\n                  <img src="{{ child.src }}"> \n\n                </ion-slide>\n\n                </ion-slides>\n\n            </ion-item>\n\n\n\n        \n\n\n\n          </ion-list-header>\n\n         \n\n      \n\n      \n\n\n\n        </ion-list>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n  \n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\projetos\projetos.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
     ], Projetos);

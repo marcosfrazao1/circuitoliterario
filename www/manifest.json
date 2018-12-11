@@ -11,3 +11,12 @@
   "background_color": "#e80707",
   "theme_color": "#e80707"
 }
+
+{
+  "name": "facebookloginexample",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
