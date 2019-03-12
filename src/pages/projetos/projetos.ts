@@ -11,6 +11,7 @@ import 'rxjs/add/operator/map'
 export class Projetos {
     
     information: any[];
+    _iaBrowser: any;
 
     constructor(public navCtrl: NavController, http: Http) {
         let localData = http.get('assets/projetos.json').map(res => res.json().items);
@@ -44,7 +45,6 @@ export class Projetos {
         }(document, 'script', 'facebook-jssdk'));
       }
    
-      
       
 
       

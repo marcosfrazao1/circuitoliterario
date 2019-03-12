@@ -4,6 +4,7 @@ import { NavController } from 'ionic-angular';
 @Component({
     selector: 'page-feira',
     templateUrl: 'feira.html'
+    
 })
 
 export class Feira {
@@ -14,4 +15,9 @@ export class Feira {
 
     }
 
+
+
+
   }
+
+  

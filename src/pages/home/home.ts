@@ -12,7 +12,7 @@ export class HomePage {
   user: any;
 
   constructor(private facebook: Facebook) {}
-
+  
   async login() {
     const loginResponse = await this.facebook.login(['public_profile']);
 
@@ -21,6 +21,7 @@ export class HomePage {
       ['public_profile']
     );
   }
+
 
   
   

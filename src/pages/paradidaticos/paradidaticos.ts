@@ -63,7 +63,7 @@ export class Paradidaticos {
         this.information[i].children[j].open = !this.information[i].children[j].open;
     }
 
-
+    
 
 
 }
