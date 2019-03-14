@@ -1196,7 +1196,7 @@
             "children": [
                 {
                     "name": "Sagarana",
-                    "src": "assets/imgs/2 SÉRIE/Sagarana.jpg",
+                    "src": "assets/imgs/2 SÉRIE/Sagarana-min.jpg",
                     "author": "Autor: João Guimarães Rosa.",
                     "information": "<p align='left'>As narrativas de Sagarana, repletas de incidentes, casos fantásticos e imaginários, contém às vezes mais de uma “história” dentro da “história”. De um modo geral, casos secundários são postos em função do principal: têm a finalidade de comprovar ou preparar terreno para a história principal. Confundindo lugares e paisagens, mesclando o real, o imaginário e o lendário, é um livro regionalista universalista já que suas histórias localizam-se no sertão de Minas Gerais, no entanto tratam de questões existenciais universais.</p>"
                 },
@@ -1208,13 +1208,13 @@
                 },
                 {
                     "name": "Memórias Póstumas de Brás Cubas",
-                    "src": "assets/imgs/2 SÉRIE/memorias postumas.jpg",
+                    "src": "assets/imgs/2 SÉRIE/memorias postumas-min.jpg",
                     "author": "Autor: Machado de Assis",
                     "information": "<p align='left'>Brás Cubas leva uma vida desregrada e repleta de atropelos. Narrado em primeira pessoa, seu autor é Brás Cubas, um defunto-autor, isto é, um homem que já morreu e que deseja escrever a sua autobiografia. Nascido numa típica família da elite carioca do século XIX, do túmulo o morto escreve suas memórias póstumas. </p>"
                 },
                 {
                     "name": "Civilização (conto)",
-                    "src": "assets/imgs/2 SÉRIE/civilizacao.jpg",
+                    "src": "assets/imgs/2 SÉRIE/civilizacao-min.jpg",
                     "author": "Autor: Eça de Queirós",
                     "information": "<p align='left'>Civilização é um conto de Eça de Queirós onde é narrada a vida de Jacinto, um homem novo e culto que vivia luxuosamente, rodeado dos mais sofisticados e recentes inventos e das mais belas obras-primas da literatura. De facto, Jacinto era um homem sempre aborrecido, desanimado e entediado, apesar do luxo em que vivia. Era o protótipo do homem civilizado, mas também da infelicidade. Tudo havia de mudar quando o protagonista decide ir passar uma temporada bem longe da civilização.</p>"
                 }

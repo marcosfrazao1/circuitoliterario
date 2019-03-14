@@ -26,7 +26,7 @@ export class Paradidaticos {
         let Author = author
         let Summary = html
         let SRC = imgsrc
-        let BliUrl = "http://portal.ani.org.br/Corpore.Net/Main.aspx?ActionID=BibConsultaInternaActionWeb&SelectedMenuIDKey=ItemPesquisarReservar"
+        let BliUrl = "https://portal.asav.org.br/Corpore.Net/Main.aspx?ActionID=BibConsultaInternaActionWeb&SelectedMenuIDKey=ItemPesquisarReservar"
         swal({
             title: Title,
             html: Author + "<br>" + "<br>" + Summary + "<br>" ,
