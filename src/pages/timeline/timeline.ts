@@ -162,7 +162,7 @@ export class Timeline {
         {
             title: 'Luciano de Samostata',
             content: `assets/timelineimgs/luciano.jpg`,
-            tex:'Grande escritor romano, de origem semita, famoso por seus diálogos satíricos. Satirizou e criticou acidamente os costumes e a sociedade da época e exerceu, a partir da Renascença, significativa influência em escritores ocidentais do porte de Erasmo, Rabelais, Quevedo, Swift, Voltaire e Machado de Assis. Sua obra “Uma história verdadeira” é precursora da ficção científica.',
+            text:'Grande escritor romano, de origem semita, famoso por seus diálogos satíricos. Satirizou e criticou acidamente os costumes e a sociedade da época e exerceu, a partir da Renascença, significativa influência em escritores ocidentais do porte de Erasmo, Rabelais, Quevedo, Swift, Voltaire e Machado de Assis. Sua obra “Uma história verdadeira” é precursora da ficção científica.',
             icon: 'calendar',
             time: { title: 'sec II' }
         },
