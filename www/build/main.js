@@ -127,7 +127,7 @@ var HomePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Timeline; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -615,10 +615,10 @@ var Timeline = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/'<ion-header>\n  <ion-navbar color="light">\n    <button ion-button menuToggle="left" left>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n    <button ion-button menuToggle="right" right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="main-content">\n  <ion-card>\n    <timeline endIcon="call">\n      <timeline-item *ngFor="let item of items">\n        <timeline-time [time]="item.time"></timeline-time>\n        <ion-icon [name]="item.icon"></ion-icon>\n        <ion-card width="400">\n          <ion-card-header align="center">\n           {{item.title}}\n          </ion-card-header>\n\n          <ion-grid>\n              <ion-row>\n                <ion-col>\n                  <img width="100%" height="100%" src="{{item.content}}">\n                </ion-col>\n\n                <ion-col align="justify">\n                    {{item.text}}\n                   \n                                      \n                </ion-col>\n\n              </ion-row>\n            </ion-grid>\n\n        </ion-card>\n      </timeline-item>\n    </timeline>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], Timeline);
     return Timeline;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=timeline.js.map
@@ -631,7 +631,7 @@ var Timeline = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Paradidaticos; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
@@ -713,7 +713,7 @@ var Paradidaticos = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Projetos; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
@@ -780,7 +780,7 @@ var Projetos = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Feira; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -814,9 +814,44 @@ var Feira = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return bbonline; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var bbonline = /** @class */ (function () {
+    function bbonline(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    bbonline = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-bbonline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\bbonline\bbonline.html"*/'<ion-header>\n  <ion-navbar color="light">\n    <button ion-button menuToggle="left" left>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n    <button ion-button menuToggle="right" right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="main-content">\n  <ion-card>\n\n\n      <ion-card>\n          <ion-card-header>\n              Bibliotecas online:\n            \n          </ion-card-header>\n\n          <ion-card-content>\n            Virtuais ou digitais que podem ser utilizadas como fonte de pesquisa para alunos da educação básica.\n            \n          </ion-card-content>\n        </ion-card>\n\n         \n      \n        <ion-card>\n          <ion-card-header>\n            \n          </ion-card-header>\n          <ion-card-content>\n              <a  href="#" onclick="window.open(\'http://www.kiddle.co/\', \'_system\', \'location=yes\'); return false;"> Kiddle:</a>\n              uma versão de seu famoso buscador (google) adaptada para crianças que promete protegê-las de conteúdo inadequado.\n          </ion-card-content>\n        </ion-card>\n      \n        <ion-card>\n            <ion-card-header>\n              \n            </ion-card-header>\n            <ion-card-content>\n                <a  href="#" onclick="window.open(\'https://escolakids.uol.com.br/\', \'_system\', \'location=yes\'); return false;"> Escola Kids:</a>\n                portal da UOL voltado ao ensino de diversas disciplinas com foco no ensino básico.\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header>\n                \n              </ion-card-header>\n              <ion-card-content>\n                  <a  href="#" onclick="window.open(\'http://biblioteca.uepb.edu.br/\', \'_system\', \'location=yes\'); return false;">  Acervo Digital de Cordeis da Biblioteca de Obras Raras de Átila de Almeida – UEPB:</a>\n                  Confira mais de 8 mil obras e cordéis.\n              </ion-card-content>\n            </ion-card>\n\n            <ion-card>\n                <ion-card-header>\n                  \n                </ion-card-header>\n                <ion-card-content>\n                    <a  href="#" onclick="window.open(\'http://www2.fe.usp.br/estrutura/livres/index.htm\', \'_system\', \'location=yes\'); return false;"> Banco de Dados de Livros Escolares Brasileiros (1810 a 2005) – FEUSP:</a>\n                    Confira diversos materiais e conteúdos didáticos da educação brasileira.\n                </ion-card-content>\n              </ion-card>\n\n              <ion-card>\n                  <ion-card-header>\n                    \n                  </ion-card-header>\n                  <ion-card-content>\n                      <a  href="#" onclick="window.open(\'http://www.bibliomania.com/\', \'_system\', \'location=yes\'); return false;">  Bibliomania: </a>\n                      Encontre livros e estudos grátis.\n                  </ion-card-content>\n                </ion-card>\n\n                 <ion-card>\n                      <ion-card-header>\n                        \n                      </ion-card-header>\n                      <ion-card-content>\n                          <a  href="#" onclick="window.open(\'http://www.bbm.usp.br/\', \'_system\', \'location=yes\'); return false;"> Biblioteca Brasiliana Guita e José Mindlin:</a>\n                          O site da biblioteca da Universidade de São Paulo (USP) contêm livros, revistas, documentos, e outros tipos de arquivos livres para o download gratuito.\n                      </ion-card-content>\n                    </ion-card>\n\n                    <ion-card>\n                        <ion-card-header>\n                          \n                        </ion-card-header>\n                        <ion-card-content>\n                            <a  href="#" onclick="window.open(\'http://rdu.unc.edu.ar/\', \'_system\', \'location=yes\'); return false;">Biblioteca da Universidade Nacional de Córdoba:</a>\n                            A biblioteca oferece grande diversidade de disciplinas, entre elas, uma cátedra interdisciplinar voltada ao estudo da obra do escritor José Saramago.\n                        </ion-card-content>\n                      </ion-card>\n\n                      <ion-card>\n                          <ion-card-header>\n                            \n                          </ion-card-header>\n                          <ion-card-content>\n                              <a  href="#" onclick="window.open(\'http://www.memoria.fahce.unlp.edu.ar/\', \'_system\', \'location=yes\'); return false;">Biblioteca da Universidade Nacional de La Plata:</a>\n                              Oferece documentos gerados por alunos e professores, como teses e dissertações, seminários, apresentações e congressos.\n                          </ion-card-content>\n                        </ion-card>\n\n                        <ion-card>\n                            <ion-card-header>\n                              \n                            </ion-card-header>\n                            <ion-card-content>\n                                <a  href="#" onclick="window.open(\'http://bdtd.ibict.br/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital Brasileira de Teses e Dissertações (BDTD):</a>\n                                Reúne centenas de teses e dissertações de universidades de todo o país. É uma ferramenta útil para quem está fazendo a sua monografia e precisa de fontes acadêmicas.\n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header>\n                                \n                              </ion-card-header>\n                              <ion-card-content>\n                                  <a  href="#" onclick="window.open(\'http://www.docpro.com.br/escolademusica/bibliotecadigital.html\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital da Escola de Música da UFRJ:</a>\n                                  O acervo conta com obras raras dos séculos XVI a XVIII, além de partituras, manuscritos e periódicos para download gratuito.\n                              </ion-card-content>\n                            </ion-card>\n\n                            <ion-card>\n                                <ion-card-header>\n                                  \n                                </ion-card-header>\n                                <ion-card-content>\n                                    <a  href="#" onclick="window.open(\'http://bibdig.biblioteca.unesp.br/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital da UNESP:</a>\n                                    Grande acervo de obras de artes, gravuras e desenhos, além de trabalhos acadêmicos.\n                                </ion-card-content>\n                              </ion-card>\n\n                              <ion-card>\n                                  <ion-card-header>\n                                    \n                                  </ion-card-header>\n                                  <ion-card-content>\n                                      <a  href="#" onclick="window.open(\'http://www.bibliotecadigital.unicamp.br/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital da Unicamp:</a>\n                                      Conta com dissertações, teses, pesquisas em andamento, revistas eletrônicas, etc., todos feitos pelos professores, pesquisadores e alunos da instituição.\n                                  </ion-card-content>\n                                </ion-card>\n\n                                <ion-card>\n                                    <ion-card-header>\n                                      \n                                    </ion-card-header>\n                                    <ion-card-content>\n                                        <a  href="#" onclick="window.open(\'http://www.iberoamericadigital.net/gdl/\', \'_system\', \'location=yes\'); return false;"> Biblioteca Digital del Patrimonio Iberoamericano:</a>\n                                        Conta com conteúdos das bibliotecas nacionais do Brasil, Chile, Portugal e outros países iberoamericanos.\n                                    </ion-card-content>\n                                  </ion-card>\n\n                                  <ion-card>\n                                      <ion-card-header>\n                                        \n                                      </ion-card-header>\n                                      <ion-card-content>\n                                          <a  href="#" onclick="window.open(\'http://www.obrasraras.museunacional.ufrj.br/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital do Museu Nacional:</a>\n                                          Disponibiliza o acervo de obras raras nas áreas de ciências naturais e antropologia.\n                                      </ion-card-content>\n                                    </ion-card>\n                                    <ion-card>\n                                        <ion-card-header>\n                                          \n                                        </ion-card-header>\n                                        <ion-card-content>\n                                            <a  href="#" onclick="window.open(\'http://www.stf.jus.br/portal/biblioteca/pesquisarBibliotecaDigital.asp\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital do Supremo Tribunal Federal:</a>\n                                            Para os estudantes e profissionais da área de Direito, esta é uma ótima fonte de pesquisa para documentos, livros, artigos e outros arquivos de interesse para a área.\n                                        </ion-card-content>\n                                      </ion-card>\n                                      <ion-card>\n                                          <ion-card-header>\n                                            \n                                          </ion-card-header>\n                                          <ion-card-content>\n                                              <a  href="#" onclick="window.open(\'http://www-01.ibm.com/software/data/cm/cmgr/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital IBM:</a>\n                                              Encontre diversos conteúdos digitalizados.\n                                          </ion-card-content>\n                                        </ion-card>\n                                        <ion-card>\n                                            <ion-card-header>\n                                              \n                                            </ion-card-header>\n                                            <ion-card-content>\n                                                <a  href="#" onclick="window.open(\'http://bds.bce.unb.br/\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital e Sonora:</a>\n                                                Com acesso gratuito, mas exclusivo para pessoas com deficiência visual, reúne diversos materiais no formato digital para facilitar o acesso dessas pessoas aos conteúdos.\n                                            </ion-card-content>\n                                          </ion-card>\n                                          <ion-card>\n                                              <ion-card-header>\n                                                \n                                              </ion-card-header>\n                                              <ion-card-content>\n                                                  <a  href="#" onclick="window.open(\'http://www.paulofreire.ufpb.br/paulofreire/principal.jsp\', \'_system\', \'location=yes\'); return false;">Biblioteca Digital Paulo Freire:</a>\n                                                  Disponibiliza para download gratuito das obras do pedagogo e filósofo Paulo Freire.\n                                              </ion-card-content>\n                                            </ion-card>\n                                            <ion-card>\n                                                <ion-card-header>\n                                                  \n                                                </ion-card-header>\n                                                <ion-card-content>\n                                                    <a  href="#" onclick="window.open(\'http://www.wdl.org/pt/\', \'_system\', \'location=yes\'); return false;">Biblioteca Mundial Digital:</a>\n                                                    Reúne documentos oficiais sobre a cultura de diversos países do mundo.\n                                                </ion-card-content>\n                                              </ion-card>\n                                              <ion-card>\n                                                  <ion-card-header>\n                                                    \n                                                  </ion-card-header>\n                                                  <ion-card-content>\n                                                      <a  href="#" onclick="window.open(\'http://www.bibliotecanacional.gov.co/\', \'_system\', \'location=yes\'); return false;">Biblioteca Nacional da Colômbia:</a>\n                                                      Encontre obras para ler online e em versões para celulares e tablets.\n                                                  </ion-card-content>\n                                                </ion-card>\n                                                <ion-card>\n                                                    <ion-card-header>\n                                                      \n                                                    </ion-card-header>\n                                                    <ion-card-content>\n                                                        <a  href="#" onclick="window.open(\'http://bds.unb.br/\', \'_system\', \'location=yes\'); return false;"> Biblioteca Nacional Digital Brasil:</a>\n                                                        Com mais de 700 mil arquivos, conta com artigos, trabalhos acadêmicos, livros, obras de arte, gravuras, fotografias e outros documentos para download grátis.\n                                                    </ion-card-content>\n                                                  </ion-card>\n                                                  <ion-card>\n                                                      <ion-card-header>\n                                                        \n                                                      </ion-card-header>\n                                                      <ion-card-content>\n                                                          <a  href="#" onclick="window.open(\'http://collegeopentextbooks.org/\', \'_system\', \'location=yes\'); return false;">College Open Textbooks:</a>\n                                                          Pesquisas e trabalhos universitários disponíveis para download gratuito na língua inglesa.\n                                                      </ion-card-content>\n                                                    </ion-card>\n                                                    <ion-card>\n                                                        <ion-card-header>\n                                                          \n                                                        </ion-card-header>\n                                                        <ion-card-content>\n                                                            <a  href="#" onclick="window.open(\'http://pt.wikibooks.org/wiki/Wikilivros:P%C3%A1gina_principal\', \'_system\', \'location=yes\'); return false;">Wikilivros:</a>\n                                                            Livros disponibilizados pela comunidade de colaboração mútua da Wikipedia. A biblioteca disponibiliza diversas apostilas, manuais e conteúdos livres.\n                                                        </ion-card-content>\n                                                      </ion-card>\n                                                      <ion-card>\n                                                          <ion-card-header>\n                                                            \n                                                          </ion-card-header>\n                                                          <ion-card-content>\n                                                              <a  href="#" onclick="window.open(\'http://noticias.universia.com.br/destaque/noticia/2013/09/26/1052350/biblioteca-audio-youtube-disponibiliza-nova-pagina-download-gratuito-musica.html\', \'_system\', \'location=yes\'); return false;">Universia Brasil:</a>\n                                                              Pode não ter uma área de livros propriamente dita, mas ele conta com uma rica biblioteca de áudios.\n                                                          </ion-card-content>\n                                                        </ion-card>\n      \n\n   \n  \n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\bbonline\bbonline.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    ], bbonline);
+    return bbonline;
+}());
+
+//# sourceMappingURL=bbonline.js.map
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Fale; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -845,13 +880,13 @@ var Fale = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -859,33 +894,35 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 227:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_facebook__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_timeline_timeline__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_paradidaticos_paradidaticos__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_projetos_projetos__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_feira_feira__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__toverux_ngx_sweetalert2__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__toverux_ngx_sweetalert2__ = __webpack_require__(279);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -914,10 +951,11 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_10__pages_paradidaticos_paradidaticos__["a" /* Paradidaticos */],
                 __WEBPACK_IMPORTED_MODULE_11__pages_projetos_projetos__["a" /* Projetos */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_feira_feira__["a" /* Feira */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__["a" /* Fale */],
-                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["a" /* TimelineComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["b" /* TimelineItemComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__components_timeline_timeline__["c" /* TimelineTimeComponent */]
+                __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__["a" /* bbonline */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__["a" /* Fale */],
+                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["a" /* TimelineComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["b" /* TimelineItemComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__components_timeline_timeline__["c" /* TimelineTimeComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -925,7 +963,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
                     links: []
                 }),
-                __WEBPACK_IMPORTED_MODULE_15__toverux_ngx_sweetalert2__["a" /* SweetAlert2Module */].forRoot({
+                __WEBPACK_IMPORTED_MODULE_16__toverux_ngx_sweetalert2__["a" /* SweetAlert2Module */].forRoot({
                     buttonsStyling: false,
                     customClass: 'modal-content',
                     confirmButtonClass: 'btn btn-primary',
@@ -940,7 +978,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_10__pages_paradidaticos_paradidaticos__["a" /* Paradidaticos */],
                 __WEBPACK_IMPORTED_MODULE_11__pages_projetos_projetos__["a" /* Projetos */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_feira_feira__["a" /* Feira */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_fale_fale__["a" /* Fale */]
+                __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__["a" /* bbonline */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_fale_fale__["a" /* Fale */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -957,13 +996,13 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(196);
@@ -971,7 +1010,8 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_paradidaticos_paradidaticos__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_projetos_projetos__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_fale_fale__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_bbonline_bbonline__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -981,6 +1021,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1024,15 +1065,18 @@ var MyApp = /** @class */ (function () {
     MyApp.prototype.FeiraButton = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_feira_feira__["a" /* Feira */]);
     };
+    MyApp.prototype.bbonlineButton = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_bbonline_bbonline__["a" /* bbonline */]);
+    };
     MyApp.prototype.FaleButton = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_fale_fale__["a" /* Fale */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__pages_fale_fale__["a" /* Fale */]);
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
     ], MyApp.prototype, "navCtrl", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n        <ion-header>\n\n            <ion-toolbar color="light">\n                <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n            </ion-toolbar>\n        </ion-header>\n        <ion-content class="menu-left">\n\n\n\n            <ion-list>\n                <button ion-button mode="md" full round color="primary" (click)="HomeButton()"> Home</button>\n                <button ion-button full round color="primary" (click)="TimelineButton()"> Linha do Tempo</button>\n                <button ion-button full round color="primary" (click)="ParadidaticosButton()"> Paradidaticos</button>\n                <button ion-button full round color="primary" (click)="ProjetosButton()"> Projetos</button>\n                <button ion-button full round color="primary" (click)="FeiraButton()"> Feira</button>\n\n            </ion-list>\n\n            <img src="assets/imgs/rebeca.jpg">\n\n        </ion-content>\n        <ion-footer>\n            <button ion-button full round color="primary" (click)="FaleButton()"> Fale Conosco</button>\n\n        </ion-footer>\n    </ion-menu>\n\n    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">\n        <ion-header>\n\n            <ion-toolbar color="light">\n\n            </ion-toolbar>\n        </ion-header>\n        <ion-content class="menu-right">\n\n\n\n            <ion-list>\n                <ion-card>\n                    <ion-card-content>\n                        O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do Colégio\n                        Diocesano </ion-card-content>\n                </ion-card>\n                <ion-card>\n                    <ion-card-content>\n                        A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo\n                        dos alunos </ion-card-content>\n                </ion-card>\n\n\n                <img src="assets/imgs/dio.jpg">\n\n            </ion-list>\n\n        </ion-content>\n\n    </ion-menu>\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/'<ion-split-pane>\n    <ion-menu swipeEnabled="false" side="left" [content]="mycontent" type="overlay" width="200">\n        <ion-header>\n\n            <ion-toolbar color="light">\n                <img class="footer" src="assets/imgs/brand.jpg" max-width="50%">\n            </ion-toolbar>\n        </ion-header>\n        <ion-content class="menu-left">\n\n\n\n            <ion-list>\n                <button ion-button mode="md" full round color="primary" (click)="HomeButton()"> Home</button>\n                <button ion-button full round color="primary" (click)="TimelineButton()"> Linha do Tempo</button>\n                <button ion-button full round color="primary" (click)="ParadidaticosButton()"> Paradidaticos</button>\n                <button ion-button full round color="primary" (click)="ProjetosButton()"> Projetos</button>\n                <button ion-button full round color="primary" (click)="bbonlineButton()"> Bib-online</button>\n                <button ion-button full round color="primary" (click)="FeiraButton()"> Feira</button>\n\n            </ion-list>\n\n            <img src="assets/imgs/rebeca.jpg">\n\n        </ion-content>\n        <ion-footer>\n            <button ion-button full round color="primary" (click)="FaleButton()"> Fale Conosco</button>\n\n        </ion-footer>\n    </ion-menu>\n\n    <ion-menu swipeEnabled="false" side="right" [content]="mycontent" type="overlay" width="200">\n        <ion-header>\n\n            <ion-toolbar color="light">\n\n            </ion-toolbar>\n        </ion-header>\n        <ion-content class="menu-right">\n\n\n\n            <ion-list>\n                <ion-card>\n                    <ion-card-content>\n                        O programa Circuito Literário em Rede tem como missão promover a formação literária de toda a comunidade escolar do Colégio\n                        Diocesano </ion-card-content>\n                </ion-card>\n                <ion-card>\n                    <ion-card-content>\n                        A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e artística como um todo\n                        dos alunos </ion-card-content>\n                </ion-card>\n\n\n                <img src="assets/imgs/dio.jpg">\n\n            </ion-list>\n\n        </ion-content>\n\n    </ion-menu>\n    <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n    <ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false" main></ion-nav>\n</ion-split-pane>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1043,7 +1087,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 277:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1113,5 +1157,5 @@ var TimelineTimeComponent = /** @class */ (function () {
 
 /***/ })
 
-},[204]);
+},[205]);
 //# sourceMappingURL=main.js.map
