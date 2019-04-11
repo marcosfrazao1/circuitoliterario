@@ -1,5 +1,5 @@
 <?php
-$dest = "frazaomarcos@gmail.com";
+$dest = "frazaomarcos1@gmail.com";
 $nome = $_POS['nome'];
 $email = $_POS['email'];
 $assunto = $_POS['assunto'];
