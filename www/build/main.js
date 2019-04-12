@@ -154,7 +154,7 @@ var Timeline = /** @class */ (function () {
             {
                 title: 'Hesíodo',
                 text: "Poeta grego de \u201CTeogonia\u201D e \u201CO trabalho e os dias\u201D, obras fundamentais para a consolida\u00E7\u00E3o da religi\u00E3o mitol\u00F3gica grega.",
-                content: "assets/timelineimgs/Hesiodo.png",
+                content: "assets/timelineimgs/hesiodo.png",
                 icon: 'calendar',
                 time: { title: 'VIII aC' }
             },
@@ -615,10 +615,10 @@ var Timeline = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/'<ion-header>\n  <ion-navbar color="light">\n    <button ion-button menuToggle="left" left>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n    <button ion-button menuToggle="right" right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="main-content">\n  <ion-card>\n    <timeline endIcon="call">\n      <timeline-item *ngFor="let item of items">\n        <timeline-time [time]="item.time"></timeline-time>\n        <ion-icon [name]="item.icon"></ion-icon>\n        <ion-card width="400">\n          <ion-card-header align="center">\n           {{item.title}}\n          </ion-card-header>\n\n          <ion-grid>\n              <ion-row>\n                <ion-col>\n                  <img width="100%" height="100%" src="{{item.content}}">\n                </ion-col>\n\n                <ion-col align="justify">\n                    {{item.text}}\n                   \n                                      \n                </ion-col>\n\n              </ion-row>\n            </ion-grid>\n\n        </ion-card>\n      </timeline-item>\n    </timeline>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\timeline\timeline.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
     ], Timeline);
     return Timeline;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=timeline.js.map
