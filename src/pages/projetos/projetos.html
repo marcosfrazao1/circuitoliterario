@@ -1,0 +1,97 @@
+<ion-header>
+
+    
+
+  <ion-navbar color="light">
+    <button ion-button menuToggle="left" left>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title align="center">Circuito Literário em Rede</ion-title>
+    <button ion-button menuToggle="right" right>
+      <ion-icon name="menu"></ion-icon>
+    </button> 
+  </ion-navbar>
+</ion-header>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<ion-content class="main-content">
+  
+  <ion-card>
+    <ion-list class="accordion-list">
+      <!-- First Level -->
+      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
+        <!-- Toggle Button -->
+        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
+            
+          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>
+          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>
+          {{ item.name }}
+        </button>
+
+        <ion-list *ngIf="item.children && item.open" no-lines>
+          <!-- Second Level -->
+          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
+            <!-- Toggle Button -->
+            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>
+              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>
+              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>
+              {{ child.name }}
+            </button>
+
+            <!-- Direct Add Button as Fallback -->
+            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
+              <h2>{{ child.name }}</h2>
+              <p>{{ child.information }}</p>
+              <ion-slides loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let child of child.imgsrc; let k = index">
+                  <img src="{{ child.src }}"> 
+                </ion-slide>
+                </ion-slides>
+            </ion-item>
+
+        
+
+          </ion-list-header>
+          
+      
+
+        </ion-list>
+      </ion-list-header>
+    </ion-list>
+  </ion-card>
+   
+ 
+
+ 
+    
+
+  
+  
+  
+  
+  
+</ion-content>
+
