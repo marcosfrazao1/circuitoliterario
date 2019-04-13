@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Title } from '@angular/platform-browser';
-import { splitNamespace } from '@angular/core/src/view/util';
+
 
 @Component({
     selector: 'page-timeline',
@@ -22,7 +21,7 @@ export class Timeline {
         {
             title: 'Hesíodo',
             text:  `Poeta grego de “Teogonia” e “O trabalho e os dias”, obras fundamentais para a consolidação da religião mitológica grega.`,
-            content:`assets/timelineimgs/hesiodo.png`,
+            content:`assets/timelineimgs/hesiodo.jpg`,
             icon: 'calendar',
             time: { title: 'VIII aC' }
         },
@@ -336,7 +335,7 @@ export class Timeline {
         },
         {
             title: 'Paio Soares de Taveirós',
-            content: `assets/timelineimgs/paio.jpg`,
+            content: `assets/timelineimgs/paiosoares.jpg`,
             text: 'Escreveu o texto “Canção da Ribeirinha”, uma cantiga de amor e considerado o mais antigo texto escrito em galego-português. É o marco inicial do Trovadorismo.',
             icon: 'calendar',
             time: { title: '1198' }
