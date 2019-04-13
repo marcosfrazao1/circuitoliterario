@@ -154,7 +154,7 @@ var Timeline = /** @class */ (function () {
             {
                 title: 'Hesíodo',
                 text: "Poeta grego de \u201CTeogonia\u201D e \u201CO trabalho e os dias\u201D, obras fundamentais para a consolida\u00E7\u00E3o da religi\u00E3o mitol\u00F3gica grega.",
-                content: "assets/timelineimgs/hesiodo.jpg",
+                content: "assets/timelineimgs/hesiodo.png",
                 icon: 'calendar',
                 time: { title: 'VIII aC' }
             },

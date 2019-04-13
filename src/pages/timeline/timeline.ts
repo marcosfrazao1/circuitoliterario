@@ -21,7 +21,7 @@ export class Timeline {
         {
             title: 'Hesíodo',
             text:  `Poeta grego de “Teogonia” e “O trabalho e os dias”, obras fundamentais para a consolidação da religião mitológica grega.`,
-            content:`assets/timelineimgs/hesiodo.jpg`,
+            content:`assets/timelineimgs/hesiodo.png`,
             icon: 'calendar',
             time: { title: 'VIII aC' }
         },
