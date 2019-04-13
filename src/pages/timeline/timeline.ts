@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import { Title } from '@angular/platform-browser';
+import { splitNamespace } from '@angular/core/src/view/util';
 
 @Component({
     selector: 'page-timeline',
@@ -335,7 +336,7 @@ export class Timeline {
         },
         {
             title: 'Paio Soares de Taveirós',
-            content: `assets/timelineimgs/paiosoares.jpg`,
+            content: `assets/timelineimgs/paio.jpg`,
             text: 'Escreveu o texto “Canção da Ribeirinha”, uma cantiga de amor e considerado o mais antigo texto escrito em galego-português. É o marco inicial do Trovadorismo.',
             icon: 'calendar',
             time: { title: '1198' }

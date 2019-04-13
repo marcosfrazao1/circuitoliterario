@@ -468,7 +468,7 @@ var Timeline = /** @class */ (function () {
             },
             {
                 title: 'Paio Soares de Taveirós',
-                content: "assets/timelineimgs/paiosoares.jpg",
+                content: "assets/timelineimgs/paio.jpg",
                 text: 'Escreveu o texto “Canção da Ribeirinha”, uma cantiga de amor e considerado o mais antigo texto escrito em galego-português. É o marco inicial do Trovadorismo.',
                 icon: 'calendar',
                 time: { title: '1198' }
@@ -869,7 +869,7 @@ var Fale = /** @class */ (function () {
     }
     Fale = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fale',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/'<ion-header>\n  <ion-navbar color="light">\n    <button ion-button menuToggle="left" left>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n    <button ion-button menuToggle="right" right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="main-content">\n  <ion-card>\n    <div id="after_submit"></div>\n    <form name="formteste" action="" method="post">\n      \n           \n        \n\n          \n\n          <a href=\'http://www.diocesano.g12.br/fale-conosco\'> <img src=\'assets/imgs/fale.png\' alt="Descrição"/></a>\n          \n            \n              \n        \n      \n      </form>\n      \n      \n\n   \n  \n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/
+            selector: 'page-fale',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/'<ion-header>\n  <ion-navbar color="light">\n    <button ion-button menuToggle="left" left>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n    <button ion-button menuToggle="right" right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="main-content">\n  <ion-card>\n    <div id="after_submit"></div>\n    <form name="formteste" action="" method="post">\n      \n           \n        \n\n          \n\n          <a href=\'http://www.diocesano.g12.br/fale-conosco\'> <img src=\'assets/imgs/fale.png\' alt=”Descrição”/></a>\n          \n            \n              \n        \n      \n      </form>\n      \n      \n\n   \n  \n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoionic2\src\pages\fale\fale.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Fale);
