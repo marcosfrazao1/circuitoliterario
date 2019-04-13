@@ -1,0 +1,118 @@
+{
+    "items": [
+        {
+            "name": "Bate-papo literário",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "O projeto visa colocar o aluno diretamente em contato e diálogo com o autor, de modo que esta vivência aproxime o estudante da existência de um escritor, da qual não raro as urgências burocráticas tenderão a afastá-lo no futuro. Mais do que ser leitor, o aluno poderá ser incentivado ser também um autor. A troca de experiências biográficas gera familiaridade, afeição, e isto enriquece do repertório cultural do aluno, e aprofunda sua compreensão da obra literária. "
+                },
+                {
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/Batepapo/1.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/2.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/3.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/4.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/5.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/6.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/7.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/8.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Batepapo/9.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Terraço literário",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "Por meio de oficinas e apresentações nas áreas de literatura, música, dança, pintura, escultura, teatro, cinema, fotografia e outras artes em geral, o projeto Terraço Literário visa incentivar os alunos à descoberta e promoção de suas habilidades e de sua autonomia como indivíduo singular, ético, criativo e participativo. As aptidões artísticas serão estimuladas por meio de uma competição saudável, e os shows propiciados oferecerão prazerosas apresentações na escola, unindo crescimento educacional e satisfação pessoal."
+                },
+                {
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/TerracoLiterario/1.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/TerracoLiterario/2.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/TerracoLiterario/3.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Quiosque literário",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "O projeto visa disponibilizar um ambiente interativo e integrador para o desenvolvimento de práticas e hábitos de leitura. A Biblioteca Itinerante do Colégio São Francisco de Sales tem o objetivo de estimular o contato com os livros, aproximando a comunidade escolar à Biblioteca CSFS através da descentralização do seu acervo e exposição em pontos estratégicos da escola. Desta forma, o quiosque facilita a realização de empréstimos e devoluções de exemplares, estreitando a relação entre aluno e biblioteca."
+                },
+                {
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/1.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/2.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/3.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/4.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "name": "Barco da Leitura",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "O projeto Encontro de Culturas tem como meta difundir o conhecimento sobre a história e sociabilidade dos três povos que deram origem ao povo brasileiro: o indígena, o português e africano, bem como compreender a relevância dos imigrantes, e o rico resultado cultural na atualidade dessa miscigenação. Ao conhecer a diversidade cultural do Brasil, o aluno também conhecerá a formação do Nordeste, do Piauí, e identificará mais de perto as características de sua nacionalidade, das etnias, línguas e costumes, contextualizando seus deslocamentos e conflitos em diversos momentos da história."
+                },
+                {
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/Barcodaleitura/1.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Barcodaleitura/2.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Barcodaleitura/3.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/Barcodaleitura/4.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
