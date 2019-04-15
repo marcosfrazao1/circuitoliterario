@@ -9,7 +9,7 @@ import { NavController } from 'ionic-angular';
 
 export class Feira {
 
-    feiras: string = "2018"
+    feiras: string = "2019"
     constructor(public navCtrl: NavController) {
 
 
