@@ -12,6 +12,7 @@ import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
 import { bbonline } from '../pages/bbonline/bbonline';
+import { tutorial } from '../pages/tutorial/tutorial';
 import { Fale } from '../pages/fale/fale';
 
 
@@ -23,6 +24,7 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
   declarations: [
     MyApp,
     HomePage,
+    tutorial,
     Timeline,
     Paradidaticos,
     Projetos,
@@ -50,6 +52,7 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
   entryComponents: [
     MyApp,
     HomePage,
+    tutorial,
     Timeline,
     Paradidaticos,
     Projetos,
