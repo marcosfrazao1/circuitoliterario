@@ -4,12 +4,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { tutorial } from '../pages/tutorial/tutorial';
 import { Timeline } from '../pages/timeline/timeline';
 import { Paradidaticos } from '../pages/paradidaticos/paradidaticos';
 import { Projetos } from '../pages/projetos/projetos';
 import { Feira } from '../pages/feira/feira';
 import { bbonline } from '../pages/bbonline/bbonline';
 import { Fale } from '../pages/fale/fale';
+
 
 @Component({
     templateUrl: 'app.html'
@@ -54,6 +56,9 @@ export class MyApp {
     bbonlineButton() {
         this.navCtrl.setRoot(bbonline)
         
+    }
+    tutorialButton() {
+        this.navCtrl.setRoot(tutorial)
     }
     FaleButton() {
         this.navCtrl.setRoot(Fale)

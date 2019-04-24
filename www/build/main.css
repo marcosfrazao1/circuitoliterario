@@ -28250,3 +28250,81 @@ page-projetos .list {
 page-projetos .p {
   text-transform: capitalize;
 }
+
+page-tutorial .viewer-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 16px;
+}
+
+page-tutorial .viewer-container .viewer {
+  position: relative;
+  width: 100%;
+}
+
+page-tutorial .viewer-container .viewer .page {
+  direction: ltr;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  background-clip: content-box;
+  background-color: white;
+  margin: 0 auto 35px;
+}
+
+page-tutorial .viewer-container .viewer .page .canvas-wrapper {
+  overflow: hidden;
+  position: absolute;
+}
+
+page-tutorial .viewer-container .viewer .page[data-loaded='true'] .textLayer {
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #b7b7b7;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.43);
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.2;
+  line-height: 1.0;
+  cursor: cell;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer ::selection {
+  background: #222;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer ::-moz-selection {
+  background: #222;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer.selectable {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer > div {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: cell;
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer.selectable {
+  cursor: default;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer.selectable > div {
+  cursor: text;
+}
