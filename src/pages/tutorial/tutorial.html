@@ -10,28 +10,30 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <div #viewerContainer
-       class="viewer-container">
-      <div #viewer
-           class="viewer">
-          <ng-container #pagesContainer>
-              <div #pageContainer
-                   class="page"
-                   [style.width.px]="pageContainerUnique.width"
-                   [style.height.px]="pageContainerUnique.height">
+<ion-content class="main-content">
+  <ion-content padding>
+    <div #viewerContainer
+         class="viewer-container">
+        <div #viewer
+             class="viewer">
+            <ng-container #pagesContainer>
+                <div #pageContainer
+                     class="page"
+                     [style.width.px]="pageContainerUnique.width"
+                     [style.height.px]="pageContainerUnique.height">
 
-                  <div class="canvas-wrapper"
-                       #canvasWrapper>
-                      <canvas class="page-canvas"
-                              #canvas></canvas>
+                    <div class="canvas-wrapper"
+                         #canvasWrapper>
+                        <canvas class="page-canvas"
+                                #canvas></canvas>
 
-                  </div>
-                  <div #textContainer
-                       class="text-layer selectable">
-                  </div>
-              </div>
-          </ng-container>
-      </div>
-  </div>
+                    </div>
+                    <div #textContainer
+                         class="text-layer selectable">
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+
 </ion-content>

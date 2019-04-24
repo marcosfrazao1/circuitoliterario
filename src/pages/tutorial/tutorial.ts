@@ -1,16 +1,18 @@
-import { Component, ElementRef, ViewChild } from "@angular/core";
+import { Component , ElementRef, ViewChild } from '@angular/core';
 import { NavController } from "ionic-angular";
-import * as PDFJS from "pdfjs-dist/webpack.js";
-import { PDFPageProxy, PDFPageViewport, PDFRenderTask } from 'pdfjs-dist';
+import * as PDFJSViewer from "pdfjs-dist/webpack.js";
+
+
 
 @Component({
     selector: 'page-tutorial',
     templateUrl: 'tutorial.html'
 })
 export class tutorial{
+    pdfDocument: PDFJSViewer.PDFDocumentProxy;
+    PDFJSViewer = PDFJSViewer;
     information: any[];
-    pdfDocument: PDFJS.PDFDocumentProxy;
-    PDFJSViewer = PDFJS;
+
     pageContainerUnique = {
         width: 0 as number,
         height: 0 as number,
@@ -19,7 +21,6 @@ export class tutorial{
         textContainer: null as HTMLElement,
         canvasWrapper: null as HTMLElement
     }
-
     @ViewChild('pageContainer') pageContainerRef: ElementRef;
     @ViewChild('viewer') viewerRef: ElementRef;
     @ViewChild('canvas') canvasRef: ElementRef;
@@ -29,8 +30,7 @@ export class tutorial{
     constructor(public navCtrl: NavController) {
         console.log(this.PDFJSViewer);
     }
-
-
+    
     ionViewDidLoad() {
         this.pageContainerUnique.element = this.pageContainerRef.nativeElement as HTMLElement;
         this.pageContainerUnique.canvasWrapper = this.canvasWrapperRef.nativeElement as HTMLCanvasElement;
@@ -55,7 +55,7 @@ export class tutorial{
     }
 
     loadPage(pageNum: number = 1) {
-        let pdfPage: PDFPageProxy;
+        let pdfPage: pdfjsDist.PDFPageProxy;
 
         return this.pdfDocument.getPage(pageNum).then(thisPage => {
             pdfPage = thisPage;
@@ -65,10 +65,11 @@ export class tutorial{
         });
 
     } // loadpage()
+    
 
 
 
-    async renderOnePage(pdfPage: PDFPageProxy) {
+    async renderOnePage(pdfPage: pdfjsDist.PDFPageProxy) {
 
         let textContainer: HTMLElement;
         let canvas: HTMLCanvasElement;
@@ -88,7 +89,7 @@ export class tutorial{
         canvasContext.mozImageSmoothingEnabled = false;
         canvasContext.oImageSmoothingEnabled = false;
 
-        let viewport = pdfPage.getViewport(1) as PDFPageViewport;
+        let viewport = pdfPage.getViewport(1) as pdfjsDist.PDFPageViewport;
 
         canvas.width = viewport.width;
         canvas.height = viewport.height;
@@ -117,7 +118,7 @@ export class tutorial{
         // THIS RENDERS THE PAGE !!!!!!
 
 
-        let renderTask: PDFRenderTask = pdfPage.render({
+        let renderTask: pdfjsDist.PDFRenderTask = pdfPage.render({
             canvasContext,
             viewport
         });
@@ -152,4 +153,5 @@ export class tutorial{
             return true;
         });
     }
+
 }
