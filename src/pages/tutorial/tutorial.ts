@@ -55,7 +55,7 @@ export class tutorial{
     }
 
     loadPage(pageNum: number = 1) {
-        let pdfPage: pdfjsDist.PDFPageProxy;
+        let pdfPage: PDFJSViewer.PDFPageProxy;
 
         return this.pdfDocument.getPage(pageNum).then(thisPage => {
             pdfPage = thisPage;
@@ -69,7 +69,7 @@ export class tutorial{
 
 
 
-    async renderOnePage(pdfPage: pdfjsDist.PDFPageProxy) {
+    async renderOnePage(pdfPage: PDFJSViewer.PDFPageProxy) {
 
         let textContainer: HTMLElement;
         let canvas: HTMLCanvasElement;
@@ -89,7 +89,7 @@ export class tutorial{
         canvasContext.mozImageSmoothingEnabled = false;
         canvasContext.oImageSmoothingEnabled = false;
 
-        let viewport = pdfPage.getViewport(1) as pdfjsDist.PDFPageViewport;
+        let viewport = pdfPage.getViewport(1) as PDFJSViewer.PDFPageViewport;
 
         canvas.width = viewport.width;
         canvas.height = viewport.height;
@@ -118,7 +118,7 @@ export class tutorial{
         // THIS RENDERS THE PAGE !!!!!!
 
 
-        let renderTask: pdfjsDist.PDFRenderTask = pdfPage.render({
+        let renderTask: PDFJSViewer.PDFRenderTask = pdfPage.render({
             canvasContext,
             viewport
         });
