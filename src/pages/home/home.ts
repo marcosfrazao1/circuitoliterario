@@ -13,16 +13,16 @@ export class HomePage {
 
   constructor(private facebook: Facebook) {}
   
-  async login() {
+  
+  async var() {
     const loginResponse = await this.facebook.login(['public_profile']);
 
     this.user = await this.facebook.api(
       `${loginResponse.authResponse.userID}/?fields=id,name,picture`,
       ['public_profile']
     );
+    
   }
-
-
   
   
 }
