@@ -8,7 +8,10 @@ import * as PDFJSViewer from "pdfjs-dist/webpack.js";
     selector: 'page-tutorial',
     templateUrl: 'tutorial.html'
 })
-export class tutorial{
+
+
+  export class tutorial{
+    
     pdfDocument: PDFJSViewer.PDFDocumentProxy;
     PDFJSViewer = PDFJSViewer;
     information: any[];
@@ -45,7 +48,7 @@ export class tutorial{
             .then(pdf => {
                 this.pdfDocument = pdf;
                 console.log("pdf loaded:"); console.dir(this.pdfDocument);
-                return this.loadPage(1);
+                return this.loadPage();
             }).then((pdfPage) => {
                 console.dir(pdfPage);
             }).catch(e => {
@@ -54,7 +57,7 @@ export class tutorial{
             });
     }
 
-    loadPage(pageNum: number = 1) {
+    loadPage(pageNum: number = 7) {
         let pdfPage: PDFJSViewer.PDFPageProxy;
 
         return this.pdfDocument.getPage(pageNum).then(thisPage => {
