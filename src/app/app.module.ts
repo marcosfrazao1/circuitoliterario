@@ -14,7 +14,7 @@ import { Feira } from '../pages/feira/feira';
 import { bbonline } from '../pages/bbonline/bbonline';
 import { tutorial } from '../pages/tutorial/tutorial';
 import { Fale } from '../pages/fale/fale';
-
+import { VideoPlayer } from '@ionic-native/video-player/ngx';
 
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from '../components/timeline/timeline';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
@@ -64,6 +64,7 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     StatusBar,
     SplashScreen,
     Facebook,
+    VideoPlayer,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
   

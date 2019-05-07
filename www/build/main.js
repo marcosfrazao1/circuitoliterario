@@ -128,7 +128,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return tutorial; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_pdfjs_dist_webpack_js__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_pdfjs_dist_webpack_js__ = __webpack_require__(301);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_pdfjs_dist_webpack_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_pdfjs_dist_webpack_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -975,6 +975,7 @@ var Projetos = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Feira; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_video_player_ngx__ = __webpack_require__(225);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -986,16 +987,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var Feira = /** @class */ (function () {
-    function Feira(navCtrl) {
+    function Feira(navCtrl, videoPlayer) {
         this.navCtrl = navCtrl;
+        this.videoPlayer = videoPlayer;
         this.feiras = "2019";
     }
     Feira = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feira',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\feira\feira.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="main-content">\n\n\n\n  <ion-segment [(ngModel)]="feiras">\n\n    <ion-segment-button value="2018">\n\n      2018\n\n    </ion-segment-button>\n\n    <ion-segment-button value="2019">\n\n      2019\n\n    </ion-segment-button>\n\n    <!--<ion-segment-button value="2020">\n\n      2020\n\n    </ion-segment-button>-->\n\n  </ion-segment>\n\n\n\n\n\n  <div [ngSwitch]="feiras">\n\n\n\n    <div *ngSwitchCase="2018">\n\n      <ion-card>\n\n\n\n        <img class="banner" src="assets/imgs/banner-feira.jpg">\n\n\n\n      </ion-card>\n\n      <ion-card class="card-feira">\n\n        <ion-card-header class="main-text">\n\n          <h1> FEIRA LITERÁRIA 2018</h1>\n\n        </ion-card-header>\n\n\n\n        <ion-card-content class="main-text">\n\n          <br>\n\n          <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e\n\n            artística\n\n            como\n\n            um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n            patrimônio\n\n            cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n            os\n\n            sonhos\n\n            e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n          </p>\n\n          <br>\n\n          <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos\n\n            de\n\n            carreira.\n\n            A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n            de\n\n            cunho\n\n            social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n            Lobato.\n\n          </p>\n\n          <br>\n\n          <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um\n\n            pequeno\n\n            complexo\n\n            cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir\n\n            reconhecido.\n\n            Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro,\n\n            biografia,\n\n            memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre\n\n            ali\n\n            outros\n\n            lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n          <br>\n\n          <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio,\n\n            durante\n\n            o\n\n            mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n            envolvidos\n\n            todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de\n\n            turma.\n\n            As atividades propiciadas são: </p>\n\n          <br>\n\n          <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura,\n\n            interpretação\n\n            e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis,\n\n            produções\n\n            coletivas\n\n            e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n            literários,\n\n            troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n            visita à\n\n            biblioteca,\n\n            café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card>\n\n        <ion-slides loop="true" slidesPerView="2">\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/ABERTURA DA FEIRA LITERÁRIA.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/1.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/2.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/3.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/4.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/5.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/6.jpg">\n\n          </ion-slide>\n\n        </ion-slides>\n\n      </ion-card>\n\n    </div>\n\n\n\n    <div *ngSwitchCase="2019">\n\n        <ion-card>\n\n\n\n          <img class="feira" src="assets/imgs/feira2019.jpg">\n\n    \n\n        </ion-card>\n\n\n\n         <ion-card class="card-feira">\n\n             <ion-card-header class="main-text">\n\n               <h1> FEIRA LITERÁRIA 2019</h1>\n\n            </ion-card-header>\n\n\n\n \n\n\n\n            <ion-card-content class="main-text">\n\n                           \n\n              \n\n              \n\n              <video controls="controls" preload="metadata" autoplay="autoplay" webkit-playsinline="webkit-playsinline" class="videoPlayer">\n\n                <source src="assets/imgs/1.mp4" type="video/mp4">\n\n               </video>\n\n               \n\n              \n\n            </ion-card-content>\n\n        \n\n          </ion-card>\n\n\n\n          \n\n    </div>\n\n\n\n  <!--  <div *ngSwitchCase="2020">\n\n        <ion-card>\n\n\n\n            <img class="banner" src="assets/imgs/banner-feira.jpg">\n\n    \n\n          </ion-card>\n\n          <ion-card class="card-feira">\n\n            <ion-card-header class="main-text">\n\n              <h1> FEIRA LITERÁRIA 2020</h1>\n\n            </ion-card-header>\n\n    \n\n            <ion-card-content class="main-text">\n\n              <br>\n\n              <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e\n\n                artística\n\n                como\n\n                um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n                patrimônio\n\n                cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n                os\n\n                sonhos\n\n                e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n              </p>\n\n              <br>\n\n              <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos\n\n                de\n\n                carreira.\n\n                A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n                de\n\n                cunho\n\n                social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n                Lobato.\n\n              </p>\n\n              <br>\n\n              <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um\n\n                pequeno\n\n                complexo\n\n                cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir\n\n                reconhecido.\n\n                Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro,\n\n                biografia,\n\n                memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre\n\n                ali\n\n                outros\n\n                lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n              <br>\n\n              <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio,\n\n                durante\n\n                o\n\n                mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n                envolvidos\n\n                todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de\n\n                turma.\n\n                As atividades propiciadas são: </p>\n\n              <br>\n\n              <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura,\n\n                interpretação\n\n                e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis,\n\n                produções\n\n                coletivas\n\n                e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n                literários,\n\n                troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n                visita à\n\n                biblioteca,\n\n                café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n            </ion-card-content>\n\n          </ion-card>\n\n          <ion-card>\n\n            <ion-slides loop="true" slidesPerView="2">\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/ABERTURA DA FEIRA LITERÁRIA.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO ATUALIDADES.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO LITERÁRIO 1.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO LITERÁRIO.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/CAFÉ FILOSÓFICO.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/ENTREI NA UNIVERSIDADE, E AGORA!.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/OFICINA DE ESCRITA CRÔNICA.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/Oficina de Fanzine.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/QUIOSQUE LITERÁRIO -  POESIAS E ZINES.jpg">\n\n              </ion-slide>\n\n            </ion-slides>\n\n          </ion-card>\n\n    </div> -->\n\n\n\n  </div>\n\n  \n\n \n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\feira\feira.html"*/
+            selector: 'page-feira',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\feira\feira.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="main-content">\n\n\n\n  <ion-segment [(ngModel)]="feiras">\n\n    <ion-segment-button value="2018">\n\n      2018\n\n    </ion-segment-button>\n\n    <ion-segment-button value="2019">\n\n      2019\n\n    </ion-segment-button>\n\n    <!--<ion-segment-button value="2020">\n\n      2020\n\n    </ion-segment-button>-->\n\n  </ion-segment>\n\n\n\n\n\n  <div [ngSwitch]="feiras">\n\n\n\n    <div *ngSwitchCase="2018">\n\n      <ion-card>\n\n\n\n        <img class="banner" src="assets/imgs/banner-feira.jpg">\n\n\n\n      </ion-card>\n\n      <ion-card class="card-feira">\n\n        <ion-card-header class="main-text">\n\n          <h1> FEIRA LITERÁRIA 2018</h1>\n\n        </ion-card-header>\n\n\n\n        <ion-card-content class="main-text">\n\n          <br>\n\n          <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e\n\n            artística\n\n            como\n\n            um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n            patrimônio\n\n            cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n            os\n\n            sonhos\n\n            e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n          </p>\n\n          <br>\n\n          <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos\n\n            de\n\n            carreira.\n\n            A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n            de\n\n            cunho\n\n            social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n            Lobato.\n\n          </p>\n\n          <br>\n\n          <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um\n\n            pequeno\n\n            complexo\n\n            cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir\n\n            reconhecido.\n\n            Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro,\n\n            biografia,\n\n            memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre\n\n            ali\n\n            outros\n\n            lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n          <br>\n\n          <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio,\n\n            durante\n\n            o\n\n            mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n            envolvidos\n\n            todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de\n\n            turma.\n\n            As atividades propiciadas são: </p>\n\n          <br>\n\n          <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura,\n\n            interpretação\n\n            e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis,\n\n            produções\n\n            coletivas\n\n            e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n            literários,\n\n            troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n            visita à\n\n            biblioteca,\n\n            café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card>\n\n        <ion-slides loop="true" slidesPerView="2">\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/ABERTURA DA FEIRA LITERÁRIA.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/1.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/2.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/3.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/4.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/5.jpg">\n\n          </ion-slide>\n\n          <ion-slide>\n\n            <img class="banner" src="/assets/feiras/2018/6.jpg">\n\n          </ion-slide>\n\n        </ion-slides>\n\n      </ion-card>\n\n    </div>\n\n\n\n    <div *ngSwitchCase="2019">\n\n        <ion-card>\n\n\n\n          <img class="feira" src="assets/imgs/feira2019.jpg">\n\n    \n\n        </ion-card>\n\n\n\n         <ion-card class="card-feira">\n\n             <ion-card-header class="main-text">\n\n               <h1> FEIRA LITERÁRIA 2019</h1>\n\n            </ion-card-header>\n\n\n\n \n\n\n\n            <ion-card >\n\n                           \n\n              \n\n              <video width="100%" controls>\n\n                <source src="assets/imgs/1.mp4" type="video/mp4">\n\n              </video>\n\n                \n\n               \n\n              \n\n            </ion-card>\n\n        \n\n          </ion-card>\n\n\n\n          \n\n    </div>\n\n\n\n  <!--  <div *ngSwitchCase="2020">\n\n        <ion-card>\n\n\n\n            <img class="banner" src="assets/imgs/banner-feira.jpg">\n\n    \n\n          </ion-card>\n\n          <ion-card class="card-feira">\n\n            <ion-card-header class="main-text">\n\n              <h1> FEIRA LITERÁRIA 2020</h1>\n\n            </ion-card-header>\n\n    \n\n            <ion-card-content class="main-text">\n\n              <br>\n\n              <p>A Feira Literária “Ler para pensar e construir...” visa estimular a leitura e produção literária e\n\n                artística\n\n                como\n\n                um todo dos alunos, contribuindo para a formação de cidadãos e leitores conscientes de sua origem e do\n\n                patrimônio\n\n                cultural brasileiro herdado. Por meio de eventos diferenciados e integrados que enfatizam a criatividade,\n\n                os\n\n                sonhos\n\n                e a fantasia, a feira oferece oportunidades para o desenvolvimento das competências de leitura e escrita.\n\n              </p>\n\n              <br>\n\n              <p>Neste ano de 2018, a Feira Literária homenageou a escritora Ruth Rocha, que, em 2017, completava 50 anos\n\n                de\n\n                carreira.\n\n                A justa homenagem se apoia na capacidade da autora introduzir para crianças com sutileza e humor problemas\n\n                de\n\n                cunho\n\n                social e políticos, tais como a injustiça estrutural, frequentemente inspirada no estilo de Monteiro\n\n                Lobato.\n\n              </p>\n\n              <br>\n\n              <p>Diversas vivências pedagógicas fornecidas em momentos e ambientes distintos tem por objetivo criar um\n\n                pequeno\n\n                complexo\n\n                cultural, onde cada leitor de mundo possa se familiarizar com a literatura infanto-juvenil e nela se sentir\n\n                reconhecido.\n\n                Ao contemplar neste formato os diferentes gêneros textuais, como narrativas, poemas, convites, teatro,\n\n                biografia,\n\n                memórias e fábulas, facilita-se a orientação para o prazer da leitura, para a percepção de quem descobre\n\n                ali\n\n                outros\n\n                lugares, outros tempos, outros jeitos de agir e de ser, outra ótica.</p>\n\n              <br>\n\n              <p>O Projeto Feira Literária é desenvolvido por todos os alunos do 2º ano EF à 3º série do Ensino Médio,\n\n                durante\n\n                o\n\n                mês de março e abril com culminância prevista para os dias 26, 27 e 28 de abril de 2018. Para tanto, serão\n\n                envolvidos\n\n                todos os professores, coordenadores pedagógicos, auxiliares de coordenação, bibliotecários e auxiliares de\n\n                turma.\n\n                As atividades propiciadas são: </p>\n\n              <br>\n\n              <p>Bate-papo com autores, contação de histórias, oficinas, exposição dialogada, exposição de HQ, leitura,\n\n                interpretação\n\n                e análise de textos previamente escolhidos, projeção de imagens dos personagens, músicas, cordéis,\n\n                produções\n\n                coletivas\n\n                e individuais de desenhos, exposição de trabalho em mural, tematização de vídeos, produção de varais\n\n                literários,\n\n                troca-troca de livros, dramatização, origami, dobraduras, apresentações musicais com ênfase literária,\n\n                visita à\n\n                biblioteca,\n\n                café literário, clube literário, preparação para a vida universitária e outras atividades.</p>\n\n            </ion-card-content>\n\n          </ion-card>\n\n          <ion-card>\n\n            <ion-slides loop="true" slidesPerView="2">\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/ABERTURA DA FEIRA LITERÁRIA.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO ATUALIDADES.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO LITERÁRIO 1.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/BATE PAPO LITERÁRIO.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/CAFÉ FILOSÓFICO.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/ENTREI NA UNIVERSIDADE, E AGORA!.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/OFICINA DE ESCRITA CRÔNICA.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/Oficina de Fanzine.jpg">\n\n              </ion-slide>\n\n              <ion-slide>\n\n                <img class="banner" src="/assets/feiras/2018/QUIOSQUE LITERÁRIO -  POESIAS E ZINES.jpg">\n\n              </ion-slide>\n\n            </ion-slides>\n\n          </ion-card>\n\n    </div> -->\n\n\n\n  </div>\n\n  \n\n \n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\feira\feira.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_video_player_ngx__["a" /* VideoPlayer */]])
     ], Feira);
     return Feira;
 }());
@@ -1004,7 +1007,7 @@ var Feira = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 225:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1039,7 +1042,7 @@ var bbonline = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 226:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1074,13 +1077,13 @@ var Fale = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 227:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(251);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1088,7 +1091,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 250:
+/***/ 251:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1100,23 +1103,25 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_facebook__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(300);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_timeline_timeline__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_paradidaticos_paradidaticos__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_projetos_projetos__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_feira_feira__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tutorial_tutorial__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_fale_fale__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_timeline_timeline__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__toverux_ngx_sweetalert2__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_fale_fale__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_video_player_ngx__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_timeline_timeline__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__toverux_ngx_sweetalert2__ = __webpack_require__(340);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1150,9 +1155,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_12__pages_feira_feira__["a" /* Feira */],
                 __WEBPACK_IMPORTED_MODULE_13__pages_bbonline_bbonline__["a" /* bbonline */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_fale_fale__["a" /* Fale */],
-                __WEBPACK_IMPORTED_MODULE_16__components_timeline_timeline__["a" /* TimelineComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__components_timeline_timeline__["b" /* TimelineItemComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__components_timeline_timeline__["c" /* TimelineTimeComponent */]
+                __WEBPACK_IMPORTED_MODULE_17__components_timeline_timeline__["a" /* TimelineComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__components_timeline_timeline__["b" /* TimelineItemComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__components_timeline_timeline__["c" /* TimelineTimeComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1160,7 +1165,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
                     links: []
                 }),
-                __WEBPACK_IMPORTED_MODULE_17__toverux_ngx_sweetalert2__["a" /* SweetAlert2Module */].forRoot({
+                __WEBPACK_IMPORTED_MODULE_18__toverux_ngx_sweetalert2__["a" /* SweetAlert2Module */].forRoot({
                     buttonsStyling: false,
                     customClass: 'modal-content',
                     confirmButtonClass: 'btn btn-primary',
@@ -1183,6 +1188,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_facebook__["a" /* Facebook */],
+                __WEBPACK_IMPORTED_MODULE_16__ionic_native_video_player_ngx__["a" /* VideoPlayer */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
             ]
         })
@@ -1194,7 +1200,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 299:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1209,8 +1215,8 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_paradidaticos_paradidaticos__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_projetos_projetos__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_feira_feira__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bbonline_bbonline__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bbonline_bbonline__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fale_fale__ = __webpack_require__(227);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1290,21 +1296,14 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 306:
+/***/ 307:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 308:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 327:
+/***/ 309:
 /***/ (function(module, exports) {
 
 /* (ignored) */
@@ -1325,7 +1324,14 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 338:
+/***/ 330:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 339:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1395,5 +1401,5 @@ var TimelineTimeComponent = /** @class */ (function () {
 
 /***/ })
 
-},[227]);
+},[228]);
 //# sourceMappingURL=main.js.map
