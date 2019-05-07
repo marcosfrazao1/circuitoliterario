@@ -4873,6 +4873,10 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
+textarea::-moz-placeholder {
+  padding-left: 2px;
+}
+
 textarea::-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -28295,6 +28299,10 @@ page-tutorial .viewer-container .viewer .page .text-layer {
   opacity: 0.2;
   line-height: 1.0;
   cursor: cell;
+}
+
+page-tutorial .viewer-container .viewer .page .text-layer ::-moz-selection {
+  background: #222;
 }
 
 page-tutorial .viewer-container .viewer .page .text-layer ::selection {
