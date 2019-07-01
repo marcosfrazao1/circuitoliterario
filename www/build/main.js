@@ -215,7 +215,7 @@ var tutorial = /** @class */ (function () {
     };
     tutorial.prototype.loadPage = function (pageNum) {
         var _this = this;
-        if (pageNum === void 0) { pageNum = 7; }
+        if (pageNum === void 0) { pageNum = 1; }
         var pdfPage;
         return this.pdfDocument.getPage(pageNum).then(function (thisPage) {
             pdfPage = thisPage;
@@ -284,31 +284,32 @@ var tutorial = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('pageContainer'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _a || Object)
     ], tutorial.prototype, "pageContainerRef", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('viewer'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+        __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _b || Object)
     ], tutorial.prototype, "viewerRef", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('canvas'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+        __metadata("design:type", typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _c || Object)
     ], tutorial.prototype, "canvasRef", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('canvasWrapper'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+        __metadata("design:type", typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _d || Object)
     ], tutorial.prototype, "canvasWrapperRef", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('textContainer'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+        __metadata("design:type", typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _e || Object)
     ], tutorial.prototype, "textContainerRef", void 0);
     tutorial = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-tutorial',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\tutorial\tutorial.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-content padding>\n\n    <div #viewerContainer\n\n         class="viewer-container">\n\n        <div #viewer\n\n             class="viewer">\n\n            <ng-container #pagesContainer>\n\n                <div #pageContainer\n\n                     class="page"\n\n                     [style.width.px]="pageContainerUnique.width"\n\n                     [style.height.px]="pageContainerUnique.height">\n\n\n\n                    <div class="canvas-wrapper"\n\n                         #canvasWrapper>\n\n                        <canvas class="page-canvas"\n\n                                #canvas></canvas>\n\n\n\n                    </div>\n\n                    <div #textContainer\n\n                         class="text-layer selectable">\n\n                    </div>\n\n                </div>\n\n            </ng-container>\n\n        </div>\n\n    </div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\tutorial\tutorial.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _f || Object])
     ], tutorial);
     return tutorial;
+    var _a, _b, _c, _d, _e, _f;
 }());
 
 //# sourceMappingURL=tutorial.js.map

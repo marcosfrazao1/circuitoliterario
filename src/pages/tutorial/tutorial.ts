@@ -57,7 +57,7 @@ import * as PDFJSViewer from "pdfjs-dist/webpack.js";
             });
     }
 
-    loadPage(pageNum: number = 7) {
+    loadPage(pageNum: number = 1) {
         let pdfPage: PDFJSViewer.PDFPageProxy;
 
         return this.pdfDocument.getPage(pageNum).then(thisPage => {
