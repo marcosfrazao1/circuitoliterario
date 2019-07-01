@@ -475,8 +475,153 @@ export class Timeline {
             icon: 'calendar',
             time: { title: 'sec XIX' }
         },
-        
-       
+        {
+            title: 'Antonio Gonçalves Dias',
+            content: `assets/timelineimgs/antonio.jpg`,
+            text:'Escreveu Canção do Exílio e foi responsável pela consolidação do Romantismo no Brasil, apresentou-se com respaldo quanto à poesia nacionalista, sendo considerado com isso o maior poeta indianista de nossa Literatura.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Álvares de Azevedo ',
+            content: `assets/timelineimgs/alvores.jpg`,
+            text:'Foi responsável pela consolidação do mal-do-século em nossa Literatura, e suas poesias falam de morte e de amor. Escreveu os livros de poemas Lira dos vinte anos  e o livro de contos fantásticos e em porá Noite na taverna, um dos mais significativos exemplos da Literatura do mal-do-século.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Casimiro de Abreu',
+            content: `assets/timelineimgs/casimiro.jpg`,
+            text:'Escreveu As primaveras (1859). A poesia mais popular e a mais revisitada pelos autores do Modernismo é Meus oito anos.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Junqueira Freire',
+            content: `assets/timelineimgs/junqueira.jpg`,
+            text:'Responsável pela obra Contradições poéticas e Inspirações de claustro (1855).',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Fagundes Varela',
+            content: `assets/timelineimgs/Fagundes.jpg`,
+            text:'Livros Diário de Lázaro, Cantos religiosos e Anchieta ou O Evangelho nas selvas. Merece destaque Cântico do Calvário, escrito por ocasião da morte de seu primeiro filho.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Castro Alves',
+            content: `assets/timelineimgs/Castro.jpg`,
+            text:'Obras como A poesia lírico-amorosa, A poesia social, foi um dos últimos grandes poetas do Romantismo no Brasil, declama pela primeira vez o poema “ Navio negreiro”',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Sousândrade',
+            content: `assets/timelineimgs/Sousandrade.jpg`,
+            text:'Na obra de Sousândrade, o primeiro aspecto a destacar é a originalidade de sua poesia, inovadora e até mesmo revolucionária para o padrão romântico. Merece destaque o seu longo poema narrativo Guesa errante.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Joaquim Manuel de Macedo',
+            content: `assets/timelineimgs/Joaquim.jpg`,
+            text:'Publica seu primeiro romance A Moreninha, sua obra apresenta todo o esquema e desenvolvimentos românticos. Macedo consegue ser o autor mais lido do Brasil no final da década de 40 e início dos anos 50, até sofrer a concorrência de Alencar e seu O guarani (1857).',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Manuel Antônio de Almeida',
+            content: `assets/timelineimgs/ManuelAntonio.jpg`,
+            text:'Publicou Memórias de um sargento de milícias, é uma obra totalmente inovadora para sua época, exatamente quando Macedo dominava o ambiente literário.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'José de Alencar ',
+            content: `assets/timelineimgs/JosedeAlencar.jpg`,
+            text:'Alencar aparece na Literatura brasileira como o consolidador e romancista, um ficcionista que responde às expectativas do grande público, algumas de suas principais obras são: Sonhos d’ ouro, Iracema, O guarani, Senhora. A obra de Alencar é diversificada; para fins didáticos, podemos classificar seus romances nas cinco modalidades descritas a seguir: Romances históricos, regionais, rurais e indianistas.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Machado de Assis',
+            content: `assets/timelineimgs/Machado.jpg`,
+            text:'É o principal representante do Realismo, escreveu as obras: Memórias Póstumas de Brás Cubas, Quincas Borba, Dom Casmurro e O Alienista.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Aluísio Azevedo',
+            content: `assets/timelineimgs/Aluisio.jpg`,
+            text:'Foi o maior representante do Naturalismo na Literatura brasileira e escreveu o livro O Mulato e O Cortiço.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Raul Pompeia',
+            content: `assets/timelineimgs/RaulPompeia.jpg`,
+            text:'Sua obra transita entre o Realismo e o Naturalismo, escreveu O Ateneu, crônica de saudades é o que recebe maior importância para o estudo da Literatura brasileira.',
+            icon: 'calendar',
+            time: { title: 'sec XIX' }
+        },
+        {
+            title: 'Olavo Bilac ',
+            content: `assets/timelineimgs/Bilac.jpg`,
+            text:'Foi um autêntico poeta brasileiro e representante do Parnasianismo da Literatura brasileira e é dele a autoria da letra do Hino à Bandeira. Foi membro fundador da Academia Brasileira de Letras.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Raimundo Correa',
+            content: `assets/timelineimgs/RaimundoCorrea.jpg`,
+            text:'Magistrado, professor, diplomata e poeta, escreveu os livros Primeiros sonhos, Sinfonias e representa o Parnasianismo ao lado de Alberto de Oliveira e Olavo Bilac, a chamada Tríade Parnasiana.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Alberto de Oliveira',
+            content: `assets/timelineimgs/Alberto.jpg`,
+            text:'Líder do Parnasianismo, fundador da Academia Brasileira de Letras, escreveu o livro Canções Românticas.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Cruz e Souza ',
+            content: `assets/timelineimgs/CruzeSouza.jpg`,
+            text:'Publicou suas obras Missal (poemas em prosa) e Broquéis (poesias), as quais são consideradas o marco inicial do Simbolismo no Brasil.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Alphonsus de Guimaraens',
+            content: `assets/timelineimgs/Alphonsus.jpg`,
+            text:'Foi um poeta brasileiro, um dos principais representantes do Movimento Simbolista no Brasil e escreveu Septenário das dores de Nossa Senhora (poesia).',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Euclides da Cunha',
+            content: `assets/timelineimgs/EuclidesdaCunha.jpg`,
+            text:'Foi um importante escritor modernista brasileiro, escreveu a bora Os Sertões (1902), um relato histórico-ficcional sobre o Arraial de Canudos e a destruição de seu povo.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Monteiro Lobato',
+            content: `assets/timelineimgs/MonteiroLobato.jpg`,
+            text:'Foi um escritor e editor brasileiro, escreveu O Sítio do Picapau Amarelo, sua obra de maior destaque na Literatura infantil.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
+        {
+            title: 'Lima Barreto ',
+            content: `assets/timelineimgs/LimaBarreto.jpg`,
+            text:'Foi um escritor brasileiro e romancista da primeira república e escreveu Recordações do Escrivão Isaías Caminha e Triste fim do Policarpo Quaresma.',
+            icon: 'calendar',
+            time: { title: 'sec XIX e XX' }
+        },
        
     ];
 
