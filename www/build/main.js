@@ -1068,10 +1068,10 @@ var Timeline = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-timeline',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\timeline\timeline.html"*/'<ion-header>\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="main-content">\n\n  <ion-card>\n\n    <timeline endIcon="call">\n\n      <timeline-item *ngFor="let item of items">\n\n        <timeline-time [time]="item.time"></timeline-time>\n\n        <ion-icon [name]="item.icon"></ion-icon>\n\n        <ion-card width="400">\n\n          <ion-card-header align="center">\n\n           {{item.title}}\n\n          </ion-card-header>\n\n\n\n          <ion-grid>\n\n              <ion-row>\n\n                <ion-col>\n\n                  <img width="100%" height="100%" src="{{item.content}}">\n\n                </ion-col>\n\n\n\n                <ion-col align="justify">\n\n                    {{item.text}}\n\n                   \n\n                                      \n\n                </ion-col>\n\n\n\n              </ion-row>\n\n            </ion-grid>\n\n\n\n        </ion-card>\n\n      </timeline-item>\n\n    </timeline>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\timeline\timeline.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], Timeline);
     return Timeline;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=timeline.js.map
@@ -1187,6 +1187,11 @@ var Projetos = /** @class */ (function () {
     function Projetos(navCtrl, http) {
         var _this = this;
         this.navCtrl = navCtrl;
+        this.sliderOpts = {
+            zoom: {
+                maxRatio: 5
+            }
+        };
         var localData = http.get('assets/projetos.json').map(function (res) { return res.json().items; });
         localData.subscribe(function (data) {
             _this.information = data;
@@ -1213,6 +1218,21 @@ var Projetos = /** @class */ (function () {
                 fjs.parentNode.insertBefore(js, fjs);
             }
         }(document, 'script', 'facebook-jssdk'));
+    };
+    Projetos.prototype.ngOnInit = function () {
+        this.img = this.navParams.get('img');
+    };
+    Projetos.prototype.zoom = function (zoomIn) {
+        var zoom = this.slider.nativeElement.swiper.zoom;
+        if (zoomIn) {
+            zoom.in();
+        }
+        else {
+            zoom.out();
+        }
+    };
+    Projetos.prototype.close = function () {
+        this.modalController.dismiss();
     };
     Projetos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
