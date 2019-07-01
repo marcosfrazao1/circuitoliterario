@@ -255,6 +255,34 @@
                 
                 }
             ]
+        },
+        {
+            "name": "Projeto Recita Mulher",
+            "children": [
+                {
+                    "name": "Apresentação do projeto",
+                    "information": "Projeto que viabiliza a recitação de poesias escritas por mulheres para alunos do Ensino Médio."
+                },
+                {
+                    "imgsrc": [
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/1.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/2.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/3.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/4.jpg"
+                        },
+                        {
+                            "src": "assets/imgs/QuiosqueLiterrio/5.jpg"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
