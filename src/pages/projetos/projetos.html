@@ -60,14 +60,16 @@
               <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>
               {{ child.name }}
             </button>
-
+          
             <!-- Direct Add Button as Fallback -->
             <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
               <h2>{{ child.name }}</h2>
               <p>{{ child.information }}</p>
-              <ion-slides effect = 'coverflow'  centeredSlides = true spaceBetween = 15  slidesPerView="2">
+              <ion-slides effect = 'coverflow'  centeredSlides = true spaceBetween = 15 zoom="true" slidesPerView="2">
                 <ion-slide *ngFor="let child of child.imgsrc; let k = index">
+                  <div class="swiper-zoom-container">
                   <img src="{{ child.src }}"> 
+                </div>
                 </ion-slide>
                 </ion-slides>
             </ion-item>
