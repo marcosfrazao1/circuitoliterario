@@ -1187,11 +1187,6 @@ var Projetos = /** @class */ (function () {
     function Projetos(navCtrl, http) {
         var _this = this;
         this.navCtrl = navCtrl;
-        this.sliderOpts = {
-            zoom: {
-                maxRatio: 5
-            }
-        };
         var localData = http.get('assets/projetos.json').map(function (res) { return res.json().items; });
         localData.subscribe(function (data) {
             _this.information = data;
@@ -1219,28 +1214,14 @@ var Projetos = /** @class */ (function () {
             }
         }(document, 'script', 'facebook-jssdk'));
     };
-    Projetos.prototype.ngOnInit = function () {
-        this.img = this.navParams.get('img');
-    };
-    Projetos.prototype.zoom = function (zoomIn) {
-        var zoom = this.slider.nativeElement.swiper.zoom;
-        if (zoomIn) {
-            zoom.in();
-        }
-        else {
-            zoom.out();
-        }
-    };
-    Projetos.prototype.close = function () {
-        this.modalController.dismiss();
-    };
     Projetos = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-projetos',template:/*ion-inline-start:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\projetos\projetos.html"*/'<ion-header>\n\n\n\n    \n\n\n\n  <ion-navbar color="light">\n\n    <button ion-button menuToggle="left" left>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title align="center">Circuito Literário em Rede</ion-title>\n\n    <button ion-button menuToggle="right" right>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button> \n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<script>\n\n  window.fbAsyncInit = function() {\n\n    FB.init({\n\n      appId      : \'{your-app-id}\',\n\n      cookie     : true,\n\n      xfbml      : true,\n\n      version    : \'{api-version}\'\n\n    });\n\n      \n\n    FB.AppEvents.logPageView();   \n\n      \n\n  };\n\n\n\n  (function(d, s, id){\n\n     var js, fjs = d.getElementsByTagName(s)[0];\n\n     if (d.getElementById(id)) {return;}\n\n     js = d.createElement(s); js.id = id;\n\n     js.src = "https://connect.facebook.net/en_US/sdk.js";\n\n     fjs.parentNode.insertBefore(js, fjs);\n\n   }(document, \'script\', \'facebook-jssdk\'));\n\n</script>\n\n\n\n\n\n\n\n<ion-content class="main-content">\n\n  \n\n  <ion-card>\n\n    <ion-list class="accordion-list">\n\n      <!-- First Level -->\n\n      <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n\n        <!-- Toggle Button -->\n\n        <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n\n            \n\n          <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n\n          <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n\n          {{ item.name }}\n\n        </button>\n\n\n\n        <ion-list *ngIf="item.children && item.open" no-lines>\n\n          <!-- Second Level -->\n\n          <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n\n            <!-- Toggle Button -->\n\n            <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n\n              <ion-icon item-left name="arrow-forward" *ngIf="!child.open"></ion-icon>\n\n              <ion-icon item-left name="arrow-down" *ngIf="child.open"></ion-icon>\n\n              {{ child.name }}\n\n            </button>\n\n          \n\n            <!-- Direct Add Button as Fallback -->\n\n            <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n\n              <h2>{{ child.name }}</h2>\n\n              <p>{{ child.information }}</p>\n\n              <ion-slides effect = \'coverflow\'  centeredSlides = true spaceBetween = 15 zoom="true" slidesPerView="2">\n\n                <ion-slide *ngFor="let child of child.imgsrc; let k = index">\n\n                  <div class="swiper-zoom-container">\n\n                  <img src="{{ child.src }}"> \n\n                </div>\n\n                </ion-slide>\n\n                </ion-slides>\n\n            </ion-item>\n\n\n\n        \n\n\n\n          </ion-list-header>\n\n          \n\n      \n\n\n\n        </ion-list>\n\n      </ion-list-header>\n\n    </ion-list>\n\n  </ion-card>\n\n   \n\n \n\n\n\n \n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n  \n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\Users\Marcos Frazão\Documents\circuitoliterario\src\pages\projetos\projetos.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]) === "function" && _b || Object])
     ], Projetos);
     return Projetos;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=projetos.js.map

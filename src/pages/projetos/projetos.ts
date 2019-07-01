@@ -13,17 +13,6 @@ export class Projetos {
     information: any[];
     _iaBrowser: any;
 
-    
-  sliderOpts = {
-    zoom: {
-      maxRatio: 5
-    }
-  };
-  img: any;
-  navParams: any;
-  slider: any;
-  modalController: any;
-
     constructor(public navCtrl: NavController, http: Http) {
         let localData = http.get('assets/projetos.json').map(res => res.json().items);
         localData.subscribe(data => {
@@ -56,22 +45,6 @@ export class Projetos {
         }(document, 'script', 'facebook-jssdk'));
       }
    
-      ngOnInit() {
-        this.img = this.navParams.get('img');
-      }
-     
-      zoom(zoomIn: boolean) {
-        let zoom = this.slider.nativeElement.swiper.zoom;
-        if (zoomIn) {
-          zoom.in();
-        } else {
-          zoom.out();
-        }
-      }
-     
-      close() {
-        this.modalController.dismiss();
-      }
       
 
       
