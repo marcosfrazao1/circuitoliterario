@@ -133,7 +133,64 @@
                             "src": "assets/imgs/Barcodaleitura/4.jpg"
                         }
                     ]
-                }
+                },
+                
+                {
+                    "name": "Projeto Voluntariado da Biblioteca",
+                    "children": [
+                        {
+                            "name": "Apresentação do projeto",
+                            "information": "O projeto visa firmar parcerias com os projetos voluntários voltados para a leitura e disseminá - los de modo que tenham suas culminâncias direcionados para os alunos do Colégio durante a Feira Literária do mesmo. Convidados do ano de 2019: Projeto Alunos Voluntários do curso de Biblioteconomia da Universidade Estadual - projeto que firma  parceria entre o Colégio Diocesano e Universidade Estadual do Piauí, com o curso de Biblioteconomia desta IES, com o objetivo de integrá - los por meio de atividades voluntárias na Feira Literária do Colégio, contribuindo para a formação desses alunos como futuros bibliotecários de colégios."
+                        },
+                        {
+                            "imgsrc": [
+                                {
+                                    "src": "assets/imgs/voluntario/1.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/2.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/3.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/4.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/5.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/6.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/7.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/8.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/9.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/10.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/11.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/12.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/13.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/14.jpg"
+                                },
+                                {
+                                    "src": "assets/imgs/voluntario/15.jpg"
+                                }
+                            ]
+                        }
             ]
         }
     ]
