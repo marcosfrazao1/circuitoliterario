@@ -947,6 +947,118 @@ var Timeline = /** @class */ (function () {
                 icon: 'calendar',
                 time: { title: 'sec XIX e XX' }
             },
+            {
+                title: 'Mario de Andrade',
+                content: "assets/timelineimgs/MariodeAndrade.jpg",
+                text: 'Foi um escritor modernista, crítico literário, marcou a primeira fase modernista no Brasil, publica seu primeiro livro intitulado Há uma Gota de Sangue em cada Poema e colaborou na organização da Semana de Arte Moderna.',
+                icon: 'calendar',
+                time: { title: 'sec XIX e XX' }
+            },
+            {
+                title: 'Oswald de Andrade',
+                content: "assets/timelineimgs/OswalddeAndrade.jpg",
+                text: 'Foi escritor e dramaturgo brasileiro. Representa uma das principais lideranças no processo de implantação e definição da Literatura modernista no Brasil, escreveu o romance Os Condenados e o livro de poemas Pau-brasil.',
+                icon: 'calendar',
+                time: { title: 'sec XIX e XX' }
+            },
+            {
+                title: 'Cassiano Ricardo',
+                content: "assets/timelineimgs/CassianoRicardo.jpg",
+                text: 'Foi fundador do grupo Bandeira e foi destaque nas participações do movimento Poesia concreta e escreveu Vamos caçar papagaios (1926), Borrões de verde e amarelo (1927) e Martim Cererê (1928).',
+                icon: 'calendar',
+                time: { title: 'sec XIX e XX' }
+            },
+            {
+                title: 'Alcântara Machado',
+                content: "assets/timelineimgs/AlcantaraMachado.jpg",
+                text: 'Foi um escritor brasileiro. Um dos mais importantes escritores do primeiro tempo modernista, escreveu Pathé Baby, romance de 1926, Brás, Bexiga e Barra Funda, contos de 1928.',
+                icon: 'calendar',
+                time: { title: 'sec XX' }
+            },
+            {
+                title: 'Manuel Bandeira',
+                content: "assets/timelineimgs/ManuelBandeira.jpg",
+                text: 'Foi um escritor brasileiro, professor, crítico de arte e historiador literário, fez parte da primeira Geração Modernista no Brasil, seu primeiro livro de poesias intitulado foi A Cinza das Horas.',
+                icon: 'calendar',
+                time: { title: 'sec XX' }
+            },
+            {
+                title: 'Graciliano Ramos',
+                content: "assets/timelineimgs/GracilianoRamos.jpg",
+                text: 'Foi escritor e jornalista brasileiro pertencente à segunda fase do Modernismo, escreveu romances, contos, crônicas, Literatura infanto-juvenil: Vidas Secas (1938), São Bernardo (1934), Angústia (1936), A Terra dos Meninos Pelados (1939).',
+                icon: 'calendar',
+                time: { title: 'sec XX' }
+            },
+            {
+                title: 'Clarice Lispector',
+                content: "assets/timelineimgs/ClariceLispector.jpg",
+                text: 'Escritora destaque da terceira fase do Modernismo brasileiro, chamada de Geração de 45,  escreveu romances, contos, crônicas, Literatura infantil, como: Perto do coração selvagem (1942), O Lustre (1946), A Cidade Sitiada (1949) e Laços de Família (1960).',
+                icon: 'calendar',
+                time: { title: 'sec XX' }
+            },
+            {
+                title: 'Ariano Suassuna',
+                content: "assets/timelineimgs/ArianoSuassuna.jpg",
+                text: 'Foi escritor e dramaturgo brasileiro, autor de O Auto da Compadecida, que o fez ganhar a medalha de ouro da Associação Brasileira de Críticos Teatrais, escreveu também outras obras, como: Uma Mulher Vestida de Sol (1947), Cantam as Harpas de Sião ou O Desertor de Princesa (1948), Os Homens de Barro (1949) e Auto de João da Cruz (1950).',
+                icon: 'calendar',
+                time: { title: 'sec XX e XXI' }
+            },
+            {
+                title: 'Millôr Fernandes',
+                content: "assets/timelineimgs/MillorFernandes.jpg",
+                text: 'Foi  escritor, poeta, tradutor e jornalista brasileiro e O Cruzeiro foi a sua primeira obra a trilhar o caminho de sucesso, que resultaria numa das maiores tiragens da história editorial brasileira. Um dos livros mais lidos ultimamente é A Bíblia do caos.',
+                icon: 'calendar',
+                time: { title: 'sec XX e XXI' }
+            },
+            {
+                title: 'Paulo Leminski',
+                content: "assets/timelineimgs/PauloLeminski.jpg",
+                text: 'Foi poeta brasileiro e, nos seus textos, a influência da MPB é clara, chegou até a escrever canções e as obras Toda poesia, quarenta clics em Curitiba (1976).',
+                icon: 'calendar',
+                time: { title: 'sec XX e XXI' }
+            },
+            {
+                title: 'Caio Fernando Abreu',
+                content: "assets/timelineimgs/CaioFernandoAbreu.jpg",
+                text: 'Foi um escritor e jornalista brasileiro, considerado um dos maiores contistas do país, foi autor de diversas obras, como: contos, crônicas, romances, novelas, poemas, Literatura infantil, peças teatrais, cartas, crítica literária e recebeu o prêmio jabuti pela obra O Triângulo das Águas, Os Dragões não Conhecem o Paraíso e Ovelhas Negras.',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
+            {
+                title: 'Carlos Heitor',
+                content: "assets/timelineimgs/CarlosHeitor.jpg",
+                text: 'Escritor brasileiro e membro da Academia Brasileira de Letras, ganhou duas vezes o Prêmio Manuel Antônio de Almeida, com os romances A Verdade de Cada Dia (1957), e Tijolo de Segurança (1958).',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
+            {
+                title: 'Ferreira Gullar',
+                content: "assets/timelineimgs/FerreiraGullar.jpg",
+                text: 'Foi um escritor, poeta, crítico de arte, biógrafo, tradutor, memorialista e ensaísta brasileiro, ganhou vários concursos com a obra O Galo (1950) e outros prêmios do teatro em 1966 com Se correr o bicho pega, se ficar o bicho come.',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
+            {
+                title: 'Nélida Piñon',
+                content: "assets/timelineimgs/NelidaPinon.jpg",
+                text: 'Escritora brasileira, tornou-se a primeira mulher a presidir a Academia Brasileira de Letras, no ano do seu I Centenário, sua presença é marcante em vários prêmios literários e algumas de suas obras são: Guia-mapa de Gabriel Arcanjo, romance (1961); Madeira feita cruz, romance (1963); Tempo das frutas, contos (1966); Fundador, romance (1969).',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
+            {
+                title: 'Rubem Braga',
+                content: "assets/timelineimgs/RubemBraga.jpg",
+                text: 'Escritor lembrado como um dos melhores cronistas brasileiros, lançou seu primeiro livro de crônicas O Conde e o Passarinho e O Morro do Isolamento.',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
+            {
+                title: 'Pedro Bandeira',
+                content: "assets/timelineimgs/PedroBandeira.jpg",
+                text: 'Autor homenageado na 16ª Feira Literária do Colégio Diocesano em 2019,  é escritor brasileiro de livros infanto-juvenis, recebeu vários prêmios e o autor de Literatura juvenil mais vendido no Brasil. Seu primeiro livro foi O dinossauro que fazia au-au, e escreveu várias outras obras como Alice no país da mentira, Aqueles Olhos Verdes, A Contadora de Histórias, A Droga da Obediência, A Droga do Amor, A Eleição da Criançada, A Escola da Vida.',
+                icon: 'calendar',
+                time: { title: 'sec XXI' }
+            },
         ];
     }
     Timeline.prototype.ionViewDidLoad = function () {
