@@ -3,7 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-import { HttpModule } from '@angular/http'
+import * as http from '@angular/http'
 import { Facebook } from '@ionic-native/facebook';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -37,7 +37,7 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    http.HttpModule,
     IonicModule.forRoot(MyApp, {
     }),
     SweetAlert2Module.forRoot({
