@@ -23,6 +23,16 @@
     "src/**/*.spec.ts",
     "src/**/__tests__/*.ts"
   ],
+  
+"styles": [
+	"node_modules/bootstrap/dist/css/bootstrap.css",
+	"src/styles.css"
+],
+"scripts": [
+	"node_modules/jquery/dist/jquery.js",
+	"node_modules/popper.js/dist/umd/popper.js",
+	"node_modules/bootstrap/dist/js/bootstrap.js"
+],
   "compileOnSave": false,
   "atom": {
     "rewriteTsconfig": false
