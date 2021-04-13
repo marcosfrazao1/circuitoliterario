@@ -10,7 +10,7 @@ import { VideoPlayer } from '@ionic-native/video-player/ngx';
 
 export class Feira {
 
-    feiras: string = "2019"
+    feiras: string = "2021"
     constructor(public navCtrl: NavController,private videoPlayer : VideoPlayer) {
 
 
